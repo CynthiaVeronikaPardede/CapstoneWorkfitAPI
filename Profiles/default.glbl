@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>200</initValue>
+      <name>statusCode200</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluY2Fwc3RvbmVAZ21haWwuY29tIiwiZXhwIjoxNjcwNTExNTE5LCJmdWxsbmFtZSI6IkFkbWluIENhcHN0b25lIiwiaXNzIjoiYWx0ZXJyYV9jYXBzdG9uZSIsInJvbGVfaWQiOjEsInVzZXJfaWQiOiI4NDM3N2Q1NC1lZTYwLTQ2MGYtODIyYS0yOWJkMzQ2OTQ3MWQifQ.mA7dPSrxB1zKH_uYhv5KCiwX4F8q3ogkZnxvo8J3CgA'</initValue>
+      <name>globalVar</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>405</initValue>
+      <name>statusCode405</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>400</initValue>
+      <name>statusCode400</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>201</initValue>
+      <name>statusCode201</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
