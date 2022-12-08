@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Register</name>
+   <name>try with PUT method</name>
    <tag></tag>
-   <elementGuidId>bc229f45-fde7-4e13-a5dc-d385f6049f94</elementGuidId>
+   <elementGuidId>2600f65b-20ef-4b42-8d0e-15775e094cf5</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <connectionTimeout>-1</connectionTimeout>
+   <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;first_name\&quot;: \&quot;Frizzi\&quot;,\n  \&quot;last_name\&quot;: \&quot;Molala\&quot;,\n  \&quot;phone_number\&quot;: \&quot;085370653084\&quot;,\n  \&quot;email\&quot;: \&quot;cynthiapardede17@gmail.com\&quot;,\n  \&quot;password\&quot;: \&quot;testing123\&quot;\n}&quot;,
-  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;email\&quot;: \&quot;admincapstone@gmail.com\&quot;,\n  \&quot;password\&quot;: \&quot;admincapstone\&quot;\n}&quot;,
+  &quot;contentType&quot;: &quot;text/plain&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
    <httpBodyType>text</httpBodyType>
@@ -20,21 +20,21 @@
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>application/json</value>
-      <webElementGuid>a25a6196-da37-43ff-b915-995b4943e826</webElementGuid>
+      <value>text/plain</value>
+      <webElementGuid>6afe9c13-2755-4da8-bc19-b3ff7cf86eb7</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
-   <maxResponseSize>-1</maxResponseSize>
+   <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://www.go-rest-api.live/api/v1/auth/register</restUrl>
+   <restRequestMethod>PUT</restRequestMethod>
+   <restUrl>https://www.go-rest-api.live/api/v1/auth/login</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>-1</socketTimeout>
+   <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>LoginInvalid</name>
+   <name>try with GET method</name>
    <tag></tag>
-   <elementGuidId>4ceecdfb-25a3-4fb6-99f4-d6e23d746cc4</elementGuidId>
+   <elementGuidId>54c29469-5aca-4780-81ca-beceab4cfc5e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>

@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import groovy.json.JsonSlurper as JsonSlurper
 
-response = WS.sendRequest(findTestObject('Auth/Login'), FailureHandling.CONTINUE_ON_FAILURE)
+response = WS.sendRequest(findTestObject('null'), FailureHandling.CONTINUE_ON_FAILURE)
 
 JsonSlurper slurper = new JsonSlurper()
 
