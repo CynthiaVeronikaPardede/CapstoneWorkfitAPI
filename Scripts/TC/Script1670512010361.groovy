@@ -29,7 +29,7 @@ String Token = parsedJson.access_token
 GlobalVariable.globalVar = Token
 
 // hit endpoint class offline
-response = WS.sendRequest(findTestObject('Class/Class Online/Get All Online ClassPositive'))
+response = WS.sendRequest(findTestObject('null'))
 
 WS.verifyResponseStatusCode(response, 401)
 
