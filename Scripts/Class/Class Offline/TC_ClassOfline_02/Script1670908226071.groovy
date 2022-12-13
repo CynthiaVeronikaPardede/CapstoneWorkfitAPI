@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import groovy.json.JsonSlurper as JsonSlurper
 
-response = WS.sendRequest(findTestObject('null'), FailureHandling.CONTINUE_ON_FAILURE)
+response = WS.sendRequest(findTestObject('AUTH/Login/Login with valid'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WS.verifyResponseStatusCode(response, 200)
 
@@ -31,7 +31,15 @@ String Token = parsedJson.data.access_token
 GlobalVariable.globalVar = Token
 
 // Create a workout
-response = WS.sendRequest(findTestObject('Workout/Folder Create a Workout/Create a Workout'))
+response = WS.sendRequest(findTestObject('Class/Class Offline/Folder Insert offline class/Insert offline Class'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WS.verifyResponseStatusCode(response, GlobalVariable.statusCode201)
+WS.verifyResponseStatusCode(response, GlobalVariable.statusCode200)
+
+response = WS.sendRequest(findTestObject('Class/Class Offline/Folder Insert offline class/Insert Offline Class with PUT'))
+
+WS.verifyResponseStatusCode(response, GlobalVariable.statusCode405)
+
+response = WS.sendRequest(findTestObject('Class/Class Offline/Folder Insert offline class/Insert Offline Class with PATCH'))
+
+WS.verifyResponseStatusCode(response, GlobalVariable.statusCode405)
 
