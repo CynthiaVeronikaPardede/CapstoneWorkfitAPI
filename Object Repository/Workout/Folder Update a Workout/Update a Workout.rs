@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Create a Workout</name>
+   <name>Update a Workout</name>
    <tag></tag>
-   <elementGuidId>83ff7181-5674-4f04-8dad-20bf278c04a0</elementGuidId>
+   <elementGuidId>613f579c-bb2f-4927-b213-44cc4d3306f4</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
@@ -21,13 +21,13 @@
     },
     {
       &quot;name&quot;: &quot;description&quot;,
-      &quot;value&quot;: &quot;pemanasan lari ini berguna untuk memompa jantung dan mempersiapkan heart rate lo sebelum lari&quot;,
+      &quot;value&quot;: &quot;Gerakan ini cukup mudah, hanya perlu menggunakan skip rope, Posisikan kedua tangan sejajar pinggang saat memutar tali&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;application/json&quot;
     },
     {
       &quot;name&quot;: &quot;image&quot;,
-      &quot;value&quot;: &quot;E:\\SEMESTER 7\\MBKM\\Capstone Project\\images\\lari.jpeg&quot;,
+      &quot;value&quot;: &quot;E:\\SEMESTER 7\\MBKM\\Capstone Project\\images\\lari2.jpeg&quot;,
       &quot;type&quot;: &quot;File&quot;,
       &quot;contentType&quot;: &quot;multipart/form-data&quot;
     }
@@ -40,7 +40,7 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>multipart/form-data</value>
-      <webElementGuid>b6877cd2-56ec-4e17-bda1-2347a60050ce</webElementGuid>
+      <webElementGuid>d7f622e5-58df-4740-beb2-916937dc6dbc</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
@@ -48,13 +48,13 @@
       <name>Authorization</name>
       <type>Main</type>
       <value>Bearer ${GlobalVariable.globalVar}</value>
-      <webElementGuid>8c3e9978-b2d0-4aab-b42f-1ff8462c6c1d</webElementGuid>
+      <webElementGuid>935c5cdf-ec8d-4d8f-9438-b05068391677</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://www.go-rest-api.live/api/v1/workouts</restUrl>
+   <restRequestMethod>PATCH</restRequestMethod>
+   <restUrl>https://www.go-rest-api.live/api/v1/workouts/2fd055ad-c1fe-4e55-b1c9-02bd26130cd8</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
