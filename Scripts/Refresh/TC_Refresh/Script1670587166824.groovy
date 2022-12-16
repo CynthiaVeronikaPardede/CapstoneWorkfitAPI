@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import groovy.json.JsonSlurper as JsonSlurper
 
-response = WS.sendRequest(findTestObject('Refresh/With Valid Token'), FailureHandling.CONTINUE_ON_FAILURE)
+response = WS.sendRequest(findTestObject('AUTH/Refresh/With Valid Token'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WS.verifyResponseStatusCode(response, 200)
 
@@ -31,22 +31,22 @@ String Token = parsedJson.data.access_token
 GlobalVariable.globalVar = Token
 
 //invalid TOKEN
-response = WS.sendRequest(findTestObject('Refresh/With invalid token'))
+response = WS.sendRequest(findTestObject('AUTH/Refresh/With invalid token'))
 
 WS.verifyResponseStatusCode(response, GlobalVariable.StatusCode401)
 
 //GET method
-response = WS.sendRequest(findTestObject('Refresh/try with Get method'))
+response = WS.sendRequest(findTestObject('AUTH/Refresh/try with Get method'))
 
 WS.verifyResponseStatusCode(response, GlobalVariable.statusCode405)
 
 //POSTmethod
-response = WS.sendRequest(findTestObject('Refresh/try with POST method'))
+response = WS.sendRequest(findTestObject('AUTH/Refresh/try with POST method'))
 
 WS.verifyResponseStatusCode(response, GlobalVariable.statusCode405)
 
 //PUT method
-response = WS.sendRequest(findTestObject('Refresh/try with PUT method'))
+response = WS.sendRequest(findTestObject('AUTH/Refresh/try with PUT method'))
 
 WS.verifyResponseStatusCode(response, GlobalVariable.statusCode405)
 

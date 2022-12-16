@@ -6,7 +6,7 @@
    <elementGuidId>d52e1b02-2b52-4958-9449-5f8d4cdec4a8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
@@ -17,10 +17,10 @@
       <name>Authorization</name>
       <type>Main</type>
       <value>Bearer ${GlobalVariable.GlobalVar}</value>
-      <webElementGuid>11fd239e-026b-4bc4-a8b4-e996977de3cf</webElementGuid>
+      <webElementGuid>798dbfb9-998e-4307-809f-1b7576aff3bc</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
    <restUrl>https://www.go-rest-api.live/api/v1/users</restUrl>
@@ -30,7 +30,7 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

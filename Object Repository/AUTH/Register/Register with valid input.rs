@@ -6,11 +6,11 @@
    <elementGuidId>891849da-79c0-480e-ba8d-600d1bc4c48f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;first_name\&quot;: \&quot;rivaldo\&quot;,\n  \&quot;last_name\&quot;: \&quot;gabriel\&quot;,\n  \&quot;phone_number\&quot;: \&quot;08227491294\&quot;,\n  \&quot;email\&quot;: \&quot;rivaldogabriel531@gmail.com\&quot;,\n  \&quot;password\&quot;: \&quot;Gabriel16!!\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;first_name\&quot;: \&quot;Testing\&quot;,\n  \&quot;last_name\&quot;: \&quot;Caps\&quot;,\n  \&quot;phone_number\&quot;: \&quot;081234876541\&quot;,\n  \&quot;email\&quot;: \&quot;testingcaps.123@gmail.com\&quot;,\n  \&quot;password\&quot;: \&quot;testing123\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -24,7 +24,7 @@
       <webElementGuid>b302f96a-aff9-4223-92f9-fbc5eb833d45</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
    <restUrl>https://www.go-rest-api.live/api/v1/auth/register</restUrl>
@@ -34,7 +34,7 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import groovy.json.JsonSlurper as JsonSlurper
 
-response = WS.sendRequest(findTestObject('Membership/List Of Membership/see list membership with Valid Token'), FailureHandling.CONTINUE_ON_FAILURE)
+response = WS.sendRequest(findTestObject('AUTH/Login/Login with valid'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WS.verifyResponseStatusCode(response, 200)
 
@@ -28,22 +28,25 @@ Map parsedJson = slurper.parseText(response.getResponseText())
 
 String Token = parsedJson.data.access_token
 
-GlobalVariable.GlobalVar = Token
+GlobalVariable.globalVar = Token
 
 //see list with invalid token
-response = WS.sendRequest(findTestObject('Membership/List Of Membership/see list with Invalid Token'))
+response = WS.sendRequest(findTestObject('Membership/List Of Membership/see list membership with Valid Token'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WS.verifyResponseStatusCode(response, GlobalVariable.StatusCode200)
+WS.verifyResponseStatusCode(response, GlobalVariable.statusCode200)
 
+//response = WS.sendRequest(findTestObject('Membership/List Of Membership/see list with Invalid Token'))
+//
+//WS.verifyResponseStatusCode(response, GlobalVariable.StatusCode200)
 //Patch Method
 response = WS.sendRequest(findTestObject('Membership/List Of Membership/With PATCH Method'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.statusCode405)
+WS.verifyResponseStatusCode(response, GlobalVariable.StatusCode401)
 
 //POST method
 response = WS.sendRequest(findTestObject('Membership/List Of Membership/With POST Method'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.statusCode405)
+WS.verifyResponseStatusCode(response, GlobalVariable.StatusCode401)
 
 response = WS.sendRequest(findTestObject('Membership/List Of Membership/With PUT Method'))
 

@@ -21,7 +21,7 @@
     },
     {
       &quot;name&quot;: &quot;description&quot;,
-      &quot;value&quot;: &quot;Gerakan ini cukup mudah, hanya perlu menggunakan skip rope, Posisikan kedua tangan sejajar pinggang saat memutar tali&quot;,
+      &quot;value&quot;: &quot;Gerakan ini cukup mudah, hanya perlu menggunakan skip rope, Posisikan kedua tangan sejajar pinggang saat memutar talio&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;application/json&quot;
     },
@@ -54,7 +54,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PATCH</restRequestMethod>
-   <restUrl>https://www.go-rest-api.live/api/v1/workouts/2fd055ad-c1fe-4e55-b1c9-02bd26130cd8</restUrl>
+   <restUrl>https://www.go-rest-api.live/api/v1/workouts/a27f9650-689f-4787-a157-1fc55a6425e8</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluY2Fwc3RvbmVAZ21haWwuY29tIiwiZXhwIjoxNjcwNTExNTE5LCJmdWxsbmFtZSI6IkFkbWluIENhcHN0b25lIiwiaXNzIjoiYWx0ZXJyYV9jYXBzdG9uZSIsInJvbGVfaWQiOjEsInVzZXJfaWQiOiI4NDM3N2Q1NC1lZTYwLTQ2MGYtODIyYS0yOWJkMzQ2OTQ3MWQifQ.mA7dPSrxB1zKH_uYhv5KCiwX4F8q3ogkZnxvo8J3CgA'</initValue>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InFlMUBnbWFpbC5jb20iLCJleHAiOjE2NzEzOTAzMTgsImZ1bGxuYW1lIjoiUUUxIFRlc3QiLCJpc3MiOiJhbHRlcnJhX2NhcHN0b25lIiwicm9sZV9pZCI6MSwidXNlcl9pZCI6IjU3MGY4YmZhLTY3MGItNGQ0ZC04MjNiLWUyNDgzMDc3MDA1MCJ9.RlCoyPhc0bzYKJca5s0CQDMYN7LYtzSiHY0sEFUUDC0'</initValue>
       <name>globalVar</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -28,5 +28,20 @@
       <description></description>
       <initValue>201</initValue>
       <name>statusCode201</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>422</initValue>
+      <name>StatusCode422</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123355667'</initValue>
+      <name>Invalidglobal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>401</initValue>
+      <name>StatusCode401</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

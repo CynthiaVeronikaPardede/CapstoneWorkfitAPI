@@ -20,12 +20,10 @@ import groovy.json.JsonSlurper as JsonSlurper
 
 response = WS.sendRequest(findTestObject('AUTH/Register/Register with valid input'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WS.verifyResponseStatusCode(response, 201)
-
+//WS.verifyResponseStatusCode(response, 201)
 JsonSlurper slurper = new JsonSlurper()
 
 Map parsedJson = slurper.parseText(response.getResponseText())
-
 
 // invalid imput
 response = WS.sendRequest(findTestObject('AUTH/Register/Register with invalid input'))
