@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_EmailPasswordSign In</name>
+   <tag></tag>
+   <elementGuidId>cedc9b9f-7b3b-447a-bbcb-f2cacc9aad4e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div/form</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>form</value>
+      <webElementGuid>a227d74f-0631-4f13-bd8d-10fc3501d0a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mx-auto mt-1 w-full lg:mt-2 lg:w-2/4</value>
+      <webElementGuid>cd7502eb-b09d-4876-a352-a6c1b3a43149</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>EmailPasswordSign In</value>
+      <webElementGuid>ddb1a4b8-9d2a-4f70-a78f-d129a0bdd7e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;z-[3] max-h-full w-full bg-cover bg-no-repeat md:fixed md:h-screen&quot;]/div[@class=&quot;container z-[1] overflow-y-auto py-5&quot;]/div[@class=&quot;inset-x-5 mx-auto&quot;]/div[@class=&quot;lg:m-auto&quot;]/div[@class=&quot;border-1 bg-neutral rounded-20 border-gray-200 bg-neutral-background bg-opacity-80 p-4 shadow-6 backdrop-blur-sm md:rounded-100 md:bg-opacity-90 md:p-3 lg:mx-auto lg:w-2/4&quot;]/form[@class=&quot;mx-auto mt-1 w-full lg:mt-2 lg:w-2/4&quot;]</value>
+      <webElementGuid>659cb4eb-3fbd-415f-8163-b1b06bcd7585</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div/form</value>
+      <webElementGuid>81d5980b-8b5d-4817-b109-c103cf8e23c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome Back Admin!'])[1]/following::form[1]</value>
+      <webElementGuid>cce11b4b-edab-4f10-8c55-69952236d7e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fit.'])[1]/following::form[1]</value>
+      <webElementGuid>9271ebcd-55bd-44a0-a2b0-f606583e5af8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form</value>
+      <webElementGuid>f4749617-6f4a-4bfd-82f6-68f4799004e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//form[(text() = 'EmailPasswordSign In' or . = 'EmailPasswordSign In')]</value>
+      <webElementGuid>00b2882d-af67-4cf2-a8ba-ea301ef1f858</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

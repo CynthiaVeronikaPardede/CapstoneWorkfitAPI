@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Offline</name>
+   <tag></tag>
+   <elementGuidId>2374610a-bd44-40f0-9bde-16e08ac1ef55</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/ul/li/a/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-secondary.inline-block.rounded-t-lg.border-b-2.border-secondary-navy.p-4.text-sm.font-medium.text-secondary-navy.transition-all.duration-300.ease-in-out > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8372d39c-f449-4110-877e-ddf6ce1c9a17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Offline</value>
+      <webElementGuid>4b482726-5f84-458b-9b52-7c337f9ba3ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 sm:pl-52 md:pl-52 lg:pl-52&quot;]/div[@class=&quot;container mx-auto px-6&quot;]/div[@class=&quot;fixed left-0 right-0 z-20 w-full bg-white bg-opacity-90 px-6 py-2 shadow-3 backdrop-blur-sm&quot;]/div[@class=&quot;md:pl-52&quot;]/div[@class=&quot;mb-2 flex items-center border-b border-gray-200&quot;]/div[@class=&quot;min-w-0 flex-1&quot;]/ul[@class=&quot;-mb-px flex flex-wrap text-center&quot;]/li[1]/a[@class=&quot;active&quot;]/div[@class=&quot;text-secondary inline-block rounded-t-lg border-b-2 border-secondary-navy p-4 text-sm font-medium text-secondary-navy transition-all duration-300 ease-in-out&quot;]/span[1]</value>
+      <webElementGuid>7a3ca1e5-4d81-4913-b444-079b454fd696</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/ul/li/a/div/span</value>
+      <webElementGuid>9e70e24e-d383-4dd7-bf8d-1fbfb4bb63cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Classes'])[3]/following::span[1]</value>
+      <webElementGuid>9336713f-27d4-447c-bf91-4f989fe694a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Online'])[1]/preceding::span[1]</value>
+      <webElementGuid>1869a3ec-bf64-42e6-8d04-38302fd45cd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New'])[1]/preceding::span[2]</value>
+      <webElementGuid>02f9067d-e8b4-44eb-bee3-c387d1b22696</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Offline']/parent::*</value>
+      <webElementGuid>8a48fc54-95a6-41ba-aad5-8b011b89869d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[2]/div/div/ul/li/a/div/span</value>
+      <webElementGuid>d9c366b0-09cc-496c-a8ec-33227b858a7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Offline' or . = 'Offline')]</value>
+      <webElementGuid>94047cc1-e1de-499c-8b1f-518d3f41a0e5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

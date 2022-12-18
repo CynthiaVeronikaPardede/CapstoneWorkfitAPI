@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Yoga_fi fi-br-menu-dots-vertical</name>
+   <tag></tag>
+   <elementGuidId>68cfab17-7221-4bbc-b794-d189bba768aa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div/div/div[3]/button/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fi.fi-br-menu-dots-vertical</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>83a5ba2e-721c-43f2-82ca-b604e1176563</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fi fi-br-menu-dots-vertical</value>
+      <webElementGuid>d0b29897-7477-4704-94d1-e0dfdbc44d34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 sm:pl-52 md:pl-52 lg:pl-52&quot;]/div[@class=&quot;container mx-auto px-6&quot;]/div[2]/div[@class=&quot;mb-6 grid grid-cols-1 gap-3 pt-36 md:grid-cols-2 md:gap-6 xl:grid-cols-2 2xl:grid-cols-3&quot;]/div[1]/div[@class=&quot;relative h-full rounded-20 border bg-white py-4 shadow-4&quot;]/div[@class=&quot;mb-2 flex items-center px-5&quot;]/div[@class=&quot;inline-flex items-center pt-2&quot;]/button[@class=&quot;inline-block text-neutral-80&quot;]/i[@class=&quot;fi fi-br-menu-dots-vertical&quot;]</value>
+      <webElementGuid>4aabc4f3-7ac0-4cf1-89fe-e24909823d97</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div/div/div[3]/button/i</value>
+      <webElementGuid>edf86d0f-53d1-4789-be0f-d58d3f93cfd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button/i</value>
+      <webElementGuid>f318d17a-3242-4ff6-b0a8-d5c9bb9cf352</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

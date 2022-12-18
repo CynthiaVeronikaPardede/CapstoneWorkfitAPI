@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_WorkFit.WorkFit</name>
+   <tag></tag>
+   <elementGuidId>0060946f-b94c-4ffa-b043-9f3af4b69cc9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/header/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e1750b32-1a8b-498c-9fc6-78e40d44abfc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex w-1/2 items-center</value>
+      <webElementGuid>278513a4-5b7c-4a7a-b0b1-6f3f96352fec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>WorkFit.WorkFit.</value>
+      <webElementGuid>187a1425-4320-4365-a450-06eaa465ee37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/header[@class=&quot;fixed top-0 left-0 z-40 flex h-14 w-full items-center justify-between bg-white bg-opacity-90 px-4 py-2 backdrop-blur-sm md:px-6&quot;]/div[@class=&quot;flex w-1/2 items-center&quot;]</value>
+      <webElementGuid>081f6826-56b9-472f-89be-543d3dcc62e4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/header/div</value>
+      <webElementGuid>4d674043-d346-442f-8ee2-bb012dcf27d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[2]/following::div[2]</value>
+      <webElementGuid>3c2e902a-84f0-4715-b4c7-8f7475b2a430</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Video'])[2]/following::div[3]</value>
+      <webElementGuid>0b83252e-ecec-4513-9488-36f2e5c8059b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//header/div</value>
+      <webElementGuid>cfe81d97-fa62-4d84-9426-0d96df50cab3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'WorkFit.WorkFit.' or . = 'WorkFit.WorkFit.')]</value>
+      <webElementGuid>83c1830c-0cef-4ab2-9266-f5809aa8fd4f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

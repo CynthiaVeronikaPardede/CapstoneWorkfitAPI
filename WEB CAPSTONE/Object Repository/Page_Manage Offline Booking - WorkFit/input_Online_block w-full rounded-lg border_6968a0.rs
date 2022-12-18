@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Online_block w-full rounded-lg border_6968a0</name>
+   <tag></tag>
+   <elementGuidId>cd5a6ec2-75dc-45fa-bb2c-8f1138021c3a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>a080a416-ebaf-42c7-ba26-285fc934b1c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>196c7b20-4aba-40fc-a340-20379f8a1482</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>block w-full rounded-lg border border-primary-violet bg-white p-2 pr-8 text-sm text-neutral-100-2 placeholder-neutral-80 placeholder:text-neutral-60 focus:border-blue-500 focus:ring-blue-500</value>
+      <webElementGuid>844b80fa-89ee-48f4-8b85-f01c3c561b7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search by membership name</value>
+      <webElementGuid>5ad95fe5-3410-498f-a0e9-5f54a9556bd4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 sm:pl-52 md:pl-52 lg:pl-52&quot;]/div[@class=&quot;container mx-auto px-6&quot;]/div[@class=&quot;fixed left-0 right-0 z-20 w-full bg-white bg-opacity-90 px-6 py-2 shadow-3 backdrop-blur-sm&quot;]/div[@class=&quot;md:pl-52&quot;]/div[@class=&quot;mb-2 flex items-center border-b border-gray-200&quot;]/div[@class=&quot;inline-flex items-center text-sm font-medium text-neutral-100-2&quot;]/div[@class=&quot;relative mt-1 mr-3 mb-1 hidden w-full md:block md:w-48 lg:w-80&quot;]/input[@class=&quot;block w-full rounded-lg border border-primary-violet bg-white p-2 pr-8 text-sm text-neutral-100-2 placeholder-neutral-80 placeholder:text-neutral-60 focus:border-blue-500 focus:ring-blue-500&quot;]</value>
+      <webElementGuid>ac2d2d8c-77b5-4291-ab41-2344387883ff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='']</value>
+      <webElementGuid>ea5228a9-e003-40ee-b149-5f38607de779</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div[2]/div/input</value>
+      <webElementGuid>4f36c20c-e791-4cf1-b8d9-d9bbdf0ba4ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>c4e7086d-47a1-48d6-9aec-5b8325effb3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Search by membership name']</value>
+      <webElementGuid>9c37b930-3d47-4ef1-881d-8262cee4a17e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

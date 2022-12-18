@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_Senin_css-8mmkcg</name>
+   <tag></tag>
+   <elementGuidId>4b46ae3b-39ff-4757-9399-60a7a76ee09c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Senin'])[2]/following::*[name()='svg'][3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>1fa25650-c841-455c-b989-e9598d3ecc83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>20</value>
+      <webElementGuid>ea90cb81-35c5-4296-ac21-807e754bd037</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>20</value>
+      <webElementGuid>71357e9c-012a-4382-9515-e3a77c32a904</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 20 20</value>
+      <webElementGuid>a2351c2e-0587-4e62-ad86-406a6a8fd175</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>a68c6549-de8a-4106-b923-794cd2225893</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>a773c43a-8f79-4ed1-bf9c-809e9f39a72d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-8mmkcg</value>
+      <webElementGuid>f046c225-10f4-4773-935b-aadc1c573265</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 sm:pl-52 md:pl-52 lg:pl-52&quot;]/div[@class=&quot;container mx-auto px-6&quot;]/div[2]/div[1]/div[@class=&quot;mb-6 grid grid-cols-1 gap-3 pt-36 md:grid-cols-2 md:gap-6 xl:grid-cols-3 2xl:grid-cols-4&quot;]/div[@class=&quot;rounded-20 bg-white shadow-3&quot;]/div[@class=&quot;relative z-50&quot;]/div[@class=&quot;fixed inset-0 z-50 items-center justify-center overflow-y-auto&quot;]/div[@class=&quot;flex w-full items-end justify-center px-4 py-20 sm:h-full sm:items-center sm:p-0 md:h-screen&quot;]/div[@class=&quot;relative h-full w-full max-w-sm sm:max-w-sm md:h-auto md:max-w-md lg:max-w-lg xl:max-w-xl&quot;]/form[@class=&quot;rounded-xl bg-white shadow&quot;]/div[@class=&quot;space-y-6 p-6&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;z-30 block w-full appearance-none rounded-lg bg-transparent text-sm font-normal text-neutral-60 focus:border-blue-600 focus:outline-none focus:ring-0 css-b62m3t-container&quot;]/div[@class=&quot;css-1pahdxg-control&quot;]/div[@class=&quot;css-1wy0on6&quot;]/div[@class=&quot;css-1gtu0rj-indicatorContainer&quot;]/svg[@class=&quot;css-8mmkcg&quot;]</value>
+      <webElementGuid>85f298ae-4e1b-4d52-bdb3-8ff80fcc9ebd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Senin'])[2]/following::*[name()='svg'][3]</value>
+      <webElementGuid>b2222436-2580-4f7b-bd8f-8f3cee6f75a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Minggu'])[2]/following::*[name()='svg'][4]</value>
+      <webElementGuid>0b5db12c-d625-48c7-bf0c-e1e0d7d35b90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sunday, 09:00 - 11:00'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>d5a0b82f-5bb9-4f7f-b0ee-8f2c8ed4da8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wednesday, 13:00 - 15:00'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>addf095b-517e-4ec3-b964-6386884d2cc3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

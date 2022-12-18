@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_PUpa</name>
+   <tag></tag>
+   <elementGuidId>269f15e9-7a58-4016-9082-37b0006a2378</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div/div/div/table/tbody/tr/td[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.flex.items-center.py-3.px-6</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>93bb1d7a-3da5-4a4b-9a0e-df794cbe0745</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center py-3 px-6</value>
+      <webElementGuid>dec305b5-2eb8-41a1-a0b4-78628b40791f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PUpa</value>
+      <webElementGuid>40937c2b-bd5d-455e-8d4c-888b286c9f72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 sm:pl-52 md:pl-52 lg:pl-52&quot;]/div[1]/div[@class=&quot;container mx-auto py-6 px-6&quot;]/div[@class=&quot;pt-14&quot;]/div[@class=&quot;w-full rounded-xl bg-white py-6 px-6 shadow-4&quot;]/div[1]/div[1]/div[@class=&quot;w-full overflow-x-auto rounded-xl scrollbar-hide md:scrollbar-default&quot;]/table[@class=&quot;w-full text-left&quot;]/tbody[1]/tr[@class=&quot;whitespace-nowrap border-x border-b border-neutral-100-2 bg-white text-xs hover:bg-gray-50&quot;]/td[@class=&quot;flex items-center py-3 px-6&quot;]</value>
+      <webElementGuid>3420c79a-b2f0-41a2-ac37-6a420bfe2034</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div/div/div/table/tbody/tr/td[2]</value>
+      <webElementGuid>2376f40f-1971-47f9-b2ff-fdb43e3c10d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/following::td[2]</value>
+      <webElementGuid>153bd52a-e7ca-46f4-93f7-c1d33ece2cb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Updated'])[1]/following::td[2]</value>
+      <webElementGuid>38a079f1-1ac9-4ee6-bba3-1f55f4f0d40e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yoga'])[1]/preceding::td[4]</value>
+      <webElementGuid>7c7730af-499b-4048-bc3d-3a04f96394ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]</value>
+      <webElementGuid>c3650465-9dd1-4a00-80fa-bda2417a7413</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'PUpa' or . = 'PUpa')]</value>
+      <webElementGuid>70e39dbb-4fd2-4999-ad0a-07cce43e39b9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

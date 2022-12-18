@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Romas Donas_fi fi-rr-menu-dots-vertical</name>
+   <tag></tag>
+   <elementGuidId>ac68baac-8868-4fc0-9978-3a7bb9e768f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div[2]/div/button/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>6fabbdd1-4867-4fb6-aac3-c94e3f968c56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fi fi-rr-menu-dots-vertical</value>
+      <webElementGuid>5d1b06db-6bb2-4502-aa34-66b7589e8d0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 sm:pl-52 md:pl-52 lg:pl-52&quot;]/div[@class=&quot;container mx-auto w-full px-6&quot;]/div[2]/div[1]/div[@class=&quot;mb-6 grid grid-cols-1 gap-3 pt-20 md:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4&quot;]/div[@class=&quot;rounded-xl bg-white p-4 shadow-4&quot;]/div[@class=&quot;group relative&quot;]/button[@class=&quot;absolute right-0 top-0 cursor-pointer text-neutral-100-2&quot;]/i[@class=&quot;fi fi-rr-menu-dots-vertical&quot;]</value>
+      <webElementGuid>3bf0aad4-375a-40a1-a930-2bb85f60e676</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>232e5dfc-a3da-4f59-9007-d25462010bca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fi fi-rr-menu-dots-vertical</value>
+      <webElementGuid>9582236e-9a71-4ba8-a386-e74c0e81c1da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 sm:pl-52 md:pl-52 lg:pl-52&quot;]/div[@class=&quot;container mx-auto w-full px-6&quot;]/div[2]/div[1]/div[@class=&quot;mb-6 grid grid-cols-1 gap-3 pt-20 md:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4&quot;]/div[@class=&quot;rounded-xl bg-white p-4 shadow-4&quot;]/div[@class=&quot;group relative&quot;]/button[@class=&quot;absolute right-0 top-0 cursor-pointer text-neutral-100-2&quot;]/i[@class=&quot;fi fi-rr-menu-dots-vertical&quot;]</value>
+      <webElementGuid>73c61086-f789-4270-92c1-da5ff545d3d4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div[2]/div/button/i</value>
+      <webElementGuid>adb7ea77-e569-4255-8331-33d15691e1c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/button/i</value>
+      <webElementGuid>a6544918-2867-4985-92e2-908333759e97</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Online</name>
+   <tag></tag>
+   <elementGuidId>bbb4836a-eae7-4251-9b1b-6e51abd7ca12</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/ul/li[2]/a/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>29d7ec74-aaf6-4458-b902-6e68a413f53f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inline-block rounded-t-lg border-b-2 border-transparent p-4 text-sm font-normal text-neutral-60 transition-all duration-300 ease-in-out hover:border-gray-300 hover:text-neutral-80</value>
+      <webElementGuid>6ef828a5-fe4c-4aa0-8dfa-2e2a6b3068ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Online</value>
+      <webElementGuid>725eb679-bb08-4266-ac50-092170b6baff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 sm:pl-52 md:pl-52 lg:pl-52&quot;]/div[@class=&quot;container mx-auto px-6&quot;]/div[@class=&quot;fixed left-0 right-0 z-20 w-full bg-white bg-opacity-90 px-6 py-2 shadow-3 backdrop-blur-sm&quot;]/div[@class=&quot;md:pl-52&quot;]/div[@class=&quot;mb-2 flex items-center border-b border-gray-200&quot;]/div[@class=&quot;min-w-0 flex-1&quot;]/ul[@class=&quot;-mb-px flex flex-wrap text-center&quot;]/li[2]/a[1]/div[@class=&quot;inline-block rounded-t-lg border-b-2 border-transparent p-4 text-sm font-normal text-neutral-60 transition-all duration-300 ease-in-out hover:border-gray-300 hover:text-neutral-80&quot;]</value>
+      <webElementGuid>685043e4-9063-41bf-b714-e3c61fc6daf1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div/ul/li[2]/a/div</value>
+      <webElementGuid>71ef1eac-0ede-4648-adce-7af67e5c3efe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Offline'])[1]/following::div[1]</value>
+      <webElementGuid>8eb932a7-5b7b-49d5-ad8a-b60aae3cb74f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Classes'])[3]/following::div[5]</value>
+      <webElementGuid>bac89848-0b03-441c-9ef9-30e2668685dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New'])[1]/preceding::div[4]</value>
+      <webElementGuid>f84d75c2-c691-4111-917a-53f9ed05b5d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[2]/div/div/ul/li[2]/a/div</value>
+      <webElementGuid>91d41c53-798d-4fa5-aa52-7d6043f17ee0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Online' or . = 'Online')]</value>
+      <webElementGuid>1d236b68-fc3a-4eb6-a425-9cdbf60170d1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

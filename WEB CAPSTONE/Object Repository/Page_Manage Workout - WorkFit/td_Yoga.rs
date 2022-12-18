@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Yoga</name>
+   <tag></tag>
+   <elementGuidId>7c045789-b229-4583-a294-346187899d57</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div/div/div/table/tbody/tr/td[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.flex.items-center.py-3.px-6</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>79c4f629-8d60-49dc-b6d3-5b513bfc5d74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center py-3 px-6</value>
+      <webElementGuid>486861fe-9d3c-4e47-a5ac-3035dd409878</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Yoga</value>
+      <webElementGuid>b36c1055-cdff-4301-99ff-acc643cea2c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 sm:pl-52 md:pl-52 lg:pl-52&quot;]/div[1]/div[@class=&quot;container mx-auto py-6 px-6&quot;]/div[@class=&quot;pt-14&quot;]/div[@class=&quot;w-full rounded-xl bg-white py-6 px-6 shadow-4&quot;]/div[1]/div[1]/div[@class=&quot;w-full overflow-x-auto rounded-xl scrollbar-hide md:scrollbar-default&quot;]/table[@class=&quot;w-full text-left&quot;]/tbody[1]/tr[@class=&quot;whitespace-nowrap border-x border-b border-neutral-100-2 bg-white text-xs hover:bg-gray-50&quot;]/td[@class=&quot;flex items-center py-3 px-6&quot;]</value>
+      <webElementGuid>3235ad47-dc56-41ab-a8af-a2668354c20c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div/div/div/table/tbody/tr/td[2]</value>
+      <webElementGuid>6af4ce6b-1604-434c-bb54-a1d4dc8c4a8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/following::td[2]</value>
+      <webElementGuid>60bc96cc-0c05-4cab-96b3-9d29241b82d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Updated'])[1]/following::td[2]</value>
+      <webElementGuid>c1b16f60-b09f-4e4b-a6a7-df9680f879bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]</value>
+      <webElementGuid>7890bc11-b8de-482b-93e3-ec3f1ae2fa5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Yoga' or . = 'Yoga')]</value>
+      <webElementGuid>6be937bd-a6af-44a5-9dfc-35874a5cee90</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

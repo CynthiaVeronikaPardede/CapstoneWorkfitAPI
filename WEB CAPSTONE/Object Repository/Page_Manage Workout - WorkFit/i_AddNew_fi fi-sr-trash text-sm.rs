@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_AddNew_fi fi-sr-trash text-sm</name>
+   <tag></tag>
+   <elementGuidId>0d8d983d-6f95-4deb-a236-45438041b2ee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div/div/div/table/tbody/tr/td[4]/div/button[2]/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fi.fi-sr-trash.text-sm</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>18e0f161-3947-4f26-b796-3a23160fda05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fi fi-sr-trash text-sm</value>
+      <webElementGuid>1225f7af-8939-4580-96bd-c7e3509d594a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 sm:pl-52 md:pl-52 lg:pl-52&quot;]/div[1]/div[@class=&quot;container mx-auto py-6 px-6&quot;]/div[@class=&quot;pt-14&quot;]/div[@class=&quot;w-full rounded-xl bg-white py-6 px-6 shadow-4&quot;]/div[1]/div[1]/div[@class=&quot;w-full overflow-x-auto rounded-xl scrollbar-hide md:scrollbar-default&quot;]/table[@class=&quot;w-full text-left&quot;]/tbody[1]/tr[@class=&quot;whitespace-nowrap border-x border-b border-neutral-100-2 bg-white text-xs hover:bg-gray-50&quot;]/td[@class=&quot;py-3 px-6&quot;]/div[@class=&quot;flex items-center space-x-4 text-lg&quot;]/button[@class=&quot;rounded-lg bg-secondary-red px-2 py-1 text-center font-medium text-white focus:outline-none focus:ring-4 focus:ring-red-300&quot;]/i[@class=&quot;fi fi-sr-trash text-sm&quot;]</value>
+      <webElementGuid>4dc9e74b-520b-4bb7-90be-eb9415c5a15f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div/div/div/table/tbody/tr/td[4]/div/button[2]/i</value>
+      <webElementGuid>3f96eff6-ccb3-4c11-94f0-91639f38d565</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/i</value>
+      <webElementGuid>a6e9b670-8227-482f-80d8-c802c31b19a9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

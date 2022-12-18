@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_YogaManeRp 200.000Arya Bataraaryabatara_98f86a</name>
+   <tag></tag>
+   <elementGuidId>3ee5e115-69be-44ff-be34-91ce513f9ec3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div/div[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9791e27c-3160-4852-aa3c-340d12f3fcb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex flex-col py-0 px-0 leading-normal md:py-2 md:px-4</value>
+      <webElementGuid>ff3b037b-e250-402d-9c1e-44a16092e42b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>YogaManeRp 200.000Arya Bataraaryabatara17@gmail....Sunday (09:00 - 11:00); Wednesday (13:00 - 15:00); Friday (14:00 - 18:00); </value>
+      <webElementGuid>63b6e5bd-a715-4974-9a41-a6fb57df6160</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 sm:pl-52 md:pl-52 lg:pl-52&quot;]/div[@class=&quot;container mx-auto px-6&quot;]/div[2]/div[@class=&quot;mb-6 grid grid-cols-1 gap-3 pt-36 md:grid-cols-2 md:gap-6 xl:grid-cols-2 2xl:grid-cols-3&quot;]/div[1]/div[@class=&quot;relative h-full rounded-20 border bg-white py-4 shadow-4&quot;]/div[@class=&quot;flex flex-col px-5 md:flex-row md:items-center&quot;]/div[@class=&quot;flex flex-col py-0 px-0 leading-normal md:py-2 md:px-4&quot;]</value>
+      <webElementGuid>46dc38ec-25a7-49e1-a813-fe2d0df13e31</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div/div[3]/div</value>
+      <webElementGuid>6dab0f6a-c28c-4aaa-b2d0-9dbeb5e49b13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yoga'])[1]/following::div[11]</value>
+      <webElementGuid>882ed9d8-e68d-4ec8-99cb-e88f93e7baff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Editss'])[1]/following::div[11]</value>
+      <webElementGuid>afb1b1d9-21bf-4422-b656-d0437f51bc35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Editss'])[2]/preceding::div[18]</value>
+      <webElementGuid>ac05c3a5-7e35-4ab5-b787-4b16d469fc95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div</value>
+      <webElementGuid>25a83aba-7b26-4e2f-801c-4e178c004be0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'YogaManeRp 200.000Arya Bataraaryabatara17@gmail....Sunday (09:00 - 11:00); Wednesday (13:00 - 15:00); Friday (14:00 - 18:00); ' or . = 'YogaManeRp 200.000Arya Bataraaryabatara17@gmail....Sunday (09:00 - 11:00); Wednesday (13:00 - 15:00); Friday (14:00 - 18:00); ')]</value>
+      <webElementGuid>ffbd7b22-1f83-44c8-90bc-363f875e5ebb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

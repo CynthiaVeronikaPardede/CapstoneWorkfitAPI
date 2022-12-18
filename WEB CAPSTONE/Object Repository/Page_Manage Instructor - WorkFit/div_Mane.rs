@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Mane</name>
+   <tag></tag>
+   <elementGuidId>8c5e90b4-4487-4424-8846-6c3d8f6d4e6b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div/div/div/table/tbody/tr/td[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.pl-12 > div.text-sm.font-normal.text-neutral-80</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f5e21405-5ea6-4365-a3b7-8cfe318d5093</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-sm font-normal text-neutral-80</value>
+      <webElementGuid>fdbf4886-2c07-4326-b596-88cbfa3a19b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mane</value>
+      <webElementGuid>f7f7534f-12e8-4d47-8cdd-2355b3b6777c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 sm:pl-52 md:pl-52 lg:pl-52&quot;]/div[1]/div[@class=&quot;container mx-auto py-6 px-6&quot;]/div[@class=&quot;pt-14&quot;]/div[@class=&quot;w-full rounded-xl bg-white py-6 px-6 shadow-4&quot;]/div[1]/div[1]/div[@class=&quot;w-full overflow-x-auto rounded-xl scrollbar-hide md:scrollbar-default&quot;]/table[@class=&quot;w-full text-left&quot;]/tbody[1]/tr[@class=&quot;whitespace-nowrap border-x border-b border-neutral-100-2 bg-white hover:bg-gray-50&quot;]/td[@class=&quot;relative flex items-center py-3 px-6&quot;]/div[@class=&quot;pl-12&quot;]/div[@class=&quot;text-sm font-normal text-neutral-80&quot;]</value>
+      <webElementGuid>4f4286a3-16f5-4c05-a663-2099daad16f0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div/div/div/table/tbody/tr/td[2]/div/div</value>
+      <webElementGuid>0be265f0-0d6b-4bbe-9e97-dff3b59bb32e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/following::div[2]</value>
+      <webElementGuid>3e220655-9397-489a-997f-cd9bec83a402</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Updated'])[1]/following::div[2]</value>
+      <webElementGuid>9a7aa026-de83-425b-b1b8-a3bfaa6f07fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='hoho12@gmail.com'])[1]/preceding::div[1]</value>
+      <webElementGuid>16842b48-efca-4dce-ae39-9ca9c1697185</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Mane']/parent::*</value>
+      <webElementGuid>810cfb1e-8873-4342-998f-b5454620fce8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/div/div</value>
+      <webElementGuid>3cdd8ae9-87be-44a3-a66a-d08e21302117</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Mane' or . = 'Mane')]</value>
+      <webElementGuid>5761b41f-95d6-42b5-a441-6880347d3f42</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

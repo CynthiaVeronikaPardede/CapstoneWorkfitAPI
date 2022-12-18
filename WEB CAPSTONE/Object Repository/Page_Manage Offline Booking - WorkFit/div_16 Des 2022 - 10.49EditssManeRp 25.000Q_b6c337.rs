@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_16 Des 2022 - 10.49EditssManeRp 25.000Q_b6c337</name>
+   <tag></tag>
+   <elementGuidId>1da72f87-ab0e-41ac-bb94-0bccd2691fb9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.relative.h-full.rounded-20.border.bg-white.py-4.shadow-4</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>710d5b98-b88b-41a2-8ea1-5fb8741a506d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative h-full rounded-20 border bg-white py-4 shadow-4</value>
+      <webElementGuid>87a453c9-9c39-4df2-844b-3f3739784a73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>16 Des 2022 - 10.49EditssManeRp 25.000QE1 Testqe1@gmail.comSabtu; Minggu; Senin; </value>
+      <webElementGuid>8cf3eb63-1a21-4392-b49e-77d054b16ce2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 sm:pl-52 md:pl-52 lg:pl-52&quot;]/div[@class=&quot;container mx-auto px-6&quot;]/div[2]/div[@class=&quot;mb-6 grid grid-cols-1 gap-3 pt-36 md:grid-cols-2 md:gap-6 xl:grid-cols-2 2xl:grid-cols-3&quot;]/div[1]/div[@class=&quot;relative h-full rounded-20 border bg-white py-4 shadow-4&quot;]</value>
+      <webElementGuid>1eed18a7-4d12-49d5-9217-b1bb8902cc67</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div</value>
+      <webElementGuid>6435fff1-4433-43c2-9aa9-e5b0c964bf22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yoga'])[1]/following::div[4]</value>
+      <webElementGuid>2b703e2d-0737-4e66-8670-a8b38664a362</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Editss'])[1]/following::div[4]</value>
+      <webElementGuid>2f9a14c5-1646-4ad6-a8e7-85d07be668df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yoga'])[2]/preceding::div[25]</value>
+      <webElementGuid>8796ae99-69ee-4cac-9c4a-18027548bd17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div</value>
+      <webElementGuid>13b93131-4a43-4755-ae41-44652ce3a5c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '16 Des 2022 - 10.49EditssManeRp 25.000QE1 Testqe1@gmail.comSabtu; Minggu; Senin; ' or . = '16 Des 2022 - 10.49EditssManeRp 25.000QE1 Testqe1@gmail.comSabtu; Minggu; Senin; ')]</value>
+      <webElementGuid>0b2b03ad-6f68-4271-9058-45cab65452a9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

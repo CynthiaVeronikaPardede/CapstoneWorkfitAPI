@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_18 Des 2022 - 15.33PENDINGEditssManeRp _eb46c6</name>
+   <tag></tag>
+   <elementGuidId>7cc84438-b354-4984-818a-1dfbe0e2082b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div[9]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7968bc10-4619-44c1-a3cc-976fecd161dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative h-full rounded-20 border bg-white py-4 shadow-4</value>
+      <webElementGuid>d913a7bf-f486-4a7b-ae96-0df34562b0fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>18 Des 2022 - 15.33PENDINGEditssManeRp 25.000Romas Donasroma1234@gmail.comSabtu; Minggu; Senin; </value>
+      <webElementGuid>c63d8b11-f0c5-4f0d-a757-f06b61ae909d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 sm:pl-52 md:pl-52 lg:pl-52&quot;]/div[@class=&quot;container mx-auto px-6&quot;]/div[2]/div[@class=&quot;mb-6 grid grid-cols-1 gap-3 pt-36 md:grid-cols-2 md:gap-6 xl:grid-cols-2 2xl:grid-cols-3&quot;]/div[9]/div[@class=&quot;relative h-full rounded-20 border bg-white py-4 shadow-4&quot;]</value>
+      <webElementGuid>9f394891-7a25-41f9-8e1f-8b7e2ca6cdcf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div[9]/div</value>
+      <webElementGuid>f659c77e-59c5-4ff5-a581-07a7c0a00b93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Editss'])[5]/following::div[14]</value>
+      <webElementGuid>b9fd37b9-09a3-4ff3-9f5a-4d3d245881f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PAID'])[4]/following::div[18]</value>
+      <webElementGuid>7735fbba-22e3-4ba3-8ef3-2f6ef798271c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div</value>
+      <webElementGuid>700ffda0-717d-4a6f-a7c4-abf79b048284</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '18 Des 2022 - 15.33PENDINGEditssManeRp 25.000Romas Donasroma1234@gmail.comSabtu; Minggu; Senin; ' or . = '18 Des 2022 - 15.33PENDINGEditssManeRp 25.000Romas Donasroma1234@gmail.comSabtu; Minggu; Senin; ')]</value>
+      <webElementGuid>46b90606-0816-4e6a-bd3f-da0563de6f47</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

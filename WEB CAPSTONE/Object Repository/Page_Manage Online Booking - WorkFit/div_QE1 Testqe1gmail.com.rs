@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_QE1 Testqe1gmail.com</name>
+   <tag></tag>
+   <elementGuidId>8cd5219f-d394-4ad8-878b-48044669a5da</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div/div[3]/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>484af30d-80c8-43aa-9092-f6aff76466c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-2 grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-12 xl:grid-cols-2</value>
+      <webElementGuid>4591e792-33e8-43b5-9bef-443981af5569</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>QE1 Testqe1@gmail.com</value>
+      <webElementGuid>c4c2475a-91d0-4cc8-9e04-2526a54b99d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 sm:pl-52 md:pl-52 lg:pl-52&quot;]/div[@class=&quot;container mx-auto px-6&quot;]/div[2]/div[@class=&quot;mb-6 grid grid-cols-1 gap-3 pt-36 md:grid-cols-2 md:gap-6 xl:grid-cols-2 2xl:grid-cols-3&quot;]/div[1]/div[@class=&quot;relative rounded-20 border bg-white py-4 shadow-4&quot;]/div[@class=&quot;flex flex-col px-5 md:flex-row md:items-center&quot;]/div[@class=&quot;flex flex-col py-0 px-0 leading-normal md:py-2 md:px-4&quot;]/div[@class=&quot;mb-2 grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-12 xl:grid-cols-2&quot;]</value>
+      <webElementGuid>cffef7a5-b495-4a13-845e-686edf96790d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div/div[3]/div/div[2]</value>
+      <webElementGuid>f4a88d5e-4544-4b8b-93b5-6ec59c7a3ee9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Coba aja'])[1]/following::div[5]</value>
+      <webElementGuid>72b99df5-3be5-44f7-9b82-7f66a90f9556</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yoga'])[1]/following::div[15]</value>
+      <webElementGuid>a16b6fd5-6860-410c-b940-f36f1d909daf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]</value>
+      <webElementGuid>be381125-88ed-43fc-bc59-509bb95028ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'QE1 Testqe1@gmail.com' or . = 'QE1 Testqe1@gmail.com')]</value>
+      <webElementGuid>2628d483-a342-47a0-a968-5394a0849b16</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

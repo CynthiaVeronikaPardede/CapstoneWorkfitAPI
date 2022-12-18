@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Yoga_pointer-events-auto fixed inset-0 _a693b5</name>
+   <tag></tag>
+   <elementGuidId>974b08ec-979d-409e-a3d7-8c16e1609ab3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.pointer-events-auto.fixed.inset-0.z-10.transition-opacity.duration-300.ease-linear</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f8c9f9df-c581-44e1-868e-0754d1166e43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pointer-events-auto fixed inset-0 z-10 transition-opacity duration-300 ease-linear</value>
+      <webElementGuid>db9d3c31-a302-434a-8033-609677f8c8da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 sm:pl-52 md:pl-52 lg:pl-52&quot;]/div[@class=&quot;container mx-auto px-6&quot;]/div[2]/div[1]/div[@class=&quot;mb-6 grid grid-cols-1 gap-3 pt-36 md:grid-cols-2 md:gap-6 xl:grid-cols-3 2xl:grid-cols-4&quot;]/div[@class=&quot;rounded-20 bg-white shadow-3&quot;]/div[@class=&quot;relative overflow-hidden rounded-t-20 pb-40&quot;]/div[@class=&quot;group relative&quot;]/div[1]/div[@class=&quot;pointer-events-auto fixed inset-0 z-10 transition-opacity duration-300 ease-linear&quot;]</value>
+      <webElementGuid>4ed3651d-19c7-43bb-92a2-c2ad5c8f8ed1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div/div/div/div/div</value>
+      <webElementGuid>50dc0be4-e049-4990-b242-2afcd211d0d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div/div/div/div/div</value>
+      <webElementGuid>d783d48e-ff44-43c3-a40c-4ac8471f91b5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

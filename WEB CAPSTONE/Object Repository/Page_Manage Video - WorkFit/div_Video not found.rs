@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Video not found</name>
+   <tag></tag>
+   <elementGuidId>0a536ae9-7e80-41c8-b979-c8049865f219</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.flex.flex-wrap.items-center.justify-center.rounded-xl.bg-white.py-4.px-6.text-xs.font-semibold.leading-7.text-neutral-80.shadow-4</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8e3197c9-40a2-445c-ae78-93886585bff5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex flex-wrap items-center justify-center rounded-xl bg-white py-4 px-6 text-xs font-semibold leading-7 text-neutral-80 shadow-4</value>
+      <webElementGuid>8eac7faa-319d-465b-b50f-1387bfc2714d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Video not found</value>
+      <webElementGuid>cd9b6901-a6f8-4cc9-864e-53e12e1806b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 sm:pl-52 md:pl-52 lg:pl-52&quot;]/div[@class=&quot;container mx-auto px-6&quot;]/div[2]/div[1]/div[@class=&quot;pt-20 pb-6&quot;]/div[@class=&quot;flex flex-wrap items-center justify-center rounded-xl bg-white py-4 px-6 text-xs font-semibold leading-7 text-neutral-80 shadow-4&quot;]</value>
+      <webElementGuid>a146d9bd-bb16-468c-98cb-38d13a728f09</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div</value>
+      <webElementGuid>1361a9ca-7c85-40f5-9519-16aa237c3c61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New'])[1]/following::div[4]</value>
+      <webElementGuid>89d9841b-8f21-4242-a693-04ea5a7fd1ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Video'])[1]/following::div[8]</value>
+      <webElementGuid>f6011c49-07d0-4613-a3b7-1cdd5c1adfd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Video not found']/parent::*</value>
+      <webElementGuid>2eaff408-7514-422d-88bb-3bcbf0303d44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div</value>
+      <webElementGuid>7ffd2dcc-d087-42a4-b68f-c81e008bdd62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Video not found' or . = 'Video not found')]</value>
+      <webElementGuid>a49a355b-93d2-4b79-82e1-04bcc2f297b3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

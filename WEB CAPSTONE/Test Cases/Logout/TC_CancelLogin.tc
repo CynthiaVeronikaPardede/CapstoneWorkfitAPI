@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CancelLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a4c54cbc-b846-4fb7-9aa2-094457f3203a</testCaseGuid>
+</TestCaseEntity>
