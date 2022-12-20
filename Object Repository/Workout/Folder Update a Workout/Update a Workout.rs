@@ -15,19 +15,19 @@
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;workout&quot;,
-      &quot;value&quot;: &quot;Striders&quot;,
+      &quot;value&quot;: &quot;Push Up&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;application/json&quot;
     },
     {
       &quot;name&quot;: &quot;description&quot;,
-      &quot;value&quot;: &quot;Gerakan ini cukup mudah, hanya perlu menggunakan skip rope, Posisikan kedua tangan sejajar pinggang saat memutar talio&quot;,
+      &quot;value&quot;: &quot;Membantu dalam membentuk otot lengan&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;application/json&quot;
     },
     {
       &quot;name&quot;: &quot;image&quot;,
-      &quot;value&quot;: &quot;E:\\SEMESTER 7\\MBKM\\Capstone Project\\images\\lari2.jpeg&quot;,
+      &quot;value&quot;: &quot;E:\\SEMESTER 7\\MBKM\\Capstone Project\\images\\pushup.png&quot;,
       &quot;type&quot;: &quot;File&quot;,
       &quot;contentType&quot;: &quot;multipart/form-data&quot;
     }
@@ -54,7 +54,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PATCH</restRequestMethod>
-   <restUrl>https://www.go-rest-api.live/api/v1/workouts/a27f9650-689f-4787-a157-1fc55a6425e8</restUrl>
+   <restUrl>https://www.go-rest-api.live/api/v1/workouts/b71031f3-3d4a-48b2-b317-a9b9f76bd49a</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -6,11 +6,11 @@
    <elementGuidId>401521f1-c802-416b-abf3-c580a5a3c1bc</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;refresh_token\&quot;: \&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluY2Fwc3RvbmVAZ21haWwuY29tIiwiZXhwIjoxNjcwNzUyMzIwLCJmdWxsbmFtZSI6IkFkbWluIENhcHN0b25lIiwiaXNzIjoiYWx0ZXJyYV9jYXBzdG9uZSIsInJvbGVfaWQiOjEsInVzZXJfaWQiOiI4NDM3N2Q1NC1lZTYwLTQ2MGYtODIyYS0yOWJkMzQ2OTQ3MWQifQ.3oLpEb6seSo639qmsyjHV8KtxIDdflDMubIvJXsbZo4\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;refresh_token\&quot;: \&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RpbmdjYXBzLjEyM0BnbWFpbC5jb20iLCJleHAiOjE2NzE3MjkxOTIsImZ1bGxuYW1lIjoiVGVzdGluZyBDYXBzIiwiaXNzIjoiYWx0ZXJyYV9jYXBzdG9uZSIsInJvbGVfaWQiOjMsInVzZXJfaWQiOiIxZmIxYTA0Yi05MWJiLTQ2ZjctYjVhMC1iYzE2NzgxOTcwMzkifQ.vNBhBFiADdoLCk4UKDTsMSivuf2i5CD4HYKMy7scFmA\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -24,7 +24,7 @@
       <webElementGuid>9a53ea5b-b106-4a20-8793-d564df7a21f8</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PATCH</restRequestMethod>
    <restUrl>https://www.go-rest-api.live/api/v1/auth/refresh</restUrl>
@@ -34,7 +34,7 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

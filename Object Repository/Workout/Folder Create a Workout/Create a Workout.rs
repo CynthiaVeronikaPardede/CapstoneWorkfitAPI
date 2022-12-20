@@ -15,19 +15,19 @@
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;workout&quot;,
-      &quot;value&quot;: &quot;Striders&quot;,
+      &quot;value&quot;: &quot;body building&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;application/json&quot;
     },
     {
       &quot;name&quot;: &quot;description&quot;,
-      &quot;value&quot;: &quot;pemanasan lari ini berguna untuk memompa jantung dan mempersiapkan heart rate lo sebelum lari&quot;,
+      &quot;value&quot;: &quot;Workout untuk membentuk otot perut&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;application/json&quot;
     },
     {
       &quot;name&quot;: &quot;image&quot;,
-      &quot;value&quot;: &quot;E:\\SEMESTER 7\\MBKM\\Capstone Project\\images\\lari.jpeg&quot;,
+      &quot;value&quot;: &quot;E:\\SEMESTER 7\\MBKM\\Capstone Project\\images\\squat.png&quot;,
       &quot;type&quot;: &quot;File&quot;,
       &quot;contentType&quot;: &quot;multipart/form-data&quot;
     }

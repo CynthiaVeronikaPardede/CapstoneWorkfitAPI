@@ -10,11 +10,19 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;first_name\&quot;: \&quot;lala\&quot;,\n  \&quot;last_name\&quot;: \&quot;lalallsa\&quot;,\n  \&quot;phone_number\&quot;: \&quot;090909000\&quot;,\n  \&quot;image\&quot;: \&quot;lalala\&quot;,\n  \&quot;image_name\&quot;: \&quot;lalala\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;first_name\&quot;: \&quot;QE2\&quot;,\n  \&quot;last_name\&quot;: \&quot;Test\&quot;,\n  \&quot;phone_number\&quot;: \&quot;13223898121\&quot;,\n  \&quot;image\&quot;: \&quot;https://storage.googleapis.com/alterra-capstone.appspot.com/users/profile.png?Expires\u003d1702957993\\u0026GoogleAccessId\u003dfirebase-adminsdk-kae8m%40alterra-capstone.iam.gserviceaccount.com\\u0026Signature\u003dTrK9vq3%2BZ5MgjtLkcz4cEIAcCyzn8ZifCm5s0K9up91Y6cCjcmzTSP4aFyh7gi2AWfh5MAlo4tl33KDqSMVrL%2BRbyHBhjk%2Bshx6u1wysFBAhOskVE3PTigEHodcQfsxF9WUfukQOcynYa3HFmTrSIOOOn9YMgejVlyxoAbNipbaSOmfyyj4a7cmgV79UCgoZ3kwrVsOfaHWWWXyOdU51mCFMKLqi4u5QaCMmVhdrcjShGPnJpSWBsoU26CEA7GE0igtIJlRFZB9L6p0jrKkenAwfH0qAosxdnNsxIyw0xkmsl0OwOlURQZsBbeBX6a%2Baqg4RKY4SqDPJ9EY%2FLlATkg%3D%3D\&quot;,\n  \&quot;image_name\&quot;: \&quot;profile.png\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
    <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>897453a1-f9a1-480a-b8a8-a98da1b1dcad</webElementGuid>
+   </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>

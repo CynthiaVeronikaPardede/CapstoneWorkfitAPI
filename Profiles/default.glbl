@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InFlMUBnbWFpbC5jb20iLCJleHAiOjE2NzEzOTAzMTgsImZ1bGxuYW1lIjoiUUUxIFRlc3QiLCJpc3MiOiJhbHRlcnJhX2NhcHN0b25lIiwicm9sZV9pZCI6MSwidXNlcl9pZCI6IjU3MGY4YmZhLTY3MGItNGQ0ZC04MjNiLWUyNDgzMDc3MDA1MCJ9.RlCoyPhc0bzYKJca5s0CQDMYN7LYtzSiHY0sEFUUDC0'</initValue>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InFlMUBnbWFpbC5jb20iLCJleHAiOjE2NzE3NzI5NjksImZ1bGxuYW1lIjoiUUUxIFRlc3QiLCJpc3MiOiJhbHRlcnJhX2NhcHN0b25lIiwicm9sZV9pZCI6MSwidXNlcl9pZCI6IjBkMGU2MTg1LWM3MjAtNDY2ZS05MjRmLTg0YjUzZWI3MTNkZSJ9.6i5HkZxpoQ38bhQagYB8ywS3UhnyctfugEpIA-ock8Q'</initValue>
       <name>globalVar</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -43,5 +43,15 @@
       <description></description>
       <initValue>401</initValue>
       <name>StatusCode401</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>404</initValue>
+      <name>statusCode404</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>403</initValue>
+      <name>statusCode403</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -28,7 +28,7 @@ Map parsedJson = slurper.parseText(response.getResponseText())
 
 String Token = parsedJson.data.access_token
 
-GlobalVariable.GlobalVar = Token
+GlobalVariable.globalVar = Token
 
 //Patch Method
 response = WS.sendRequest(findTestObject('Booking/Offline Book/See all boking class/With PATCH Method'))

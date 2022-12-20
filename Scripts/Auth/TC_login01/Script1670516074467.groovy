@@ -50,6 +50,14 @@ response = WS.sendRequest(findTestObject('AUTH/Login/login with null password'))
 
 WS.verifyResponseStatusCode(response, GlobalVariable.StatusCode422)
 
+response = WS.sendRequest(findTestObject('AUTH/Login/Login with invalid email'))
+
+WS.verifyResponseStatusCode(response, GlobalVariable.StatusCode422)
+
+response = WS.sendRequest(findTestObject('AUTH/Login/Login with invalid password'))
+
+WS.verifyResponseStatusCode(response, GlobalVariable.StatusCode422)
+
 //with GET method
 response = WS.sendRequest(findTestObject('AUTH/Login/try with Get method'))
 

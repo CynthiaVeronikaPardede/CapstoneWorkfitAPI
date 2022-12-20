@@ -22,23 +22,15 @@ response = WS.sendRequest(findTestObject('AUTH/verify-OTP/Verify OTP with valid 
 
 WS.verifyResponseStatusCode(response, 200)
 
-JsonSlurper slurper = new JsonSlurper()
-
-Map parsedJson = slurper.parseText(response.getResponseText())
-
-String Token = parsedJson.data.access_token
-
-GlobalVariable.globalVar = Token
-
 // null email
 response = WS.sendRequest(findTestObject('AUTH/verify-OTP/verify OTP with null email'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.StatusCode404)
+WS.verifyResponseStatusCode(response, GlobalVariable.statusCode404)
 
 //null OTP
 response = WS.sendRequest(findTestObject('AUTH/verify-OTP/Verify OTP with null OTP'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.StatusCode404)
+WS.verifyResponseStatusCode(response, GlobalVariable.statusCode404)
 
 //invalid email
 response = WS.sendRequest(findTestObject('AUTH/verify-OTP/Verify OTP witih invalid email'))

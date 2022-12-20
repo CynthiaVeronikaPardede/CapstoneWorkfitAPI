@@ -20,38 +20,30 @@ import groovy.json.JsonSlurper as JsonSlurper
 
 response = WS.sendRequest(findTestObject('AUTH/Send-OTP/Send-OTP with valid email'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WS.verifyResponseStatusCode(response, 200)
-
-JsonSlurper slurper = new JsonSlurper()
-
-Map parsedJson = slurper.parseText(response.getResponseText())
-
-String Token = parsedJson.data.access_token
-
-GlobalVariable.globalVar = Token
+WS.verifyResponseStatusCode(response, GlobalVariable.statusCode200)
 
 // send OTP with invalid email
 response = WS.sendRequest(findTestObject('AUTH/Send-OTP/Send-OTP with invalid email'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.statusCode400)
+WS.verifyResponseStatusCode(response, GlobalVariable.statusCode404)
 
 //send OTP with null email
 response = WS.sendRequest(findTestObject('AUTH/Send-OTP/Send-OTP with null email'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.StatusCode422)
+WS.verifyResponseStatusCode(response, GlobalVariable.statusCode404)
 
 //GET method
 response = WS.sendRequest(findTestObject('AUTH/Send-OTP/try with GET method'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.statusCode405)
+WS.verifyResponseStatusCode(response, GlobalVariable.statusCode404)
 
 //PATCH method
 response = WS.sendRequest(findTestObject('AUTH/Send-OTP/try with PATCH method'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.statusCode405)
+WS.verifyResponseStatusCode(response, GlobalVariable.statusCode404)
 
 //PUT method
 response = WS.sendRequest(findTestObject('AUTH/Send-OTP/try with PUT method'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.statusCode405)
+WS.verifyResponseStatusCode(response, GlobalVariable.statusCode404)
 

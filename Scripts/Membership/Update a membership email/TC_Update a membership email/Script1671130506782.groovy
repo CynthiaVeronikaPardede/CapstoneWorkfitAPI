@@ -35,3 +35,7 @@ response = WS.sendRequest(findTestObject('Membership/Update membership/Update wi
 
 WS.verifyResponseStatusCode(response, 200)
 
+response = WS.sendRequest(findTestObject('Membership/Update membership/Update with valid input'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WS.verifyResponseStatusCode(response, GlobalVariable.statusCode405)
+
