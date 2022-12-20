@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SendOTP" time="4.65" tests="1" failures="0" errors="0">
+   <testsuite name="SendOTP" tests="1" failures="0" errors="0" time="4.65" skipped="0" timestamp="2022-12-20 01:12:08" hostname="Asus - DESKTOP-SRK5D1D" id="Test Suites/SendOTP/SendOTP">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\SEMESTER 7\\MBKM\\Capstone Project\\CICD\\API\\Terbaru\\Baru2\\CapstoneWorkfitAPI\\Reports\\20221220_011150\\SendOTP\\SendOTP\\20221220_011150"/>
+         <property name="logFiles" value="E:\\SEMESTER 7\\MBKM\\Capstone Project\\CICD\\API\\Terbaru\\Baru2\\CapstoneWorkfitAPI\\Reports\\20221220_011150\\SendOTP\\SendOTP\\20221220_011150\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Asus - DESKTOP-SRK5D1D"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+      </properties>
+      <testcase name="Test Cases/Auth/TC_sendOTP" time="4.43" classname="Test Cases/Auth/TC_sendOTP" status="PASSED">
+         <system-out><![CDATA[2022-12-20 01:12:08 - [TEST_CASE][PASSED] - Test Cases/Auth/TC_sendOTP: Test Cases/Auth/TC_sendOTP
+
+2022-12-20 01:12:08 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Send-OTP/Send-OTP with valid email"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-20 01:12:10 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221220_011150\SendOTP\SendOTP\20221220_011150\requests\main\0.har
+
+2022-12-20 01:12:10 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-20 01:12:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode200): Verify response status code successfully
+
+2022-12-20 01:12:10 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-20 01:12:10 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Send-OTP/Send-OTP with invalid email")): Send request successfully
+
+2022-12-20 01:12:11 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221220_011150\SendOTP\SendOTP\20221220_011150\requests\main\1.har
+
+2022-12-20 01:12:11 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-20 01:12:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode404): Verify response status code successfully
+
+2022-12-20 01:12:11 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-20 01:12:11 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Send-OTP/Send-OTP with null email")): Send request successfully
+
+2022-12-20 01:12:11 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221220_011150\SendOTP\SendOTP\20221220_011150\requests\main\2.har
+
+2022-12-20 01:12:11 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-20 01:12:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode404): Verify response status code successfully
+
+2022-12-20 01:12:11 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-20 01:12:11 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Send-OTP/try with GET method")): Send request successfully
+
+2022-12-20 01:12:12 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221220_011150\SendOTP\SendOTP\20221220_011150\requests\main\3.har
+
+2022-12-20 01:12:12 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-20 01:12:12 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode404): Verify response status code successfully
+
+2022-12-20 01:12:12 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-20 01:12:12 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Send-OTP/try with PATCH method")): Send request successfully
+
+2022-12-20 01:12:12 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221220_011150\SendOTP\SendOTP\20221220_011150\requests\main\4.har
+
+2022-12-20 01:12:12 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-20 01:12:12 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode404): Verify response status code successfully
+
+2022-12-20 01:12:12 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-20 01:12:12 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Send-OTP/try with PUT method")): Send request successfully
+
+2022-12-20 01:12:12 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221220_011150\SendOTP\SendOTP\20221220_011150\requests\main\5.har
+
+2022-12-20 01:12:12 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-20 01:12:12 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode404): Verify response status code successfully
+
+2022-12-20 01:12:12 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-20 01:12:08 - [TEST_SUITE][PASSED] - SendOTP: Test Cases/Auth/TC_sendOTP]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

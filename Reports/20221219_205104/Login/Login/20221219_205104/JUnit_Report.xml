@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="19.76" tests="1" failures="0" errors="0">
+   <testsuite name="Login" tests="1" failures="0" errors="0" time="19.76" skipped="0" timestamp="2022-12-19 20:51:22" hostname="Asus - DESKTOP-SRK5D1D" id="Test Suites/Login/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\SEMESTER 7\\MBKM\\Capstone Project\\CICD\\API\\Terbaru\\Baru2\\CapstoneWorkfitAPI\\Reports\\20221219_205104\\Login\\Login\\20221219_205104"/>
+         <property name="logFiles" value="E:\\SEMESTER 7\\MBKM\\Capstone Project\\CICD\\API\\Terbaru\\Baru2\\CapstoneWorkfitAPI\\Reports\\20221219_205104\\Login\\Login\\20221219_205104\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Asus - DESKTOP-SRK5D1D"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+      </properties>
+      <testcase name="Test Cases/Auth/TC_login01" time="19.5" classname="Test Cases/Auth/TC_login01" status="PASSED">
+         <system-out><![CDATA[2022-12-19 20:51:22 - [TEST_CASE][PASSED] - Test Cases/Auth/TC_login01: Test Cases/Auth/TC_login01
+
+2022-12-19 20:51:23 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/Login with valid"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-19 20:51:26 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221219_205104\Login\Login\20221219_205104\requests\main\0.har
+
+2022-12-19 20:51:27 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-19 20:51:27 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-12-19 20:51:27 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-19 20:51:27 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-12-19 20:51:27 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(response.getResponseText()): null
+
+2022-12-19 20:51:27 - [TEST_STEP][PASSED] - Token = access_token: null
+
+2022-12-19 20:51:27 - [TEST_STEP][PASSED] - globalVar = Token: null
+
+2022-12-19 20:51:27 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/login with invalid input")): Send request successfully
+
+2022-12-19 20:51:28 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221219_205104\Login\Login\20221219_205104\requests\main\1.har
+
+2022-12-19 20:51:28 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-19 20:51:28 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode400): Verify response status code successfully
+
+2022-12-19 20:51:28 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-19 20:51:28 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/login with null email")): Send request successfully
+
+2022-12-19 20:51:30 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221219_205104\Login\Login\20221219_205104\requests\main\2.har
+
+2022-12-19 20:51:30 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-19 20:51:30 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode422): Verify response status code successfully
+
+2022-12-19 20:51:30 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-19 20:51:30 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/login with null input")): Send request successfully
+
+2022-12-19 20:51:32 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221219_205104\Login\Login\20221219_205104\requests\main\3.har
+
+2022-12-19 20:51:32 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-19 20:51:32 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode422): Verify response status code successfully
+
+2022-12-19 20:51:32 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-19 20:51:32 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/login with null password")): Send request successfully
+
+2022-12-19 20:51:34 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221219_205104\Login\Login\20221219_205104\requests\main\4.har
+
+2022-12-19 20:51:34 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-19 20:51:34 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode422): Verify response status code successfully
+
+2022-12-19 20:51:34 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-19 20:51:34 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/Login with invalid email")): Send request successfully
+
+2022-12-19 20:51:35 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221219_205104\Login\Login\20221219_205104\requests\main\5.har
+
+2022-12-19 20:51:35 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-19 20:51:35 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode422): Verify response status code successfully
+
+2022-12-19 20:51:35 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-19 20:51:35 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/Login with invalid password")): Send request successfully
+
+2022-12-19 20:51:37 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221219_205104\Login\Login\20221219_205104\requests\main\6.har
+
+2022-12-19 20:51:37 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-19 20:51:37 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode422): Verify response status code successfully
+
+2022-12-19 20:51:37 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-19 20:51:37 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/try with Get method")): Send request successfully
+
+2022-12-19 20:51:39 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221219_205104\Login\Login\20221219_205104\requests\main\7.har
+
+2022-12-19 20:51:39 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-19 20:51:39 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-19 20:51:39 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-19 20:51:39 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/try with PUT method")): Send request successfully
+
+2022-12-19 20:51:40 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221219_205104\Login\Login\20221219_205104\requests\main\8.har
+
+2022-12-19 20:51:40 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-19 20:51:40 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-19 20:51:40 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-19 20:51:40 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/tyr with PATCH method")): Send request successfully
+
+2022-12-19 20:51:42 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221219_205104\Login\Login\20221219_205104\requests\main\9.har
+
+2022-12-19 20:51:42 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-19 20:51:42 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-19 20:51:42 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-19 20:51:22 - [TEST_SUITE][PASSED] - Login: Test Cases/Auth/TC_login01]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

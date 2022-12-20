@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SendOTP,,,,2022-12-20 01:12:08,2022-12-20 01:12:12,4.650s,PASSED
+,,,,,,,
+Test Cases/Auth/TC_sendOTP,,,,2022-12-20 01:12:08,2022-12-20 01:12:12,4.430s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Send-OTP/Send-OTP with valid email""), CONTINUE_ON_FAILURE)",,,,2022-12-20 01:12:08,2022-12-20 01:12:10,1.973s,PASSED
+"verifyResponseStatusCode(response, statusCode200)",,,,2022-12-20 01:12:10,2022-12-20 01:12:10,0.381s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Send-OTP/Send-OTP with invalid email""))",,,,2022-12-20 01:12:10,2022-12-20 01:12:11,0.355s,PASSED
+"verifyResponseStatusCode(response, statusCode404)",,,,2022-12-20 01:12:11,2022-12-20 01:12:11,0.003s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Send-OTP/Send-OTP with null email""))",,,,2022-12-20 01:12:11,2022-12-20 01:12:11,0.322s,PASSED
+"verifyResponseStatusCode(response, statusCode404)",,,,2022-12-20 01:12:11,2022-12-20 01:12:11,0.003s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Send-OTP/try with GET method""))",,,,2022-12-20 01:12:11,2022-12-20 01:12:12,0.371s,PASSED
+"verifyResponseStatusCode(response, statusCode404)",,,,2022-12-20 01:12:12,2022-12-20 01:12:12,0.008s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Send-OTP/try with PATCH method""))",,,,2022-12-20 01:12:12,2022-12-20 01:12:12,0.340s,PASSED
+"verifyResponseStatusCode(response, statusCode404)",,,,2022-12-20 01:12:12,2022-12-20 01:12:12,0.005s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Send-OTP/try with PUT method""))",,,,2022-12-20 01:12:12,2022-12-20 01:12:12,0.329s,PASSED
+"verifyResponseStatusCode(response, statusCode404)",,,,2022-12-20 01:12:12,2022-12-20 01:12:12,0.002s,PASSED

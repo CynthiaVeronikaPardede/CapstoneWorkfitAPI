@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register,,,,2022-12-20 00:05:13,2022-12-20 00:05:32,19.138s,PASSED
+,,,,,,,
+Test Cases/Auth/TC_Register,,,,2022-12-20 00:05:14,2022-12-20 00:05:32,18.910s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Register/Register with valid input""), CONTINUE_ON_FAILURE)",,,,2022-12-20 00:05:14,2022-12-20 00:05:17,3.340s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2022-12-20 00:05:17,2022-12-20 00:05:17,0.007s,PASSED
+parsedJson = slurper.parseText(response.getResponseText()),,,,2022-12-20 00:05:17,2022-12-20 00:05:17,0.016s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Register/Register with invalid input""))",,,,2022-12-20 00:05:17,2022-12-20 00:05:19,1.695s,PASSED
+"verifyResponseStatusCode(response, StatusCode422)",,,,2022-12-20 00:05:19,2022-12-20 00:05:19,0.260s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Register/Register with null all""))",,,,2022-12-20 00:05:19,2022-12-20 00:05:21,1.434s,PASSED
+"verifyResponseStatusCode(response, StatusCode422)",,,,2022-12-20 00:05:21,2022-12-20 00:05:21,0.004s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Register/Register with null email""))",,,,2022-12-20 00:05:21,2022-12-20 00:05:22,1.469s,PASSED
+"verifyResponseStatusCode(response, StatusCode422)",,,,2022-12-20 00:05:22,2022-12-20 00:05:22,0.003s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Register/Register with null fullname""))",,,,2022-12-20 00:05:22,2022-12-20 00:05:24,1.421s,PASSED
+"verifyResponseStatusCode(response, statusCode400)",,,,2022-12-20 00:05:24,2022-12-20 00:05:24,0.003s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Register/Register with null lastname""))",,,,2022-12-20 00:05:24,2022-12-20 00:05:25,1.435s,PASSED
+"verifyResponseStatusCode(response, StatusCode422)",,,,2022-12-20 00:05:25,2022-12-20 00:05:25,0.004s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Register/Register with null password""))",,,,2022-12-20 00:05:25,2022-12-20 00:05:26,1.423s,PASSED
+"verifyResponseStatusCode(response, statusCode400)",,,,2022-12-20 00:05:26,2022-12-20 00:05:26,0.003s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Register/Register with null phonenumber""))",,,,2022-12-20 00:05:26,2022-12-20 00:05:28,1.632s,PASSED
+"verifyResponseStatusCode(response, StatusCode422)",,,,2022-12-20 00:05:28,2022-12-20 00:05:28,0.002s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Register/try with GET method""))",,,,2022-12-20 00:05:28,2022-12-20 00:05:29,1.427s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-20 00:05:29,2022-12-20 00:05:29,0.003s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Register/try with PATCH method""))",,,,2022-12-20 00:05:29,2022-12-20 00:05:31,1.415s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-20 00:05:31,2022-12-20 00:05:31,0.002s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Register/try with PUT method""))",,,,2022-12-20 00:05:31,2022-12-20 00:05:32,1.551s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-20 00:05:32,2022-12-20 00:05:32,0.002s,PASSED

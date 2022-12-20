@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register" time="19.138" tests="1" failures="0" errors="0">
+   <testsuite name="Register" tests="1" failures="0" errors="0" time="19.138" skipped="0" timestamp="2022-12-20 00:05:13" hostname="Asus - DESKTOP-SRK5D1D" id="Test Suites/Register/Register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\SEMESTER 7\\MBKM\\Capstone Project\\CICD\\API\\Terbaru\\Baru2\\CapstoneWorkfitAPI\\Reports\\20221220_000506\\Register\\Register\\20221220_000506"/>
+         <property name="logFiles" value="E:\\SEMESTER 7\\MBKM\\Capstone Project\\CICD\\API\\Terbaru\\Baru2\\CapstoneWorkfitAPI\\Reports\\20221220_000506\\Register\\Register\\20221220_000506\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Asus - DESKTOP-SRK5D1D"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+      </properties>
+      <testcase name="Test Cases/Auth/TC_Register" time="18.91" classname="Test Cases/Auth/TC_Register" status="PASSED">
+         <system-out><![CDATA[2022-12-20 00:05:14 - [TEST_CASE][PASSED] - Test Cases/Auth/TC_Register: Test Cases/Auth/TC_Register
+
+2022-12-20 00:05:14 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Register/Register with valid input"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-20 00:05:17 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221220_000506\Register\Register\20221220_000506\requests\main\0.har
+
+2022-12-20 00:05:17 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-20 00:05:17 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-12-20 00:05:17 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(response.getResponseText()): null
+
+2022-12-20 00:05:17 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Register/Register with invalid input")): Send request successfully
+
+2022-12-20 00:05:19 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221220_000506\Register\Register\20221220_000506\requests\main\1.har
+
+2022-12-20 00:05:19 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-20 00:05:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode422): Verify response status code successfully
+
+2022-12-20 00:05:19 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-20 00:05:19 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Register/Register with null all")): Send request successfully
+
+2022-12-20 00:05:21 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221220_000506\Register\Register\20221220_000506\requests\main\2.har
+
+2022-12-20 00:05:21 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-20 00:05:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode422): Verify response status code successfully
+
+2022-12-20 00:05:21 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-20 00:05:21 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Register/Register with null email")): Send request successfully
+
+2022-12-20 00:05:22 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221220_000506\Register\Register\20221220_000506\requests\main\3.har
+
+2022-12-20 00:05:22 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-20 00:05:22 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode422): Verify response status code successfully
+
+2022-12-20 00:05:22 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-20 00:05:22 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Register/Register with null fullname")): Send request successfully
+
+2022-12-20 00:05:24 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221220_000506\Register\Register\20221220_000506\requests\main\4.har
+
+2022-12-20 00:05:24 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-20 00:05:24 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode400): Verify response status code successfully
+
+2022-12-20 00:05:24 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-20 00:05:24 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Register/Register with null lastname")): Send request successfully
+
+2022-12-20 00:05:25 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221220_000506\Register\Register\20221220_000506\requests\main\5.har
+
+2022-12-20 00:05:25 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-20 00:05:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode422): Verify response status code successfully
+
+2022-12-20 00:05:25 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-20 00:05:25 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Register/Register with null password")): Send request successfully
+
+2022-12-20 00:05:26 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221220_000506\Register\Register\20221220_000506\requests\main\6.har
+
+2022-12-20 00:05:26 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-20 00:05:26 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode400): Verify response status code successfully
+
+2022-12-20 00:05:26 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-20 00:05:26 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Register/Register with null phonenumber")): Send request successfully
+
+2022-12-20 00:05:28 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221220_000506\Register\Register\20221220_000506\requests\main\7.har
+
+2022-12-20 00:05:28 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-20 00:05:28 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode422): Verify response status code successfully
+
+2022-12-20 00:05:28 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-20 00:05:28 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Register/try with GET method")): Send request successfully
+
+2022-12-20 00:05:29 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221220_000506\Register\Register\20221220_000506\requests\main\8.har
+
+2022-12-20 00:05:29 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-20 00:05:29 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-20 00:05:29 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-20 00:05:29 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Register/try with PATCH method")): Send request successfully
+
+2022-12-20 00:05:31 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221220_000506\Register\Register\20221220_000506\requests\main\9.har
+
+2022-12-20 00:05:31 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-20 00:05:31 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-20 00:05:31 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-20 00:05:31 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Register/try with PUT method")): Send request successfully
+
+2022-12-20 00:05:32 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221220_000506\Register\Register\20221220_000506\requests\main\10.har
+
+2022-12-20 00:05:32 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-20 00:05:32 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-20 00:05:32 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-20 00:05:13 - [TEST_SUITE][PASSED] - Register: Test Cases/Auth/TC_Register]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

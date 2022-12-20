@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,,,,2022-12-19 20:51:22,2022-12-19 20:51:42,19.760s,PASSED
+,,,,,,,
+Test Cases/Auth/TC_login01,,,,2022-12-19 20:51:22,2022-12-19 20:51:42,19.500s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/Login with valid""), CONTINUE_ON_FAILURE)",,,,2022-12-19 20:51:23,2022-12-19 20:51:27,3.671s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-12-19 20:51:27,2022-12-19 20:51:27,0.013s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2022-12-19 20:51:27,2022-12-19 20:51:27,0.007s,PASSED
+parsedJson = slurper.parseText(response.getResponseText()),,,,2022-12-19 20:51:27,2022-12-19 20:51:27,0.030s,PASSED
+Token = access_token,,,,2022-12-19 20:51:27,2022-12-19 20:51:27,0.009s,PASSED
+globalVar = Token,,,,2022-12-19 20:51:27,2022-12-19 20:51:27,0.000s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/login with invalid input""))",,,,2022-12-19 20:51:27,2022-12-19 20:51:28,1.754s,PASSED
+"verifyResponseStatusCode(response, statusCode400)",,,,2022-12-19 20:51:28,2022-12-19 20:51:28,0.003s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/login with null email""))",,,,2022-12-19 20:51:28,2022-12-19 20:51:30,1.891s,PASSED
+"verifyResponseStatusCode(response, StatusCode422)",,,,2022-12-19 20:51:30,2022-12-19 20:51:30,0.003s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/login with null input""))",,,,2022-12-19 20:51:30,2022-12-19 20:51:32,1.723s,PASSED
+"verifyResponseStatusCode(response, StatusCode422)",,,,2022-12-19 20:51:32,2022-12-19 20:51:32,0.002s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/login with null password""))",,,,2022-12-19 20:51:32,2022-12-19 20:51:34,1.695s,PASSED
+"verifyResponseStatusCode(response, StatusCode422)",,,,2022-12-19 20:51:34,2022-12-19 20:51:34,0.003s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/Login with invalid email""))",,,,2022-12-19 20:51:34,2022-12-19 20:51:35,1.672s,PASSED
+"verifyResponseStatusCode(response, StatusCode422)",,,,2022-12-19 20:51:35,2022-12-19 20:51:35,0.002s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/Login with invalid password""))",,,,2022-12-19 20:51:35,2022-12-19 20:51:37,1.572s,PASSED
+"verifyResponseStatusCode(response, StatusCode422)",,,,2022-12-19 20:51:37,2022-12-19 20:51:37,0.003s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/try with Get method""))",,,,2022-12-19 20:51:37,2022-12-19 20:51:39,1.738s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-19 20:51:39,2022-12-19 20:51:39,0.003s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/try with PUT method""))",,,,2022-12-19 20:51:39,2022-12-19 20:51:40,1.474s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-19 20:51:40,2022-12-19 20:51:40,0.003s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/tyr with PATCH method""))",,,,2022-12-19 20:51:40,2022-12-19 20:51:42,1.805s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-19 20:51:42,2022-12-19 20:51:42,0.003s,PASSED
