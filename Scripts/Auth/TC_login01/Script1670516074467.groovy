@@ -22,18 +22,10 @@ response = WS.sendRequest(findTestObject('AUTH/Login/Login with valid'), Failure
 
 WS.verifyResponseStatusCode(response, 200)
 
-JsonSlurper slurper = new JsonSlurper()
-
-Map parsedJson = slurper.parseText(response.getResponseText())
-
-String Token = parsedJson.data.access_token
-
-GlobalVariable.globalVar = Token
-
 // hit endpoint workout
 response = WS.sendRequest(findTestObject('AUTH/Login/login with invalid input'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.statusCode200)
+WS.verifyResponseStatusCode(response, GlobalVariable.statusCode400)
 
 //login with invalid input
 response = WS.sendRequest(findTestObject('AUTH/Login/login with null email'))
