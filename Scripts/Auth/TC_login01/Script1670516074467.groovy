@@ -33,7 +33,7 @@ GlobalVariable.globalVar = Token
 // hit endpoint workout
 response = WS.sendRequest(findTestObject('AUTH/Login/login with invalid input'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.statusCode400)
+WS.verifyResponseStatusCode(response, GlobalVariable.statusCode200)
 
 //login with invalid input
 response = WS.sendRequest(findTestObject('AUTH/Login/login with null email'))
