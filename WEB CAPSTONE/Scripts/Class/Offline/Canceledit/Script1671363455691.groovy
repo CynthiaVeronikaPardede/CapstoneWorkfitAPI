@@ -19,7 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://fe-react-git-dev-capstone-6.vercel.app/login')
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('https://fe-react-o3tcnp4lu-capstone-6.vercel.app/')
+
+WebUI.click(findTestObject('Object Repository/Page_WorkFit/a_Login'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Login Page - WorkFit/input_Email_email'), 'qe1@gmail.com')
 
@@ -32,6 +36,9 @@ WebUI.click(findTestObject('Object Repository/Page_Dashboard - WorkFit/span_Clas
 WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/i_Yoga_fi fi-br-menu-dots-vertical'))
 
 WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/button_Edit'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/textarea_Plank for offline classes updated'),
+	'classes updated')
 
 WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/button_Cancel'))
 

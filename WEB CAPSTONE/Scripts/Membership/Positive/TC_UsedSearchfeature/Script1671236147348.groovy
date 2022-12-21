@@ -19,7 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://fe-react-git-dev-capstone-6.vercel.app/login')
+WebUI.navigateToUrl('https://fe-react-o3tcnp4lu-capstone-6.vercel.app/')
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('Object Repository/Page_WorkFit/a_Login'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Login Page - WorkFit/input_Email_email'), 'qe1@gmail.com')
 
@@ -29,10 +33,14 @@ WebUI.click(findTestObject('Object Repository/Page_Login Page - WorkFit/button_S
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard - WorkFit/span_Membership'))
 
+WebUI.click(findTestObject('Object Repository/Page_Manage Membership - WorkFit/div_Membership'))
+
+WebUI.click(findTestObject('Object Repository/Page_Manage Membership - WorkFit/input_Manage Membership_block w-full rounde_92623c'))
+
 WebUI.setText(findTestObject('Object Repository/Page_Manage Membership - WorkFit/input_Manage Membership_block w-full rounde_92623c'), 
-    'romas')
+    'gajan')
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Membership - WorkFit/div_Romas Donasroma1234gmail.com08123456767_193bbe'))
+WebUI.click(findTestObject('Object Repository/Page_Manage Membership - WorkFit/div_gajanaan wjejemsmsksaarjuki123gmail.com_486e78'))
 
-WebUI.acceptAlert()
+WebUI.closeBrowser()
 

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Push upPush UpRp 250.000Angeline Oneang_9cc935</name>
+   <tag></tag>
+   <elementGuidId>431a6836-1bf9-413d-a672-4e661eb1cc63</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div[7]/div/div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e8fbd213-50c9-4248-a256-8afb18d71e37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex flex-col px-5 md:flex-row md:items-center</value>
+      <webElementGuid>9347e340-8e95-446e-a2d5-c0aa11c8db32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Push upPush UpRp 250.000Angeline Oneangelinee.feliciaa@...Active</value>
+      <webElementGuid>a7d20db5-da16-4345-9f03-5e303baad978</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 md:pl-52 lg:pl-52&quot;]/div[@class=&quot;container mx-auto px-6&quot;]/div[2]/div[@class=&quot;mb-6 grid grid-cols-1 gap-3 pt-36 md:grid-cols-2 md:gap-6 xl:grid-cols-2 2xl:grid-cols-3&quot;]/div[7]/div[@class=&quot;relative rounded-20 border bg-white py-4 shadow-4&quot;]/div[@class=&quot;flex flex-col px-5 md:flex-row md:items-center&quot;]</value>
+      <webElementGuid>3dac3da6-8305-471e-a37b-812d0d1f550a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div[7]/div/div[3]</value>
+      <webElementGuid>73c0959d-13db-47f5-ac23-d281987e8eef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PENDING'])[7]/following::div[2]</value>
+      <webElementGuid>635e501c-3352-46f9-b2d6-3246b9ad9ed8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[6]/following::div[7]</value>
+      <webElementGuid>7d514eab-c0d3-4e06-a9cd-920d9c8f3209</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div[3]</value>
+      <webElementGuid>dfa8ef76-eb5c-42e2-9c50-3e2e6c460a18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Push upPush UpRp 250.000Angeline Oneangelinee.feliciaa@...Active' or . = 'Push upPush UpRp 250.000Angeline Oneangelinee.feliciaa@...Active')]</value>
+      <webElementGuid>bdc999f4-5018-4487-9faa-be12af6628dc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

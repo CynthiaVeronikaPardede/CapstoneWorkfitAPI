@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_20 Des 2022 (19.37) - 19 Jan 2023 (19.3_81ad0f</name>
+   <tag></tag>
+   <elementGuidId>bd6b91ee-5031-4e8f-8e9f-83426749074c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c2645073-6732-43d4-9c42-59a2034b5c33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative rounded-20 border bg-white py-4 shadow-4</value>
+      <webElementGuid>736251ed-6421-4b6a-b7e0-fbbeaf486a26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>20 Des 2022 (19.37) - 19 Jan 2023 (19.37)PENDINGPlankPlankRp 200.000Batara Aryaaryabatara17@gmail....Active</value>
+      <webElementGuid>19ce7a91-51a3-4faa-99aa-1ff1f89a40fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 md:pl-52 lg:pl-52&quot;]/div[@class=&quot;container mx-auto px-6&quot;]/div[2]/div[@class=&quot;mb-6 grid grid-cols-1 gap-3 pt-36 md:grid-cols-2 md:gap-6 xl:grid-cols-2 2xl:grid-cols-3&quot;]/div[2]/div[@class=&quot;relative rounded-20 border bg-white py-4 shadow-4&quot;]</value>
+      <webElementGuid>e511b121-32e7-4de1-9452-5655ccdb0d7b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div[2]/div</value>
+      <webElementGuid>dc7be8c0-78a8-4a51-a2c8-725e3578ee19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[1]/following::div[2]</value>
+      <webElementGuid>401a5e71-7e54-4222-9d13-82ff9a51fa3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Push up'])[1]/following::div[14]</value>
+      <webElementGuid>9c8d67b4-4704-489e-b4a8-6208e01b7696</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div</value>
+      <webElementGuid>27fdc597-16af-4b7e-9740-d4f8be60f291</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '20 Des 2022 (19.37) - 19 Jan 2023 (19.37)PENDINGPlankPlankRp 200.000Batara Aryaaryabatara17@gmail....Active' or . = '20 Des 2022 (19.37) - 19 Jan 2023 (19.37)PENDINGPlankPlankRp 200.000Batara Aryaaryabatara17@gmail....Active')]</value>
+      <webElementGuid>d3364b9c-d3a2-41a5-b66c-f86a96d0e59f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

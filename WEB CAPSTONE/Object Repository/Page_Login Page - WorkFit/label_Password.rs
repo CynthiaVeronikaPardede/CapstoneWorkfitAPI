@@ -6,16 +6,56 @@
    <elementGuidId>1cb55576-60d7-4952-b1e7-eb146fce42ec</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div/div/div/form/div[2]/label</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div/form/div[2]/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>6214c78b-e206-4694-bdcb-04779172ab26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>90227ecb-ef5c-4829-881d-54a57e5efec8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-2 block text-sm font-medium text-gray-900</value>
+      <webElementGuid>6755ad54-4ef2-4c49-8b39-280ac5c63590</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Password</value>
+      <webElementGuid>84845b35-8f50-4b4b-b7a5-ae6a2f4a86e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;z-[3] max-h-full w-full bg-cover bg-no-repeat md:fixed md:h-screen&quot;]/div[@class=&quot;container z-[1] overflow-y-auto py-5&quot;]/div[@class=&quot;inset-x-5 mx-auto&quot;]/div[@class=&quot;lg:m-auto&quot;]/div[@class=&quot;border-1 bg-neutral rounded-20 border-gray-200 bg-neutral-background bg-opacity-80 p-4 shadow-6 backdrop-blur-sm md:rounded-100 md:bg-opacity-90 md:p-3 lg:mx-auto lg:w-2/4&quot;]/form[@class=&quot;mx-auto mt-1 w-full lg:mt-2 lg:w-2/4&quot;]/div[@class=&quot;mb-3 lg:mb-4&quot;]/label[@class=&quot;mb-2 block text-sm font-medium text-gray-900&quot;]</value>
+      <webElementGuid>7ff70f4a-ecd1-40ff-b682-41aae2c25895</webElementGuid>
+   </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -41,7 +81,7 @@
       <webElementGuid>77162706-39d1-4631-9c6a-137a4e1a3d4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -142,7 +182,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div/div/div/form/div[2]/label</value>
-      <webElementGuid>a663a18b-36ca-4440-8fe7-3f0972ef2272</webElementGuid>
+      <webElementGuid>4386b7bd-fc15-4561-aec5-309966d66175</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +190,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::label[1]</value>
-      <webElementGuid>65446600-cc85-4edb-9fe5-5fc06b819ac7</webElementGuid>
+      <webElementGuid>5f104605-3159-4059-af37-4f87e4e7466d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,7 +198,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome Back Admin!'])[1]/following::label[2]</value>
-      <webElementGuid>dd2444f5-f528-4a72-ba76-9701a57c9c5f</webElementGuid>
+      <webElementGuid>e223ffdf-e0ed-4035-83c3-6bac1fae4b5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -166,7 +206,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign In'])[1]/preceding::label[1]</value>
-      <webElementGuid>6eb9e336-e74e-4858-b527-d59b9cfba4e1</webElementGuid>
+      <webElementGuid>3d8377bf-9785-406f-97f2-b05332d454d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -174,7 +214,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright @ 2022 WorkFit.'])[1]/preceding::label[1]</value>
-      <webElementGuid>11dad306-cb7c-48e8-bee5-ade5bf1d5061</webElementGuid>
+      <webElementGuid>3708b40b-41c2-417c-8e80-6251d8e95d8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -182,7 +222,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Password']/parent::*</value>
-      <webElementGuid>8230928b-1aa1-4df5-b33b-1134555c9c81</webElementGuid>
+      <webElementGuid>af24d91f-5ff4-4683-a691-028d96dcd4d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -190,7 +230,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/label</value>
-      <webElementGuid>30f1cf18-50d3-4cb3-bcca-50fbd759a18a</webElementGuid>
+      <webElementGuid>36c7301e-e5d8-478d-8a90-09054f010ad4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -198,6 +238,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Password' or . = 'Password')]</value>
-      <webElementGuid>a4febafe-8604-4fd6-ad94-56bc2ffdfed4</webElementGuid>
+      <webElementGuid>fecd9b34-c697-49c9-9b27-2cfa9da99e0f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

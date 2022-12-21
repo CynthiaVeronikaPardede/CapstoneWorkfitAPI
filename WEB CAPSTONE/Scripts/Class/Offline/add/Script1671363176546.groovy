@@ -19,7 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://fe-react-git-dev-capstone-6.vercel.app/login')
+WebUI.navigateToUrl('https://fe-react-o3tcnp4lu-capstone-6.vercel.app/')
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('Object Repository/Page_WorkFit/a_Login'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Login Page - WorkFit/input_Email_email'), 'qe1@gmail.com')
 
@@ -29,32 +33,32 @@ WebUI.click(findTestObject('Object Repository/Page_Login Page - WorkFit/button_S
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard - WorkFit/span_Classes'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/i_Online_fi fi-rr-plus-small mr-1 mt-1 text_857d4a'))
+WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/div_Classes'))
+
+WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/button_Add New'))
 
 WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/div_Select workout category_css-ackcql'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/div_Yoga'))
+WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/div_Zumba'))
 
 WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/div_Select instructure_css-ackcql'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/div_Mane'))
+WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/div_Kamala'))
 
 WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/div_Select schedule_css-ackcql'))
 
 WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/div_Wednesday'))
 
+WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/label_Price'))
+
 WebUI.setText(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/input_Wednesday (1300 - 1500)_price'), 
-    '983')
+    '1234')
 
-WebUI.setText(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/textarea_Price_description'), 'Testing')
-
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/button_Save'))
-
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/button_OK'))
+WebUI.setText(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/textarea_Price_description'), 'test')
 
 WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/div_Add New Offline ClassesYogaManeWednesda_2f4a1b'))
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/h2_Sorry'), 'Sorry')
 
 WebUI.closeBrowser()
 

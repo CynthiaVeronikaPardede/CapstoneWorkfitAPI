@@ -19,7 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://fe-react-git-dev-capstone-6.vercel.app/login')
+WebUI.navigateToUrl('https://fe-react-o3tcnp4lu-capstone-6.vercel.app/')
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('Object Repository/Page_WorkFit/a_Login'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Login Page - WorkFit/input_Email_email'), 'qe1@gmail.com')
 
@@ -27,21 +31,19 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login Page - WorkF
 
 WebUI.click(findTestObject('Object Repository/Page_Login Page - WorkFit/button_Sign In'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard - WorkFit/span_Article'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard - WorkFit/div_Article'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Article - WorkFit/i_Add New_fi fi-br-menu-dots-vertical'))
-
-WebUI.click(findTestObject('Object Repository/Page_Manage Article - WorkFit/div_Add New_pointer-events-auto fixed inset_3277f7'))
-
-WebUI.click(findTestObject('Object Repository/Page_Manage Article - WorkFit/i_Add New_fi fi-br-menu-dots-vertical'))
+WebUI.click(findTestObject('Object Repository/Page_Manage Article - WorkFit/button_Add New_absolute right-0 top-0 curso_ac71ed'))
 
 WebUI.click(findTestObject('Object Repository/Page_Manage Article - WorkFit/button_Edit'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Manage Article - WorkFit/textarea_Tutorial 1'), 'Tutorial 1 rredit')
+WebUI.click(findTestObject('Object Repository/Page_Manage Article - WorkFit/input_Edit Article_title'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Manage Article - WorkFit/textarea_Testing updated'), 'Testing updated edit test')
 
 WebUI.click(findTestObject('Object Repository/Page_Manage Article - WorkFit/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Article - WorkFit/h2_Update'))
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Manage Article - WorkFit/h2_Update'), 'Updated')
 
 WebUI.closeBrowser()
 

@@ -19,7 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://fe-react-git-dev-capstone-6.vercel.app/login')
+WebUI.navigateToUrl('https://fe-react-o3tcnp4lu-capstone-6.vercel.app/')
+
+WebUI.click(findTestObject('Object Repository/Page_WorkFit/a_Login'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Login Page - WorkFit/input_Email_email'), 'qe1@gmail.com')
 
@@ -27,14 +29,15 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login Page - WorkF
 
 WebUI.click(findTestObject('Object Repository/Page_Login Page - WorkFit/button_Sign In'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard - WorkFit/span_Classes'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard - WorkFit/div_Article'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/div_Online'))
+WebUI.setText(findTestObject('Object Repository/Page_Manage Article - WorkFit/input_Manage Article_block w-full rounded-l_8014e5'), 
+    'NOTHING')
 
-WebUI.setText(findTestObject('Object Repository/Page_Manage Online Classes - WorkFit/input_Online_block w-full rounded-lg border_6968a0'), 
-    'coba')
+WebUI.click(findTestObject('Object Repository/Page_Manage Article - WorkFit/div_Data article not found'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Online Classes - WorkFit/div_Coba ajaCoba ajaYogaRp 10.000coba aja'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Manage Article - WorkFit/div_Data article not found'), 
+    0)
 
 WebUI.closeBrowser()
 

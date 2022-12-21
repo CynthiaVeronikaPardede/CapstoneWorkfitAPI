@@ -19,25 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://fe-react-git-dev-capstone-6.vercel.app/login')
+WebUI.navigateToUrl('https://fe-react-o3tcnp4lu-capstone-6.vercel.app/')
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('Object Repository/Page_WorkFit/a_Login'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Login Page - WorkFit/input_Email_email'), 'qe1@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login Page - WorkFit/input_Password_password'), 'PzcU1FTwvrz2Y2eY7/dWBg==')
 
-WebUI.doubleClick(findTestObject('Object Repository/Page_Dashboard - WorkFit/span_Booking'))
+WebUI.click(findTestObject('Object Repository/Page_Login Page - WorkFit/button_Sign In'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/i_Yoga_fi fi-br-menu-dots-vertical'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard - WorkFit/div_Booking'))
+
+WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/i_PAID_fi fi-br-menu-dots-vertical'))
 
 WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/button_Edit'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/div_Editss - Mane_css-ackcql'))
+WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/div_Plank - Mane Mane Mane_css-ackcql'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/svg_Editss - Mane_css-8mmkcg'))
-
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/svg_Editss - Mane_css-8mmkcg'))
-
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/div_Editss - Mane'))
+WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/div_Plank - Mane Mane Mane'))
 
 WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/button_Save'))
 

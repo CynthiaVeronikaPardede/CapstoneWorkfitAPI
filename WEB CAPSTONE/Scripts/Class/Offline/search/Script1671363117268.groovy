@@ -19,9 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://fe-react-git-dev-capstone-6.vercel.app/login')
+WebUI.navigateToUrl('https://fe-react-o3tcnp4lu-capstone-6.vercel.app/')
 
-WebUI.click(findTestObject('Object Repository/Page_Login Page - WorkFit/input_Email_email'))
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('Object Repository/Page_WorkFit/a_Login'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Login Page - WorkFit/input_Email_email'), 'qe1@gmail.com')
 
@@ -29,14 +31,23 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login Page - WorkF
 
 WebUI.click(findTestObject('Object Repository/Page_Login Page - WorkFit/button_Sign In'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard - WorkFit/span_Classes'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard - WorkFit/div_Classes'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/span_Offline'))
+WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/div_EditRp 150.000Sunday (0900 - 1100)Wedne_e5d352'))
+
+WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/div_PlankRp 111Wednesday (1300 - 1500)Mane _885bfe'))
+
+WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/img_Sunday (0900 - 1100)_absolute inset-0 h_a6d7ed'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/input_Online_block w-full rounded-lg border_6968a0'), 
-    'mane')
+    'Mane')
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/img_Yoga_absolute inset-0 h-full w-full rou_26285e'))
+WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/div_PlankRp 111Wednesday (1300 - 1500)Mane _885bfe'))
+
+WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/div_Pull UpRp 24.000Sunday (0900 - 1100)Wed_860b0f'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/div_Pull UpRp 24.000Sunday (0900 - 1100)Wed_1810b7'), 
+    0)
 
 WebUI.closeBrowser()
 

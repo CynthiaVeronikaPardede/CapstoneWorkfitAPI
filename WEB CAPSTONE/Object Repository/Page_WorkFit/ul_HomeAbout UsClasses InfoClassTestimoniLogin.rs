@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ul_HomeAbout UsClasses InfoClassTestimoniLogin</name>
+   <tag></tag>
+   <elementGuidId>70ee8b62-df27-4106-971e-e2c1dee5d066</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navbar-default']/ul</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ul</value>
+      <webElementGuid>71175f58-0e6c-46fa-859e-a7df2522e787</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mt-4 flex flex-col rounded-lg bg-white p-4 font-medium lg:mt-0 lg:flex-row lg:space-x-8 lg:border-0 lg:bg-white lg:text-sm lg:font-medium</value>
+      <webElementGuid>93dcaf4e-6904-465d-87eb-6f829569200f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>HomeAbout UsClasses InfoClassTestimoniLogin</value>
+      <webElementGuid>7a360b01-fba0-4e92-a42c-50141ee99032</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbar-default&quot;)/ul[@class=&quot;mt-4 flex flex-col rounded-lg bg-white p-4 font-medium lg:mt-0 lg:flex-row lg:space-x-8 lg:border-0 lg:bg-white lg:text-sm lg:font-medium&quot;]</value>
+      <webElementGuid>28cdd7e7-db6b-41d8-bbcf-ace02e1f94d2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navbar-default']/ul</value>
+      <webElementGuid>135363c2-624d-49d2-a089-8aef9a030556</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Open main menu'])[1]/following::ul[1]</value>
+      <webElementGuid>309b8704-f7c6-41c3-b32a-574f1e882793</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fit.'])[1]/following::ul[1]</value>
+      <webElementGuid>4d091d24-c584-4525-941c-10bc21d3f6d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul</value>
+      <webElementGuid>cfcd113b-7131-4427-ba2e-fd1d0f4cb32b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ul[(text() = 'HomeAbout UsClasses InfoClassTestimoniLogin' or . = 'HomeAbout UsClasses InfoClassTestimoniLogin')]</value>
+      <webElementGuid>d051c4a6-e66a-4125-b594-618556bffe6a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

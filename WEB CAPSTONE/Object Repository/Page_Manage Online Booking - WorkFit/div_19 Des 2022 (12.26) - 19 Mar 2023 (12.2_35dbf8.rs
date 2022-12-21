@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_19 Des 2022 (12.26) - 19 Mar 2023 (12.2_35dbf8</name>
+   <tag></tag>
+   <elementGuidId>cfabcf14-79ae-4b61-897c-bc927c017841</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.relative.rounded-20.border.bg-white.py-4.shadow-4</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d609fd9a-ee27-44b6-81b5-8e16300755c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative rounded-20 border bg-white py-4 shadow-4</value>
+      <webElementGuid>5829cabd-4c51-4cff-af7d-a30ce15eb119</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>19 Des 2022 (12.26) - 19 Mar 2023 (12.26)PENDINGPush upPush UpRp 250.000Batara Senaqe2@gmail.comActive</value>
+      <webElementGuid>3417a371-4255-491e-8b5a-23bd5d339489</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 md:pl-52 lg:pl-52&quot;]/div[@class=&quot;container mx-auto px-6&quot;]/div[2]/div[@class=&quot;mb-6 grid grid-cols-1 gap-3 pt-36 md:grid-cols-2 md:gap-6 xl:grid-cols-2 2xl:grid-cols-3&quot;]/div[1]/div[@class=&quot;relative rounded-20 border bg-white py-4 shadow-4&quot;]</value>
+      <webElementGuid>a8efcbc9-636a-4d45-867b-bb4d210951c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>56424676-ac8a-4dba-a52b-73262cd3ccfe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative rounded-20 border bg-white py-4 shadow-4</value>
+      <webElementGuid>79d961e3-a75d-4b1b-b44e-3ae710d977d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>19 Des 2022 (12.26) - 19 Mar 2023 (12.26)PENDINGPush upPush UpRp 250.000Batara Senaqe2@gmail.comActive</value>
+      <webElementGuid>da17f6fe-8a41-4338-a06e-2b0bcdd820bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 md:pl-52 lg:pl-52&quot;]/div[@class=&quot;container mx-auto px-6&quot;]/div[2]/div[@class=&quot;mb-6 grid grid-cols-1 gap-3 pt-36 md:grid-cols-2 md:gap-6 xl:grid-cols-2 2xl:grid-cols-3&quot;]/div[1]/div[@class=&quot;relative rounded-20 border bg-white py-4 shadow-4&quot;]</value>
+      <webElementGuid>c17c463d-0edb-4746-9f76-d90dd38499bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0df868b4-0991-4f7c-9389-240b3c595cd4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative rounded-20 border bg-white py-4 shadow-4</value>
+      <webElementGuid>95aa5a13-76d9-492c-b7c4-7059f2512ccd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>19 Des 2022 (12.26) - 19 Mar 2023 (12.26)PENDINGPush upPush UpRp 250.000Batara Senaqe2@gmail.comActive</value>
+      <webElementGuid>911a07ff-0eb9-4681-bf29-1577a0e6e7e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 md:pl-52 lg:pl-52&quot;]/div[@class=&quot;container mx-auto px-6&quot;]/div[2]/div[@class=&quot;mb-6 grid grid-cols-1 gap-3 pt-36 md:grid-cols-2 md:gap-6 xl:grid-cols-2 2xl:grid-cols-3&quot;]/div[1]/div[@class=&quot;relative rounded-20 border bg-white py-4 shadow-4&quot;]</value>
+      <webElementGuid>69ae9a45-7891-4d52-9376-a1dbf912cd10</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div</value>
+      <webElementGuid>aef00682-f9d6-4f83-9b44-8382c58c21d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Plank'])[1]/following::div[4]</value>
+      <webElementGuid>acd78483-24cf-4f7b-8f7f-ebfa5e629042</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AddNewd'])[1]/following::div[4]</value>
+      <webElementGuid>1219e140-f804-4512-aaea-2828528189ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div</value>
+      <webElementGuid>cd9e69e9-2315-40cc-8d13-dbb68c97c23d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '19 Des 2022 (12.26) - 19 Mar 2023 (12.26)PENDINGPush upPush UpRp 250.000Batara Senaqe2@gmail.comActive' or . = '19 Des 2022 (12.26) - 19 Mar 2023 (12.26)PENDINGPush upPush UpRp 250.000Batara Senaqe2@gmail.comActive')]</value>
+      <webElementGuid>e42c54e8-6cbd-45ee-9155-3ab7e582148b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

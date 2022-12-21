@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_20 Des 2022 (20.32) - 19 Jan 2023 (20.3_ba3455</name>
+   <tag></tag>
+   <elementGuidId>a68ab900-504a-44f4-b63d-8cacb33a1455</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div[7]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>db3bf7b6-a873-41ce-978d-fd0c889ee74d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative rounded-20 border bg-white py-4 shadow-4</value>
+      <webElementGuid>5d57193f-b1a1-4d52-a0a3-39233570ab49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>20 Des 2022 (20.32) - 19 Jan 2023 (20.32)PENDINGPush upPush UpRp 250.000Angeline Oneangelinee.feliciaa@...Active</value>
+      <webElementGuid>481510cf-2e35-4867-bdb6-5b091d2caf08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 md:pl-52 lg:pl-52&quot;]/div[@class=&quot;container mx-auto px-6&quot;]/div[2]/div[@class=&quot;mb-6 grid grid-cols-1 gap-3 pt-36 md:grid-cols-2 md:gap-6 xl:grid-cols-2 2xl:grid-cols-3&quot;]/div[7]/div[@class=&quot;relative rounded-20 border bg-white py-4 shadow-4&quot;]</value>
+      <webElementGuid>c5e98d19-d217-45e2-9c01-9bf8f98bf1d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>91706fa6-2f42-4025-b4e0-3535c40b13f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative rounded-20 border bg-white py-4 shadow-4</value>
+      <webElementGuid>5e3b4a08-cfb5-4221-8c2a-c4c52d856183</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>20 Des 2022 (20.32) - 19 Jan 2023 (20.32)PENDINGPush upPush UpRp 250.000Angeline Oneangelinee.feliciaa@...Active</value>
+      <webElementGuid>6e22686d-a8d7-46f2-be15-08bb77064915</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 md:pl-52 lg:pl-52&quot;]/div[@class=&quot;container mx-auto px-6&quot;]/div[2]/div[@class=&quot;mb-6 grid grid-cols-1 gap-3 pt-36 md:grid-cols-2 md:gap-6 xl:grid-cols-2 2xl:grid-cols-3&quot;]/div[7]/div[@class=&quot;relative rounded-20 border bg-white py-4 shadow-4&quot;]</value>
+      <webElementGuid>0b0ddae1-6ea7-44be-8ca7-51b40082bca2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div[7]/div</value>
+      <webElementGuid>c9d997f5-b799-4695-bd08-a02db9f1c327</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[6]/following::div[2]</value>
+      <webElementGuid>a3030d12-3c3e-41c1-8636-748d2c14fe23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Plank'])[2]/following::div[14]</value>
+      <webElementGuid>c9339bb5-2cbf-4aee-9bad-ff14205a0592</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div</value>
+      <webElementGuid>18b826f3-b65c-4412-8f4f-4e442c191395</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '20 Des 2022 (20.32) - 19 Jan 2023 (20.32)PENDINGPush upPush UpRp 250.000Angeline Oneangelinee.feliciaa@...Active' or . = '20 Des 2022 (20.32) - 19 Jan 2023 (20.32)PENDINGPush upPush UpRp 250.000Angeline Oneangelinee.feliciaa@...Active')]</value>
+      <webElementGuid>242a35a4-2f45-42da-bda6-c39071e0e7fc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

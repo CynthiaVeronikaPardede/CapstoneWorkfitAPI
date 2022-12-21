@@ -19,7 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://fe-react-git-dev-capstone-6.vercel.app/login')
+WebUI.navigateToUrl('https://fe-react-o3tcnp4lu-capstone-6.vercel.app/')
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('Object Repository/Page_WorkFit/a_Login'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Login Page - WorkFit/input_Email_email'), 'qe1@gmail.com')
 
@@ -27,9 +31,16 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login Page - WorkF
 
 WebUI.click(findTestObject('Object Repository/Page_Login Page - WorkFit/button_Sign In'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard - WorkFit/span_Video'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard - WorkFit/div_Video'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Video - WorkFit/div_Add New_react-player__preview'))
+WebUI.click(findTestObject('Object Repository/Page_Manage Video - WorkFit/div_Cara update videoCara update video'))
+
+WebUI.click(findTestObject('Object Repository/Page_Manage Video - WorkFit/i_Add New_fi fi-sr-play text-4xl text-white'))
+
+WebUI.click(findTestObject('Object Repository/Page_Manage Video - WorkFit/div_Cara update videoCara update video'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Manage Video - WorkFit/div_Cara update videoCara update videoCobaCoba'), 
+    0)
 
 WebUI.closeBrowser()
 

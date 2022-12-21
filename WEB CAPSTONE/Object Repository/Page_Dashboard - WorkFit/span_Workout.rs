@@ -6,16 +6,48 @@
    <elementGuidId>4932e474-79fb-4fa2-ac51-29bce25cf168</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/aside/div/div/ul/li[4]/a/div/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/aside/div/div/ul/li[4]/a/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ef493b28-c9bf-4c98-a860-abf4ed8029a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ml-3</value>
+      <webElementGuid>db006188-001d-48c0-90f8-9c94e7469d32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Workout</value>
+      <webElementGuid>9940d983-1b7c-443d-95ac-d31c5b034498</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/aside[@class=&quot;fixed top-0 bottom-0 left-0 z-30 mt-14 hidden w-52 leading-none transition-all duration-300 sm:hidden md:block&quot;]/div[@class=&quot;relative z-40 hidden h-full flex-col justify-between overflow-y-auto bg-white py-2 px-3 sm:flex md:h-full&quot;]/div[@class=&quot;relative&quot;]/ul[1]/li[4]/a[1]/div[@class=&quot;mb-1 flex items-center rounded-lg p-2 text-sm font-normal text-neutral-80 transition-all duration-300 ease-in-out hover:bg-indigo-100&quot;]/span[@class=&quot;ml-3&quot;]</value>
+      <webElementGuid>fa9ce529-7d81-481d-943c-18b67c2ba999</webElementGuid>
+   </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -33,7 +65,7 @@
       <webElementGuid>4ec7e799-cc2a-4f43-bd0f-ef9446ac29f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -214,7 +246,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/aside/div/div/ul/li[4]/a/div/span</value>
-      <webElementGuid>33780d73-870e-4f45-bd10-9b6726ceaf45</webElementGuid>
+      <webElementGuid>7ef62abe-bd80-46b3-b74a-bbf0fb9ba8cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -222,7 +254,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Instructor'])[1]/following::span[1]</value>
-      <webElementGuid>6187de81-fb87-405f-ae2d-cb1a1a01dd4d</webElementGuid>
+      <webElementGuid>9be89325-bc33-4bad-b913-3b2fb2e802da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -230,7 +262,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Membership'])[1]/following::span[2]</value>
-      <webElementGuid>bc35de96-8fe0-462b-8954-7fb3af046e78</webElementGuid>
+      <webElementGuid>63eb4d13-8623-4b6b-9512-fee8211ffdc8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -238,7 +270,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Classes'])[1]/preceding::span[1]</value>
-      <webElementGuid>ad92fde0-ad67-4ce9-b7e5-2ea897cdb7b4</webElementGuid>
+      <webElementGuid>9a5e466b-8035-498f-8254-225c7d08feaa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -246,7 +278,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Classes'])[1]/preceding::span[1]</value>
-      <webElementGuid>a6216d55-9d69-4b7e-b43d-3fa17df3eb42</webElementGuid>
+      <webElementGuid>ba110e90-1690-4f43-a967-7e7e5aab91d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -254,7 +286,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Workout']/parent::*</value>
-      <webElementGuid>6e1790dc-e51a-4e54-bcbb-8821ca484b61</webElementGuid>
+      <webElementGuid>c574943a-1359-461d-88d3-3ffb35ea8d31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -262,7 +294,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/a/div/span</value>
-      <webElementGuid>75d5e151-f1bf-48a8-989b-bed57db7e4b2</webElementGuid>
+      <webElementGuid>be119e7c-79fe-4678-b121-0113b04115b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -270,6 +302,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Workout' or . = 'Workout')]</value>
-      <webElementGuid>d3f375a8-eb85-42c4-872c-aad763d4042c</webElementGuid>
+      <webElementGuid>5eedea3e-104a-4d9e-83aa-405a37144382</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

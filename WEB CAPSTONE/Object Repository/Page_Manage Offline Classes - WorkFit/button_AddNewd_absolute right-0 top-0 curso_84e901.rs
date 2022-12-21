@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_AddNewd_absolute right-0 top-0 curso_84e901</name>
+   <tag></tag>
+   <elementGuidId>2c488373-8970-4ab2-b741-d9f5e458986f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div/div/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>039270b2-6d44-45cc-baaf-a1613d22d525</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>absolute right-0 top-0 cursor-pointer rounded-bl-xl rounded-tr-20 bg-neutral-80 bg-opacity-50 px-4 py-2 text-blue-100 shadow-4 hover:rounded-tr-20</value>
+      <webElementGuid>4305b131-2ea7-4629-bf59-f5b398a8dcfd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 md:pl-52 lg:pl-52&quot;]/div[@class=&quot;container mx-auto px-6&quot;]/div[2]/div[1]/div[@class=&quot;mb-6 grid grid-cols-1 gap-3 pt-36 sm:grid-cols-2 md:grid-cols-2 md:gap-6 xl:grid-cols-3 2xl:grid-cols-4&quot;]/div[@class=&quot;rounded-20 bg-white shadow-3&quot;]/div[@class=&quot;relative overflow-hidden rounded-t-20 pb-40&quot;]/div[@class=&quot;group relative&quot;]/button[@class=&quot;absolute right-0 top-0 cursor-pointer rounded-bl-xl rounded-tr-20 bg-neutral-80 bg-opacity-50 px-4 py-2 text-blue-100 shadow-4 hover:rounded-tr-20&quot;]</value>
+      <webElementGuid>6d165ab0-96fc-41ac-acfa-50f125b493af</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div/div/div/button</value>
+      <webElementGuid>c03263d6-a54a-4e80-b82d-b029a614e332</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AddNewd'])[1]/following::button[1]</value>
+      <webElementGuid>c3a6d640-a4be-4b7e-ab4e-02fba9c48ff8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Zumba'])[1]/following::button[2]</value>
+      <webElementGuid>6bee33e9-cffd-4e74-968b-08705bf72c75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp 150.000'])[1]/preceding::button[1]</value>
+      <webElementGuid>746b88ac-9c19-4478-a887-0e55a5da26f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sunday (09:00 - 11:00)'])[1]/preceding::button[1]</value>
+      <webElementGuid>4f7c1708-d6a3-4aa5-a471-0bc2411f50bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/button</value>
+      <webElementGuid>8167afc4-c28d-430d-9bbd-5e0233916a9d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

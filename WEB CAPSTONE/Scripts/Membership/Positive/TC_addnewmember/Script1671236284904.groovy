@@ -19,7 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://fe-react-git-dev-capstone-6.vercel.app/login')
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('https://fe-react-o3tcnp4lu-capstone-6.vercel.app/')
+
+WebUI.click(findTestObject('Object Repository/Page_WorkFit/a_Login'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Login Page - WorkFit/input_Email_email'), 'qe1@gmail.com')
 
@@ -36,12 +40,12 @@ WebUI.setText(findTestObject('Object Repository/Page_Manage Membership - WorkFit
 
 WebUI.setText(findTestObject('Object Repository/Page_Manage Membership - WorkFit/input_First Name_last_name'), 'Membership')
 
-WebUI.setText(findTestObject('Object Repository/Page_Manage Membership - WorkFit/input_Last Name_email'), 'rivaldogabriel1@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Manage Membership - WorkFit/input_Last Name_email'), 'rivaldogabriel13@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Manage Membership - WorkFit/input_Email_password'), 'J6IkJA1rD7n3Btce2FGBJg==')
 
 WebUI.setText(findTestObject('Object Repository/Page_Manage Membership - WorkFit/input_Password must contain minimum one cap_37ad5a'), 
-    '098876092265')
+    '098876092222265')
 
 WebUI.click(findTestObject('Object Repository/Page_Manage Membership - WorkFit/i_Password_fi fi-rr-eye absolute right-0.5 _96921a'))
 

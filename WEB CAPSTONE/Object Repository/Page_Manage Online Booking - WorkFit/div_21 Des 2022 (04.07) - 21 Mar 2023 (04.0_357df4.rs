@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_21 Des 2022 (04.07) - 21 Mar 2023 (04.0_357df4</name>
+   <tag></tag>
+   <elementGuidId>5ceee1a3-d0cb-45ea-b6c8-b9d4c917cf7a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div[3]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>62015c33-80bb-4465-97fb-3de72c8bf438</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative rounded-20 border bg-white py-4 shadow-4</value>
+      <webElementGuid>431c5a58-d27f-4387-a4d6-6f50137c83aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>21 Des 2022 (04.07) - 21 Mar 2023 (04.07)PENDINGPush upPush UpRp 250.000QE1 Testqe1@gmail.comActive</value>
+      <webElementGuid>3e58ed0f-fa73-4b27-8e0a-6149bd296bc5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 md:pl-52 lg:pl-52&quot;]/div[@class=&quot;container mx-auto px-6&quot;]/div[2]/div[@class=&quot;mb-6 grid grid-cols-1 gap-3 pt-36 md:grid-cols-2 md:gap-6 xl:grid-cols-2 2xl:grid-cols-3&quot;]/div[3]/div[@class=&quot;relative rounded-20 border bg-white py-4 shadow-4&quot;]</value>
+      <webElementGuid>c06286c9-6b29-488a-a691-091d110b3d08</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div[3]/div</value>
+      <webElementGuid>9738157b-8bc6-4d89-bc8b-94bba3797255</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[2]/following::div[2]</value>
+      <webElementGuid>8095e8d3-b9f3-4da8-99ed-c184ce9a0bee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Push up'])[2]/following::div[14]</value>
+      <webElementGuid>1be40845-3466-4e59-999f-78fe44be1c53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div</value>
+      <webElementGuid>4ff4f308-8864-42b1-8165-2279043fd496</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '21 Des 2022 (04.07) - 21 Mar 2023 (04.07)PENDINGPush upPush UpRp 250.000QE1 Testqe1@gmail.comActive' or . = '21 Des 2022 (04.07) - 21 Mar 2023 (04.07)PENDINGPush upPush UpRp 250.000QE1 Testqe1@gmail.comActive')]</value>
+      <webElementGuid>20d4a567-15ce-4e49-b1ad-bb20ce827632</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

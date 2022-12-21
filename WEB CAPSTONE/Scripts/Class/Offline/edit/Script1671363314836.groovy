@@ -19,7 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://fe-react-git-dev-capstone-6.vercel.app/login')
+WebUI.navigateToUrl('https://fe-react-o3tcnp4lu-capstone-6.vercel.app/')
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('Object Repository/Page_WorkFit/a_Login'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Login Page - WorkFit/input_Email_email'), 'qe1@gmail.com')
 
@@ -27,30 +31,20 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login Page - WorkF
 
 WebUI.click(findTestObject('Object Repository/Page_Login Page - WorkFit/button_Sign In'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard - WorkFit/span_Classes'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard - WorkFit/div_Classes'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/button_Yoga_absolute right-0 top-0 cursor-p_7f0375'))
-
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/i_Yoga_fi fi-br-menu-dots-vertical'))
+WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/button_AddNewd_absolute right-0 top-0 curso_84e901'))
 
 WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/button_Edit'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/svg_Editss_css-8mmkcg'))
-
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/div_Yoga'))
-
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/svg_Senin_css-8mmkcg'))
-
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/div_Wednesday, 1300 - 1500'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/input_Wednesday, 1300 - 1500_price'), 
-    '24922')
-
-WebUI.setText(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/textarea_Sehat itu mahal'), 'Sehat itu mahal testing Edit')
+WebUI.setText(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/textarea_Plank for offline classes updated'), 
+    'classes updated')
 
 WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/h2_Update'))
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/h2_Sorry'), 'Sorry')
+
+WebUI.click(findTestObject('Object Repository/Page_Manage Offline Classes - WorkFit/button_OK'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

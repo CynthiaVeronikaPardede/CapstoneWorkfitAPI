@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Pull UpRp 24.000Sunday (0900 - 1100)Wed_1810b7</name>
+   <tag></tag>
+   <elementGuidId>f2204b82-1d60-4b71-9f03-ff1c19bf84ba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f9ee590f-3bb2-41ba-9f2d-3a96d5dba19d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-6 grid grid-cols-1 gap-3 pt-36 sm:grid-cols-2 md:grid-cols-2 md:gap-6 xl:grid-cols-3 2xl:grid-cols-4</value>
+      <webElementGuid>5b8824f6-a039-44e5-85b1-04cf5382f29f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pull UpRp 24.000Sunday (09:00 - 11:00)Wednesday (13:00 - 15:00)Friday, 14:00 - 18:00ManePlankRp 150.000Sunday (09:00 - 11:00)Wednesday (13:00 - 15:00)Friday (14:00 - 18:00)ManeBody Building LututRp 350.000Sunday (09:00 - 11:00)Friday (14:00 - 18:00)Mane Mane ManePlankRp 111Wednesday (13:00 - 15:00)Mane Mane Mane</value>
+      <webElementGuid>ce2b3141-2b94-456b-a981-de9ad28a9cab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex h-full overflow-y-auto&quot;]/div[@class=&quot;flex w-full flex-1 flex-col&quot;]/div[@class=&quot;pl-0 pt-14 md:pl-52 lg:pl-52&quot;]/div[@class=&quot;container mx-auto px-6&quot;]/div[2]/div[1]/div[@class=&quot;mb-6 grid grid-cols-1 gap-3 pt-36 sm:grid-cols-2 md:grid-cols-2 md:gap-6 xl:grid-cols-3 2xl:grid-cols-4&quot;]</value>
+      <webElementGuid>e51f7667-c05e-43f4-a87b-64ec2a83918c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div/div</value>
+      <webElementGuid>3e3e708e-f244-476d-b6fb-e136f845aed5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AddNewd'])[1]/following::div[3]</value>
+      <webElementGuid>3f51eda4-32b2-4fba-96df-4548a39c7652</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Zumba'])[1]/following::div[3]</value>
+      <webElementGuid>60523ca0-b59f-4c3f-8cd4-e03284eee010</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div</value>
+      <webElementGuid>6292abed-ba0e-4ae9-95fd-2837582d868e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Pull UpRp 24.000Sunday (09:00 - 11:00)Wednesday (13:00 - 15:00)Friday, 14:00 - 18:00ManePlankRp 150.000Sunday (09:00 - 11:00)Wednesday (13:00 - 15:00)Friday (14:00 - 18:00)ManeBody Building LututRp 350.000Sunday (09:00 - 11:00)Friday (14:00 - 18:00)Mane Mane ManePlankRp 111Wednesday (13:00 - 15:00)Mane Mane Mane' or . = 'Pull UpRp 24.000Sunday (09:00 - 11:00)Wednesday (13:00 - 15:00)Friday, 14:00 - 18:00ManePlankRp 150.000Sunday (09:00 - 11:00)Wednesday (13:00 - 15:00)Friday (14:00 - 18:00)ManeBody Building LututRp 350.000Sunday (09:00 - 11:00)Friday (14:00 - 18:00)Mane Mane ManePlankRp 111Wednesday (13:00 - 15:00)Mane Mane Mane')]</value>
+      <webElementGuid>47d55829-d1c5-43a2-85ff-445b4f0f3b0d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

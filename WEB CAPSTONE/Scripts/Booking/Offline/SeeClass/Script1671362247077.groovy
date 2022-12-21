@@ -19,7 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://fe-react-git-dev-capstone-6.vercel.app/login')
+WebUI.navigateToUrl('https://fe-react-o3tcnp4lu-capstone-6.vercel.app/')
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('Object Repository/Page_WorkFit/a_Login'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Login Page - WorkFit/input_Email_email'), 'qe1@gmail.com')
 
@@ -27,19 +31,20 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login Page - WorkF
 
 WebUI.click(findTestObject('Object Repository/Page_Login Page - WorkFit/button_Sign In'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard - WorkFit/span_Booking'))
+WebUI.click(findTestObject('Object Repository/Page_Dashboard - WorkFit/div_Booking'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/div_EditssManeRp 25.000QE1 Testqe1gmail.com_ce5590'))
+WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/div_Online'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/div_Rp 200.000'))
+WebUI.click(findTestObject('Object Repository/Page_Manage Online Booking - WorkFit/div_19 Des 2022 (12.26) - 19 Mar 2023 (12.2_35dbf8'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/h5_Editss'))
+WebUI.click(findTestObject('Object Repository/Page_Manage Online Booking - WorkFit/div_21 Des 2022 (04.07) - 21 Mar 2023 (04.0_357df4'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/div_17 Des 2022 - 21.08PAIDYogaManeRp 200.0_418ef3'))
+WebUI.click(findTestObject('Object Repository/Page_Manage Online Booking - WorkFit/div_19 Des 2022 (22.28) - 17 Feb 2023 (22.2_3a0be8'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/div_18 Des 2022 - 15.27PAIDEditssManeRp 25._d7ea08'))
+WebUI.click(findTestObject('Object Repository/Page_Manage Online Booking - WorkFit/div_Push upPush UpRp 250.000Angeline Oneang_9cc935'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/div_18 Des 2022 - 15.33PENDINGEditssManeRp _eb46c6'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Manage Online Booking - WorkFit/div_20 Des 2022 (20.32) - 19 Jan 2023 (20.3_ba3455'), 
+    0)
 
 WebUI.closeBrowser()
 

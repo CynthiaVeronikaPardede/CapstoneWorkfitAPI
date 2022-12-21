@@ -19,7 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://fe-react-git-dev-capstone-6.vercel.app/login')
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('https://fe-react-o3tcnp4lu-capstone-6.vercel.app/')
+
+WebUI.click(findTestObject('Object Repository/Page_WorkFit/a_Login'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Login Page - WorkFit/input_Email_email'), 'qe1@gmail.com')
 
@@ -29,17 +33,19 @@ WebUI.click(findTestObject('Object Repository/Page_Login Page - WorkFit/button_S
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard - WorkFit/div_Booking'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/i_Online_fi fi-rr-plus-small mr-1 mt-1 text_857d4a'))
+WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/button_Add New'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/path'))
+WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/svg_Select membership_css-8mmkcg'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/div_Annisa Annisa'))
+WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/div_Annisa Kumalasari'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/svg_Select offline classes_css-8mmkcg'))
+WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/div_Select offline classes_css-1gtu0rj-indi_5dc625'))
 
-WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/div_Yoga - Mane'))
+WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/div_Pull Up - Mane'))
 
 WebUI.click(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/button_Save'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Manage Offline Booking - WorkFit/h2_Saved'), 'Saved')
 
 WebUI.closeBrowser()
 
