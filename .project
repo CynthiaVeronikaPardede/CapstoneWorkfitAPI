@@ -17,19 +17,24 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>kat-1615782513421969359.groovy</name>
-			<type>1</type>
-			<location>C:/Users/Asus/AppData/Local/Temp/Katalon/Web Services/kat-1615782513421969359.groovy</location>
-		</link>
-		<link>
-			<name>kat-3387264710285170037.groovy</name>
-			<type>1</type>
-			<location>C:/Users/Asus/AppData/Local/Temp/Katalon/Web Services/kat-3387264710285170037.groovy</location>
-		</link>
-		<link>
 			<name>kat-401077028647292208.groovy</name>
 			<type>1</type>
 			<location>C:/Users/Asus/AppData/Local/Temp/Katalon/Web Services/kat-401077028647292208.groovy</location>
+		</link>
+		<link>
+			<name>kat-4067849265999564209.groovy</name>
+			<type>1</type>
+			<location>C:/Users/Asus/AppData/Local/Temp/Katalon/Web Services/kat-4067849265999564209.groovy</location>
+		</link>
+		<link>
+			<name>kat-5201706315195529107.groovy</name>
+			<type>1</type>
+			<location>C:/Users/Asus/AppData/Local/Temp/Katalon/Web Services/kat-5201706315195529107.groovy</location>
+		</link>
+		<link>
+			<name>kat-5712876437608976193.groovy</name>
+			<type>1</type>
+			<location>C:/Users/Asus/AppData/Local/Temp/Katalon/Web Services/kat-5712876437608976193.groovy</location>
 		</link>
 		<link>
 			<name>kat-6118455775309345564.groovy</name>
@@ -50,11 +55,6 @@
 			<name>kat-8611410611195930152.groovy</name>
 			<type>1</type>
 			<location>C:/Users/rivaldo/AppData/Local/Temp/Katalon/Web Services/kat-8611410611195930152.groovy</location>
-		</link>
-		<link>
-			<name>kat-968317093299367536.groovy</name>
-			<type>1</type>
-			<location>C:/Users/Asus/AppData/Local/Temp/Katalon/Web Services/kat-968317093299367536.groovy</location>
 		</link>
 	</linkedResources>
 	<filteredResources>
@@ -483,6 +483,24 @@
 		</filter>
 		<filter>
 			<id>1671604571269</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1671628214057</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1671628214078</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
