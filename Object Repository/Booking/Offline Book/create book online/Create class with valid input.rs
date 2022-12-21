@@ -6,11 +6,11 @@
    <elementGuidId>d8543516-196f-4ea0-8631-ce8c1922b15a</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;class_id\&quot;: \&quot;c6a73899-2691-4f85-8d0f-01d90883ec28\&quot;,\n  \&quot;is_online\&quot;: true\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;class_id\&quot;: \&quot;8ab2eba7-0e94-4267-98d3-ad6ee67ce04d\&quot;,\n  \&quot;is_online\&quot;: true\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -32,7 +32,7 @@
       <webElementGuid>46d19957-57a9-4c1d-9613-bcc86b876232</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.3.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
    <restUrl>https://www.go-rest-api.live/api/v1/books/online</restUrl>
@@ -42,7 +42,7 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

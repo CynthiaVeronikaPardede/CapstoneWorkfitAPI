@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Workout,,,,2022-12-21 02:32:40,2022-12-21 02:33:05,25.154s,FAILED
+,,,,,,,
+Test Cases/Workout/TC_Workout_01,,,,2022-12-21 02:32:40,2022-12-21 02:32:50,10.054s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/Login with valid""), CONTINUE_ON_FAILURE)",,,,2022-12-21 02:32:40,2022-12-21 02:32:43,3.262s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-12-21 02:32:43,2022-12-21 02:32:44,0.158s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2022-12-21 02:32:44,2022-12-21 02:32:44,0.011s,PASSED
+parsedJson = slurper.parseText(response.getResponseText()),,,,2022-12-21 02:32:44,2022-12-21 02:32:44,0.021s,PASSED
+Token = access_token,,,,2022-12-21 02:32:44,2022-12-21 02:32:44,0.006s,PASSED
+globalVar = Token,,,,2022-12-21 02:32:44,2022-12-21 02:32:44,0.000s,PASSED
+"response = sendRequest(findTestObject(""Workout/Folder List of Workout/List of Workout""))",,,,2022-12-21 02:32:44,2022-12-21 02:32:45,1.665s,PASSED
+"verifyResponseStatusCode(response, statusCode200)",,,,2022-12-21 02:32:45,2022-12-21 02:32:45,0.002s,PASSED
+"response = sendRequest(findTestObject(""Workout/Folder List of Workout/List of Workout with PUT""))",,,,2022-12-21 02:32:45,2022-12-21 02:32:47,1.682s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 02:32:47,2022-12-21 02:32:47,0.008s,PASSED
+"response = sendRequest(findTestObject(""Workout/Folder List of Workout/List of Workout with PATCH""))",,,,2022-12-21 02:32:47,2022-12-21 02:32:48,1.429s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 02:32:48,2022-12-21 02:32:48,0.007s,PASSED
+"response = sendRequest(findTestObject(""Workout/Folder List of Workout/List of Workout with POST""))",,,,2022-12-21 02:32:48,2022-12-21 02:32:50,1.461s,PASSED
+"verifyResponseStatusCode(response, statusCode400)",,,,2022-12-21 02:32:50,2022-12-21 02:32:50,0.004s,PASSED
+,,,,,,,
+Test Cases/Workout/TC_Workout_02,,,,2022-12-21 02:32:50,2022-12-21 02:32:54,3.582s,FAILED
+"response = sendRequest(findTestObject(""AUTH/Login/Login with valid""), CONTINUE_ON_FAILURE)",,,,2022-12-21 02:32:50,2022-12-21 02:32:52,1.522s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-12-21 02:32:52,2022-12-21 02:32:52,0.005s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2022-12-21 02:32:52,2022-12-21 02:32:52,0.001s,PASSED
+parsedJson = slurper.parseText(response.getResponseText()),,,,2022-12-21 02:32:52,2022-12-21 02:32:52,0.002s,PASSED
+Token = access_token,,,,2022-12-21 02:32:52,2022-12-21 02:32:52,0.001s,PASSED
+globalVar = Token,,,,2022-12-21 02:32:52,2022-12-21 02:32:52,0.000s,PASSED
+"response = sendRequest(findTestObject(""Workout/Folder Create a Workout/Create a Workout""), CONTINUE_ON_FAILURE)",,,,2022-12-21 02:32:52,2022-12-21 02:32:53,1.761s,PASSED
+"verifyResponseStatusCode(response, 201)",,,,2022-12-21 02:32:53,2022-12-21 02:32:54,0.026s,FAILED
+,,,,,,,
+Test Cases/Workout/TC_Workout_03,,,,2022-12-21 02:32:54,2022-12-21 02:33:00,6.270s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/Login with valid""), CONTINUE_ON_FAILURE)",,,,2022-12-21 02:32:54,2022-12-21 02:32:55,1.481s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-12-21 02:32:55,2022-12-21 02:32:55,0.005s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2022-12-21 02:32:55,2022-12-21 02:32:55,0.001s,PASSED
+parsedJson = slurper.parseText(response.getResponseText()),,,,2022-12-21 02:32:55,2022-12-21 02:32:55,0.001s,PASSED
+Token = access_token,,,,2022-12-21 02:32:55,2022-12-21 02:32:55,0.002s,PASSED
+globalVar = Token,,,,2022-12-21 02:32:55,2022-12-21 02:32:55,0.001s,PASSED
+"response = sendRequest(findTestObject(""Workout/Folder Update a Workout/Update a Workout""), CONTINUE_ON_FAILURE)",,,,2022-12-21 02:32:55,2022-12-21 02:32:57,1.466s,PASSED
+"verifyResponseStatusCode(response, statusCode200)",,,,2022-12-21 02:32:57,2022-12-21 02:32:57,0.004s,PASSED
+"response = sendRequest(findTestObject(""Workout/Folder Update a Workout/Update a Workout with POST""), CONTINUE_ON_FAILURE)",,,,2022-12-21 02:32:57,2022-12-21 02:32:58,1.633s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 02:32:58,2022-12-21 02:32:58,0.005s,PASSED
+"response = sendRequest(findTestObject(""Workout/Folder Update a Workout/Update a Workout with PUT""), CONTINUE_ON_FAILURE)",,,,2022-12-21 02:32:58,2022-12-21 02:33:00,1.429s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 02:33:00,2022-12-21 02:33:00,0.003s,PASSED
+,,,,,,,
+Test Cases/Workout/TC_Workout_04,,,,2022-12-21 02:33:00,2022-12-21 02:33:05,5.006s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/Login with valid""), CONTINUE_ON_FAILURE)",,,,2022-12-21 02:33:00,2022-12-21 02:33:01,1.450s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-12-21 02:33:01,2022-12-21 02:33:01,0.003s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2022-12-21 02:33:01,2022-12-21 02:33:01,0.000s,PASSED
+parsedJson = slurper.parseText(response.getResponseText()),,,,2022-12-21 02:33:02,2022-12-21 02:33:02,0.000s,PASSED
+Token = access_token,,,,2022-12-21 02:33:02,2022-12-21 02:33:02,0.000s,PASSED
+globalVar = Token,,,,2022-12-21 02:33:02,2022-12-21 02:33:02,0.001s,PASSED
+"response = sendRequest(findTestObject(""Workout/Folder Delete a Workout/Delete a Workout""), CONTINUE_ON_FAILURE)",,,,2022-12-21 02:33:02,2022-12-21 02:33:03,1.678s,PASSED
+"verifyResponseStatusCode(response, StatusCode200)",,,,2022-12-21 02:33:03,2022-12-21 02:33:03,0.005s,PASSED
+"response = sendRequest(findTestObject(""Workout/Folder Delete a Workout/Delete a Workout with invalid""), CONTINUE_ON_FAILURE)",,,,2022-12-21 02:33:03,2022-12-21 02:33:05,1.612s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 02:33:05,2022-12-21 02:33:05,0.003s,PASSED

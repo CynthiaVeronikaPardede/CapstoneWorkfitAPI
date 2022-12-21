@@ -15,25 +15,25 @@
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;instuctor_name&quot;,
-      &quot;value&quot;: &quot;frizzi&quot;,
+      &quot;value&quot;: &quot;Manisa&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;application/json&quot;
     },
     {
       &quot;name&quot;: &quot;email&quot;,
-      &quot;value&quot;: &quot;cynthiapardede@mail.com&quot;,
+      &quot;value&quot;: &quot;masiha12@mail.com&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;application/json&quot;
     },
     {
       &quot;name&quot;: &quot;phone_number&quot;,
-      &quot;value&quot;: &quot;123456789&quot;,
+      &quot;value&quot;: &quot;0853457863211&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;application/json&quot;
     },
     {
       &quot;name&quot;: &quot;image&quot;,
-      &quot;value&quot;: &quot;E:\\SEMESTER 7\\MBKM\\Capstone Project\\Screenshot\\2.png&quot;,
+      &quot;value&quot;: &quot;E:\\SEMESTER 7\\MBKM\\Capstone Project\\images\\lari.jpeg&quot;,
       &quot;type&quot;: &quot;File&quot;,
       &quot;contentType&quot;: &quot;multipart/form-data&quot;
     }

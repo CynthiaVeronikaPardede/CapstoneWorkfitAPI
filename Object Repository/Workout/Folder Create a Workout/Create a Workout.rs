@@ -15,19 +15,19 @@
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;workout&quot;,
-      &quot;value&quot;: &quot;body building&quot;,
+      &quot;value&quot;: &quot;Wall sit&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;application/json&quot;
     },
     {
       &quot;name&quot;: &quot;description&quot;,
-      &quot;value&quot;: &quot;Workout untuk membentuk otot perut&quot;,
+      &quot;value&quot;: &quot; latihan yang dilakukan dengan cara menyandarkan punggung&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;application/json&quot;
     },
     {
       &quot;name&quot;: &quot;image&quot;,
-      &quot;value&quot;: &quot;E:\\SEMESTER 7\\MBKM\\Capstone Project\\images\\squat.png&quot;,
+      &quot;value&quot;: &quot;E:\\SEMESTER 7\\MBKM\\Capstone Project\\images\\walksit.jpeg&quot;,
       &quot;type&quot;: &quot;File&quot;,
       &quot;contentType&quot;: &quot;multipart/form-data&quot;
     }

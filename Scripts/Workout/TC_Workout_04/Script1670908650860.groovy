@@ -33,7 +33,7 @@ GlobalVariable.globalVar = Token
 // Create a workout
 response = WS.sendRequest(findTestObject('Workout/Folder Delete a Workout/Delete a Workout'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WS.verifyResponseStatusCode(response, GlobalVariable.statusCode200)
+WS.verifyResponseStatusCode(response, GlobalVariable.StatusCode200)
 
 response = WS.sendRequest(findTestObject('Workout/Folder Delete a Workout/Delete a Workout with invalid'), FailureHandling.CONTINUE_ON_FAILURE)
 

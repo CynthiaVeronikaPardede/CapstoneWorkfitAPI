@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;workout_id\&quot;: \&quot;738e0e30-c07d-4dd9-a907-182fc2275f96\&quot;,\n  \&quot;instructor_id\&quot;: \&quot;f3514b02-1d80-4950-b22a-1fb97deb2f7b\&quot;,\n  \&quot;class_date\&quot;: \&quot;Monday, 14:00 - 15:00\&quot;,\n  \&quot;price\&quot;: 150000,\n  \&quot;description\&quot;: \&quot;Pull up bugar dan sehat\&quot;\n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;workout_id\&quot;: \&quot;5bfd561d-712b-4de3-a466-36aa7e55b8fb\&quot;,\n  \&quot;instructor_id\&quot;: \&quot;8ab2eba7-0e94-4267-98d3-ad6ee67ce04d\&quot;,\n  \&quot;class_date\&quot;: \&quot;Sunday, 19:00 - 20:00\&quot;,\n  \&quot;price\&quot;: 150000,\n  \&quot;description\&quot;: \&quot;Wall sit bugar dan sehat\&quot;\n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

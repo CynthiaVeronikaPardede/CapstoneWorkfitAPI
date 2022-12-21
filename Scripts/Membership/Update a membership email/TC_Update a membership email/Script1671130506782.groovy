@@ -33,9 +33,9 @@ GlobalVariable.globalVar = Token
 //see list with invalid token
 response = WS.sendRequest(findTestObject('Membership/Update membership/Update with valid input'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WS.verifyResponseStatusCode(response, 200)
+WS.verifyResponseStatusCode(response, GlobalVariable.StatusCode201)
 
-response = WS.sendRequest(findTestObject('Membership/Update membership/Update with valid input'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WS.verifyResponseStatusCode(response, GlobalVariable.statusCode405)
+//response = WS.sendRequest(findTestObject('Membership/Update membership/Update with valid input'), FailureHandling.CONTINUE_ON_FAILURE)
+//
+//WS.verifyResponseStatusCode(response, GlobalVariable.statusCode405)
 

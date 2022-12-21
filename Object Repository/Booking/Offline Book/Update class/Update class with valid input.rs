@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;class_id\&quot;: \&quot;c6a73899-2691-4f85-8d0f-01d90883ec28\&quot;,\n\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;class_id\&quot;: \&quot;c6a73899-2691-4f85-8d0f-01d90883ec28\&quot;,\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

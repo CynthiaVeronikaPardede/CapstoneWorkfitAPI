@@ -33,21 +33,16 @@ GlobalVariable.globalVar = Token
 //see list with invalid token
 response = WS.sendRequest(findTestObject('Membership/Update membership/Update with valid input'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WS.verifyResponseStatusCode(response, 200)
+WS.verifyResponseStatusCode(response, GlobalVariable.StatusCode201)
 
 response = WS.sendRequest(findTestObject('Membership/Update membership/Update with null input'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.StatusCode200)
-
-//GET Method
-response = WS.sendRequest(findTestObject('Membership/Update membership/With GET Method'))
-
-WS.verifyResponseStatusCode(response, GlobalVariable.statusCode405)
+WS.verifyResponseStatusCode(response, GlobalVariable.StatusCode401)
 
 //POST method
 response = WS.sendRequest(findTestObject('Membership/Update membership/With POST Method'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.statusCode405)
+WS.verifyResponseStatusCode(response, GlobalVariable.StatusCode401)
 
 response = WS.sendRequest(findTestObject('Membership/Update membership/With PUT Method'))
 

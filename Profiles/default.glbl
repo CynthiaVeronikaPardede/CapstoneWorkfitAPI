@@ -54,4 +54,19 @@
       <initValue>403</initValue>
       <name>statusCode403</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>400</initValue>
+      <name>StatusCode200</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>401</initValue>
+      <name>StatusCode201</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>405</initValue>
+      <name>statuscode</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -33,7 +33,7 @@ GlobalVariable.globalVar = Token
 // Create a workout
 response = WS.sendRequest(findTestObject('Workout/Folder Update a Workout/Update a Workout'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WS.verifyResponseStatusCode(response, GlobalVariable.statusCode201)
+WS.verifyResponseStatusCode(response, GlobalVariable.statusCode200)
 
 response = WS.sendRequest(findTestObject('Workout/Folder Update a Workout/Update a Workout with POST'), FailureHandling.CONTINUE_ON_FAILURE)
 

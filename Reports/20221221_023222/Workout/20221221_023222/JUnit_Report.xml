@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Workout" time="25.154" tests="4" failures="1" errors="0">
+   <testsuite name="Workout" tests="4" failures="1" errors="0" time="25.154" skipped="0" timestamp="2022-12-21 02:32:40" hostname="Asus - DESKTOP-SRK5D1D" id="Test Suites/Workout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\SEMESTER 7\\MBKM\\Capstone Project\\CICD\\API\\Terbaru\\Baru2\\CapstoneWorkfitAPI\\Reports\\20221221_023222\\Workout\\20221221_023222"/>
+         <property name="logFiles" value="E:\\SEMESTER 7\\MBKM\\Capstone Project\\CICD\\API\\Terbaru\\Baru2\\CapstoneWorkfitAPI\\Reports\\20221221_023222\\Workout\\20221221_023222\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Asus - DESKTOP-SRK5D1D"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+      </properties>
+      <testcase name="Test Cases/Workout/TC_Workout_01" time="10.054" classname="Test Cases/Workout/TC_Workout_01" status="PASSED">
+         <system-out><![CDATA[2022-12-21 02:32:40 - [TEST_CASE][PASSED] - Test Cases/Workout/TC_Workout_01: Test Cases/Workout/TC_Workout_01
+
+2022-12-21 02:32:40 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/Login with valid"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 02:32:43 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_023222\Workout\20221221_023222\requests\main\0.har
+
+2022-12-21 02:32:43 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 02:32:43 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-12-21 02:32:43 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 02:32:44 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-12-21 02:32:44 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(response.getResponseText()): null
+
+2022-12-21 02:32:44 - [TEST_STEP][PASSED] - Token = access_token: null
+
+2022-12-21 02:32:44 - [TEST_STEP][PASSED] - globalVar = Token: null
+
+2022-12-21 02:32:44 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Workout/Folder List of Workout/List of Workout")): Send request successfully
+
+2022-12-21 02:32:45 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_023222\Workout\20221221_023222\requests\main\1.har
+
+2022-12-21 02:32:45 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 02:32:45 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode200): Verify response status code successfully
+
+2022-12-21 02:32:45 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 02:32:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Workout/Folder List of Workout/List of Workout with PUT")): Send request successfully
+
+2022-12-21 02:32:47 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_023222\Workout\20221221_023222\requests\main\2.har
+
+2022-12-21 02:32:47 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 02:32:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 02:32:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 02:32:47 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Workout/Folder List of Workout/List of Workout with PATCH")): Send request successfully
+
+2022-12-21 02:32:48 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_023222\Workout\20221221_023222\requests\main\3.har
+
+2022-12-21 02:32:48 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 02:32:48 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 02:32:48 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 02:32:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Workout/Folder List of Workout/List of Workout with POST")): Send request successfully
+
+2022-12-21 02:32:50 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_023222\Workout\20221221_023222\requests\main\4.har
+
+2022-12-21 02:32:50 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 02:32:50 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode400): Verify response status code successfully
+
+2022-12-21 02:32:50 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Workout/TC_Workout_02" time="3.582" classname="Test Cases/Workout/TC_Workout_02" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Workout/TC_Workout_02 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '201' but actual status code is '409'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Workout_02.run(TC_Workout_02:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671564742367.run(TempTestSuite1671564742367.groovy:36)
+"/>
+         <system-out><![CDATA[2022-12-21 02:32:50 - [TEST_CASE][FAILED] - Test Cases/Workout/TC_Workout_02: Test Cases/Workout/TC_Workout_02 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '201' but actual status code is '409'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Workout_02.run(TC_Workout_02:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671564742367.run(TempTestSuite1671564742367.groovy:36)
+
+
+2022-12-21 02:32:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/Login with valid"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 02:32:52 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_023222\Workout\20221221_023222\requests\main\5.har
+
+2022-12-21 02:32:52 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 02:32:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-12-21 02:32:52 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 02:32:52 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-12-21 02:32:52 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(response.getResponseText()): null
+
+2022-12-21 02:32:52 - [TEST_STEP][PASSED] - Token = access_token: null
+
+2022-12-21 02:32:52 - [TEST_STEP][PASSED] - globalVar = Token: null
+
+2022-12-21 02:32:52 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Workout/Folder Create a Workout/Create a Workout"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 02:32:53 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_023222\Workout\20221221_023222\requests\main\6.har
+
+2022-12-21 02:32:53 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 02:32:53 - [TEST_STEP][FAILED] - verifyResponseStatusCode(response, 201): Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '201' but actual status code is '409'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Workout_02.run(TC_Workout_02:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671564742367.run(TempTestSuite1671564742367.groovy:36)
+)
+
+2022-12-21 02:32:54 - [MESSAGE][FAILED] - Expected status code is '201' but actual status code is '409'
+
+2022-12-21 02:32:54 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '201' but actual status code is '409'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Workout_02.run(TC_Workout_02:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671564742367.run(TempTestSuite1671564742367.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-12-21 02:32:50 - [TEST_CASE][FAILED] - Test Cases/Workout/TC_Workout_02: Test Cases/Workout/TC_Workout_02 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '201' but actual status code is '409'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Workout_02.run(TC_Workout_02:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671564742367.run(TempTestSuite1671564742367.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Workout/TC_Workout_03" time="6.27" classname="Test Cases/Workout/TC_Workout_03" status="PASSED">
+         <system-out><![CDATA[2022-12-21 02:32:54 - [TEST_CASE][PASSED] - Test Cases/Workout/TC_Workout_03: Test Cases/Workout/TC_Workout_03
+
+2022-12-21 02:32:54 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/Login with valid"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 02:32:55 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_023222\Workout\20221221_023222\requests\main\7.har
+
+2022-12-21 02:32:55 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 02:32:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-12-21 02:32:55 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 02:32:55 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-12-21 02:32:55 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(response.getResponseText()): null
+
+2022-12-21 02:32:55 - [TEST_STEP][PASSED] - Token = access_token: null
+
+2022-12-21 02:32:55 - [TEST_STEP][PASSED] - globalVar = Token: null
+
+2022-12-21 02:32:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Workout/Folder Update a Workout/Update a Workout"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 02:32:57 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_023222\Workout\20221221_023222\requests\main\8.har
+
+2022-12-21 02:32:57 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 02:32:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode200): Verify response status code successfully
+
+2022-12-21 02:32:57 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 02:32:57 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Workout/Folder Update a Workout/Update a Workout with POST"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 02:32:58 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_023222\Workout\20221221_023222\requests\main\9.har
+
+2022-12-21 02:32:58 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 02:32:58 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 02:32:58 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 02:32:58 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Workout/Folder Update a Workout/Update a Workout with PUT"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 02:33:00 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_023222\Workout\20221221_023222\requests\main\10.har
+
+2022-12-21 02:33:00 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 02:33:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 02:33:00 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Workout/TC_Workout_04" time="5.006" classname="Test Cases/Workout/TC_Workout_04" status="PASSED">
+         <system-out><![CDATA[2022-12-21 02:33:00 - [TEST_CASE][PASSED] - Test Cases/Workout/TC_Workout_04: Test Cases/Workout/TC_Workout_04
+
+2022-12-21 02:33:00 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/Login with valid"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 02:33:01 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_023222\Workout\20221221_023222\requests\main\11.har
+
+2022-12-21 02:33:01 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 02:33:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-12-21 02:33:01 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 02:33:01 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-12-21 02:33:02 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(response.getResponseText()): null
+
+2022-12-21 02:33:02 - [TEST_STEP][PASSED] - Token = access_token: null
+
+2022-12-21 02:33:02 - [TEST_STEP][PASSED] - globalVar = Token: null
+
+2022-12-21 02:33:02 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Workout/Folder Delete a Workout/Delete a Workout"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 02:33:03 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_023222\Workout\20221221_023222\requests\main\12.har
+
+2022-12-21 02:33:03 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 02:33:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode200): Verify response status code successfully
+
+2022-12-21 02:33:03 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 02:33:03 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Workout/Folder Delete a Workout/Delete a Workout with invalid"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 02:33:05 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_023222\Workout\20221221_023222\requests\main\13.har
+
+2022-12-21 02:33:05 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 02:33:05 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 02:33:05 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-21 02:32:40 - [TEST_SUITE][FAILED] - Workout: Test Cases/Workout/TC_Workout_02 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '201' but actual status code is '409'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Workout_02.run(TC_Workout_02:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671564742367.run(TempTestSuite1671564742367.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-12-21 02:32:40 - [TEST_SUITE][FAILED] - Workout: Test Cases/Workout/TC_Workout_02 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '201' but actual status code is '409'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TC_Workout_02.run(TC_Workout_02:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671564742367.run(TempTestSuite1671564742367.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

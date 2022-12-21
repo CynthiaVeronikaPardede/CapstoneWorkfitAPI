@@ -37,15 +37,15 @@ WS.verifyResponseStatusCode(response, 201)
 
 response = WS.sendRequest(findTestObject('Workout/Folder Create a Workout/Create a Workout with workout null'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.statusCode403)
+WS.verifyResponseStatusCode(response, GlobalVariable.StatusCode422)
 
 response = WS.sendRequest(findTestObject('Workout/Folder Create a Workout/Create a Workout with description null'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.statusCode403)
+WS.verifyResponseStatusCode(response, GlobalVariable.StatusCode422)
 
 response = WS.sendRequest(findTestObject('Workout/Folder Create a Workout/Create a wokout with image null'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.statusCode403)
+WS.verifyResponseStatusCode(response, GlobalVariable.statusCode400)
 
 //With PATCH method
 response = WS.sendRequest(findTestObject('Workout/Folder Create a Workout/Create a Workout with PATCH'))

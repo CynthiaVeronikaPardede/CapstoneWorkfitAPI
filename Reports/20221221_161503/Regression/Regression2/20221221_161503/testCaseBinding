@@ -1,0 +1,13 @@
+{"testCaseName":"Test Cases/Auth/TC_login01","testCaseId":"Test Cases/Auth/TC_login01","iterationVariableName":""}
+{"testCaseName":"Test Cases/Auth/TC_Register","testCaseId":"Test Cases/Auth/TC_Register","iterationVariableName":""}
+{"testCaseName":"Test Cases/Auth/TC_ForgotPassword","testCaseId":"Test Cases/Auth/TC_ForgotPassword","iterationVariableName":""}
+{"testCaseName":"Test Cases/Auth/TC_sendOTP","testCaseId":"Test Cases/Auth/TC_sendOTP","iterationVariableName":""}
+{"testCaseName":"Test Cases/Membership/List of membership/TC_ListofMember","testCaseId":"Test Cases/Membership/List of membership/TC_ListofMember","iterationVariableName":""}
+{"testCaseName":"Test Cases/Membership/Update a membership email/TC_Update a membership email","testCaseId":"Test Cases/Membership/Update a membership email/TC_Update a membership email","iterationVariableName":""}
+{"testCaseName":"Test Cases/Membership/Update Membership/TC_UpdateMember","testCaseId":"Test Cases/Membership/Update Membership/TC_UpdateMember","iterationVariableName":""}
+{"testCaseName":"Test Cases/Booking/Offline Class/TC_Create","testCaseId":"Test Cases/Booking/Offline Class/TC_Create","iterationVariableName":""}
+{"testCaseName":"Test Cases/Booking/Offline Class/TC_GetAllClass","testCaseId":"Test Cases/Booking/Offline Class/TC_GetAllClass","iterationVariableName":""}
+{"testCaseName":"Test Cases/Booking/Offline Class/TC_Update","testCaseId":"Test Cases/Booking/Offline Class/TC_Update","iterationVariableName":""}
+{"testCaseName":"Test Cases/Booking/Online Class/TC_Create","testCaseId":"Test Cases/Booking/Online Class/TC_Create","iterationVariableName":""}
+{"testCaseName":"Test Cases/Booking/Online Class/TC_GetAllClass","testCaseId":"Test Cases/Booking/Online Class/TC_GetAllClass","iterationVariableName":""}
+{"testCaseName":"Test Cases/Booking/Online Class/TC_Update","testCaseId":"Test Cases/Booking/Online Class/TC_Update","iterationVariableName":""}

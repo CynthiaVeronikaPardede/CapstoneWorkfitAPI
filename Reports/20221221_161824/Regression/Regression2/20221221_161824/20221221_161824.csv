@@ -1,0 +1,207 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression2,,,,2022-12-21 16:18:42,2022-12-21 16:19:33,51.740s,PASSED
+,,,,,,,
+Test Cases/Auth/TC_login01,,,,2022-12-21 16:18:42,2022-12-21 16:18:49,7.561s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/Login with valid""), CONTINUE_ON_FAILURE)",,,,2022-12-21 16:18:42,2022-12-21 16:18:45,2.945s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-12-21 16:18:45,2022-12-21 16:18:45,0.012s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2022-12-21 16:18:45,2022-12-21 16:18:45,0.006s,PASSED
+parsedJson = slurper.parseText(response.getResponseText()),,,,2022-12-21 16:18:45,2022-12-21 16:18:45,0.021s,PASSED
+Token = access_token,,,,2022-12-21 16:18:45,2022-12-21 16:18:45,0.006s,PASSED
+globalVar = Token,,,,2022-12-21 16:18:45,2022-12-21 16:18:45,0.001s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/login with invalid input""))",,,,2022-12-21 16:18:45,2022-12-21 16:18:46,0.459s,PASSED
+"verifyResponseStatusCode(response, statusCode400)",,,,2022-12-21 16:18:46,2022-12-21 16:18:46,0.005s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/login with null email""))",,,,2022-12-21 16:18:46,2022-12-21 16:18:46,0.455s,PASSED
+"verifyResponseStatusCode(response, StatusCode422)",,,,2022-12-21 16:18:46,2022-12-21 16:18:46,0.007s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/login with null input""))",,,,2022-12-21 16:18:46,2022-12-21 16:18:47,0.398s,PASSED
+"verifyResponseStatusCode(response, StatusCode422)",,,,2022-12-21 16:18:47,2022-12-21 16:18:47,0.003s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/login with null password""))",,,,2022-12-21 16:18:47,2022-12-21 16:18:47,0.444s,PASSED
+"verifyResponseStatusCode(response, StatusCode422)",,,,2022-12-21 16:18:47,2022-12-21 16:18:47,0.002s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/Login with invalid email""))",,,,2022-12-21 16:18:47,2022-12-21 16:18:48,0.448s,PASSED
+"verifyResponseStatusCode(response, StatusCode422)",,,,2022-12-21 16:18:48,2022-12-21 16:18:48,0.003s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/Login with invalid password""))",,,,2022-12-21 16:18:48,2022-12-21 16:18:48,0.391s,PASSED
+"verifyResponseStatusCode(response, StatusCode422)",,,,2022-12-21 16:18:48,2022-12-21 16:18:48,0.002s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/try with Get method""))",,,,2022-12-21 16:18:48,2022-12-21 16:18:48,0.466s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 16:18:48,2022-12-21 16:18:48,0.003s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/try with PUT method""))",,,,2022-12-21 16:18:48,2022-12-21 16:18:49,0.405s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 16:18:49,2022-12-21 16:18:49,0.008s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/tyr with PATCH method""))",,,,2022-12-21 16:18:49,2022-12-21 16:18:49,0.548s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 16:18:49,2022-12-21 16:18:49,0.003s,PASSED
+,,,,,,,
+Test Cases/Auth/TC_Register,,,,2022-12-21 16:18:49,2022-12-21 16:18:57,7.530s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Register/Register with valid input""), CONTINUE_ON_FAILURE)",,,,2022-12-21 16:18:50,2022-12-21 16:18:50,0.360s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2022-12-21 16:18:50,2022-12-21 16:18:50,0.001s,PASSED
+parsedJson = slurper.parseText(response.getResponseText()),,,,2022-12-21 16:18:50,2022-12-21 16:18:50,0.000s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Register/Register with invalid input""))",,,,2022-12-21 16:18:50,2022-12-21 16:18:51,0.523s,PASSED
+"verifyResponseStatusCode(response, StatusCode422)",,,,2022-12-21 16:18:51,2022-12-21 16:18:51,0.002s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Register/Register with null all""))",,,,2022-12-21 16:18:51,2022-12-21 16:18:51,0.452s,PASSED
+"verifyResponseStatusCode(response, StatusCode422)",,,,2022-12-21 16:18:51,2022-12-21 16:18:51,0.002s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Register/Register with null email""))",,,,2022-12-21 16:18:51,2022-12-21 16:18:51,0.410s,PASSED
+"verifyResponseStatusCode(response, StatusCode422)",,,,2022-12-21 16:18:51,2022-12-21 16:18:51,0.003s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Register/Register with null fullname""))",,,,2022-12-21 16:18:51,2022-12-21 16:18:52,0.420s,PASSED
+"verifyResponseStatusCode(response, statusCode400)",,,,2022-12-21 16:18:52,2022-12-21 16:18:52,0.002s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Register/Register with null lastname""))",,,,2022-12-21 16:18:52,2022-12-21 16:18:52,0.415s,PASSED
+"verifyResponseStatusCode(response, StatusCode422)",,,,2022-12-21 16:18:52,2022-12-21 16:18:52,0.002s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Register/Register with null password""))",,,,2022-12-21 16:18:52,2022-12-21 16:18:53,0.418s,PASSED
+"verifyResponseStatusCode(response, statusCode400)",,,,2022-12-21 16:18:53,2022-12-21 16:18:53,0.002s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Register/Register with null phonenumber""))",,,,2022-12-21 16:18:53,2022-12-21 16:18:53,0.379s,PASSED
+"verifyResponseStatusCode(response, StatusCode422)",,,,2022-12-21 16:18:53,2022-12-21 16:18:53,0.003s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Register/try with GET method""))",,,,2022-12-21 16:18:53,2022-12-21 16:18:55,1.643s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 16:18:55,2022-12-21 16:18:55,0.002s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Register/try with PATCH method""))",,,,2022-12-21 16:18:55,2022-12-21 16:18:56,1.678s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 16:18:56,2022-12-21 16:18:56,0.003s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Register/try with PUT method""))",,,,2022-12-21 16:18:56,2022-12-21 16:18:57,0.501s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 16:18:57,2022-12-21 16:18:57,0.004s,PASSED
+,,,,,,,
+Test Cases/Auth/TC_sendOTP,,,,2022-12-21 16:18:57,2022-12-21 16:19:03,5.726s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Send-OTP/Send-OTP with valid email""), CONTINUE_ON_FAILURE)",,,,2022-12-21 16:18:57,2022-12-21 16:18:58,0.551s,PASSED
+"verifyResponseStatusCode(response, statusCode200)",,,,2022-12-21 16:18:58,2022-12-21 16:18:58,0.005s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Send-OTP/Send-OTP with invalid email""))",,,,2022-12-21 16:18:58,2022-12-21 16:18:58,0.486s,PASSED
+"verifyResponseStatusCode(response, statusCode404)",,,,2022-12-21 16:18:58,2022-12-21 16:18:58,0.002s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Send-OTP/Send-OTP with null email""))",,,,2022-12-21 16:18:58,2022-12-21 16:19:00,1.605s,PASSED
+"verifyResponseStatusCode(response, statusCode404)",,,,2022-12-21 16:19:00,2022-12-21 16:19:00,0.002s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Send-OTP/try with GET method""))",,,,2022-12-21 16:19:00,2022-12-21 16:19:00,0.391s,PASSED
+"verifyResponseStatusCode(response, statusCode404)",,,,2022-12-21 16:19:00,2022-12-21 16:19:00,0.004s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Send-OTP/try with PATCH method""))",,,,2022-12-21 16:19:00,2022-12-21 16:19:01,0.456s,PASSED
+"verifyResponseStatusCode(response, statusCode404)",,,,2022-12-21 16:19:01,2022-12-21 16:19:01,0.003s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Send-OTP/try with PUT method""))",,,,2022-12-21 16:19:01,2022-12-21 16:19:03,1.928s,PASSED
+"verifyResponseStatusCode(response, statusCode404)",,,,2022-12-21 16:19:03,2022-12-21 16:19:03,0.003s,PASSED
+,,,,,,,
+Test Cases/Membership/List of membership/TC_ListofMember,,,,2022-12-21 16:19:03,2022-12-21 16:19:07,4.718s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/Login with valid""), CONTINUE_ON_FAILURE)",,,,2022-12-21 16:19:03,2022-12-21 16:19:05,1.882s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-12-21 16:19:05,2022-12-21 16:19:05,0.004s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2022-12-21 16:19:05,2022-12-21 16:19:05,0.001s,PASSED
+parsedJson = slurper.parseText(response.getResponseText()),,,,2022-12-21 16:19:05,2022-12-21 16:19:05,0.001s,PASSED
+Token = access_token,,,,2022-12-21 16:19:05,2022-12-21 16:19:05,0.001s,PASSED
+globalVar = Token,,,,2022-12-21 16:19:05,2022-12-21 16:19:05,0.000s,PASSED
+"response = sendRequest(findTestObject(""Membership/List Of Membership/see list membership with Valid Token""), CONTINUE_ON_FAILURE)",,,,2022-12-21 16:19:05,2022-12-21 16:19:05,0.505s,PASSED
+"verifyResponseStatusCode(response, statusCode200)",,,,2022-12-21 16:19:05,2022-12-21 16:19:05,0.005s,PASSED
+"response = sendRequest(findTestObject(""Membership/List Of Membership/With PATCH Method""))",,,,2022-12-21 16:19:05,2022-12-21 16:19:06,0.510s,PASSED
+"verifyResponseStatusCode(response, StatusCode401)",,,,2022-12-21 16:19:06,2022-12-21 16:19:06,0.002s,PASSED
+"response = sendRequest(findTestObject(""Membership/List Of Membership/With POST Method""))",,,,2022-12-21 16:19:06,2022-12-21 16:19:07,0.791s,PASSED
+"verifyResponseStatusCode(response, StatusCode401)",,,,2022-12-21 16:19:07,2022-12-21 16:19:07,0.004s,PASSED
+"response = sendRequest(findTestObject(""Membership/List Of Membership/With PUT Method""))",,,,2022-12-21 16:19:07,2022-12-21 16:19:07,0.622s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 16:19:07,2022-12-21 16:19:07,0.001s,PASSED
+,,,,,,,
+Test Cases/Membership/Update a membership email/TC_Update a membership email,,,,2022-12-21 16:19:07,2022-12-21 16:19:09,2.090s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/Login with valid""), CONTINUE_ON_FAILURE)",,,,2022-12-21 16:19:08,2022-12-21 16:19:08,0.619s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-12-21 16:19:08,2022-12-21 16:19:08,0.004s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2022-12-21 16:19:08,2022-12-21 16:19:08,0.000s,PASSED
+parsedJson = slurper.parseText(response.getResponseText()),,,,2022-12-21 16:19:08,2022-12-21 16:19:08,0.000s,PASSED
+Token = access_token,,,,2022-12-21 16:19:08,2022-12-21 16:19:08,0.000s,PASSED
+globalVar = Token,,,,2022-12-21 16:19:08,2022-12-21 16:19:08,0.001s,PASSED
+"response = sendRequest(findTestObject(""Membership/Update membership/Update with valid input""), CONTINUE_ON_FAILURE)",,,,2022-12-21 16:19:08,2022-12-21 16:19:09,1.229s,PASSED
+"verifyResponseStatusCode(response, StatusCode201)",,,,2022-12-21 16:19:09,2022-12-21 16:19:09,0.001s,PASSED
+,,,,,,,
+Test Cases/Membership/Update Membership/TC_UpdateMember,,,,2022-12-21 16:19:09,2022-12-21 16:19:17,7.287s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/Login with valid""), CONTINUE_ON_FAILURE)",,,,2022-12-21 16:19:10,2022-12-21 16:19:11,0.993s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-12-21 16:19:11,2022-12-21 16:19:11,0.004s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2022-12-21 16:19:11,2022-12-21 16:19:11,0.001s,PASSED
+parsedJson = slurper.parseText(response.getResponseText()),,,,2022-12-21 16:19:11,2022-12-21 16:19:11,0.001s,PASSED
+Token = access_token,,,,2022-12-21 16:19:11,2022-12-21 16:19:11,0.000s,PASSED
+globalVar = Token,,,,2022-12-21 16:19:11,2022-12-21 16:19:11,0.000s,PASSED
+"response = sendRequest(findTestObject(""Membership/Update membership/Update with valid input""), CONTINUE_ON_FAILURE)",,,,2022-12-21 16:19:11,2022-12-21 16:19:13,2.793s,PASSED
+"verifyResponseStatusCode(response, StatusCode201)",,,,2022-12-21 16:19:13,2022-12-21 16:19:13,0.002s,PASSED
+"response = sendRequest(findTestObject(""Membership/Update membership/Update with null input""))",,,,2022-12-21 16:19:13,2022-12-21 16:19:15,1.693s,PASSED
+"verifyResponseStatusCode(response, StatusCode401)",,,,2022-12-21 16:19:15,2022-12-21 16:19:15,0.002s,PASSED
+"response = sendRequest(findTestObject(""Membership/Update membership/With POST Method""))",,,,2022-12-21 16:19:15,2022-12-21 16:19:16,0.917s,PASSED
+"verifyResponseStatusCode(response, StatusCode401)",,,,2022-12-21 16:19:16,2022-12-21 16:19:16,0.002s,PASSED
+"response = sendRequest(findTestObject(""Membership/Update membership/With PUT Method""))",,,,2022-12-21 16:19:16,2022-12-21 16:19:17,0.630s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 16:19:17,2022-12-21 16:19:17,0.001s,PASSED
+,,,,,,,
+Test Cases/Booking/Offline Class/TC_Create,,,,2022-12-21 16:19:17,2022-12-21 16:19:20,3.186s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/Login with valid""), CONTINUE_ON_FAILURE)",,,,2022-12-21 16:19:17,2022-12-21 16:19:17,0.501s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-12-21 16:19:17,2022-12-21 16:19:17,0.003s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2022-12-21 16:19:17,2022-12-21 16:19:17,0.000s,PASSED
+parsedJson = slurper.parseText(response.getResponseText()),,,,2022-12-21 16:19:17,2022-12-21 16:19:17,0.002s,PASSED
+Token = access_token,,,,2022-12-21 16:19:17,2022-12-21 16:19:17,0.001s,PASSED
+globalVar = Token,,,,2022-12-21 16:19:17,2022-12-21 16:19:17,0.000s,PASSED
+"response = sendRequest(findTestObject(""Booking/Offline Book/create book online/Create class with valid input""), CONTINUE_ON_FAILURE)",,,,2022-12-21 16:19:17,2022-12-21 16:19:18,0.436s,PASSED
+"verifyResponseStatusCode(response, StatusCode201)",,,,2022-12-21 16:19:18,2022-12-21 16:19:18,0.003s,PASSED
+"response = sendRequest(findTestObject(""Booking/Offline Book/create book online/Create with invalid input""))",,,,2022-12-21 16:19:18,2022-12-21 16:19:18,0.437s,PASSED
+"verifyResponseStatusCode(response, StatusCode401)",,,,2022-12-21 16:19:18,2022-12-21 16:19:18,0.002s,PASSED
+"response = sendRequest(findTestObject(""Booking/Offline Book/create book online/Create with invalid Token""))",,,,2022-12-21 16:19:18,2022-12-21 16:19:19,0.486s,PASSED
+"verifyResponseStatusCode(response, StatusCode401)",,,,2022-12-21 16:19:19,2022-12-21 16:19:19,0.002s,PASSED
+"response = sendRequest(findTestObject(""Booking/Offline Book/create book online/With PATCH Method""))",,,,2022-12-21 16:19:19,2022-12-21 16:19:19,0.490s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 16:19:19,2022-12-21 16:19:19,0.005s,PASSED
+"response = sendRequest(findTestObject(""Booking/Offline Book/create book online/With PUT Method""))",,,,2022-12-21 16:19:19,2022-12-21 16:19:20,0.579s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 16:19:20,2022-12-21 16:19:20,0.001s,PASSED
+,,,,,,,
+Test Cases/Booking/Offline Class/TC_GetAllClass,,,,2022-12-21 16:19:20,2022-12-21 16:19:23,2.910s,PASSED
+"response = sendRequest(findTestObject(""Booking/Offline Book/See all boking class/get all booking class""), CONTINUE_ON_FAILURE)",,,,2022-12-21 16:19:20,2022-12-21 16:19:21,0.543s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-12-21 16:19:21,2022-12-21 16:19:21,0.001s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2022-12-21 16:19:21,2022-12-21 16:19:21,0.001s,PASSED
+parsedJson = slurper.parseText(response.getResponseText()),,,,2022-12-21 16:19:21,2022-12-21 16:19:21,0.000s,PASSED
+Token = access_token,,,,2022-12-21 16:19:21,2022-12-21 16:19:21,0.000s,PASSED
+globalVar = Token,,,,2022-12-21 16:19:21,2022-12-21 16:19:21,0.001s,PASSED
+"response = sendRequest(findTestObject(""Booking/Offline Book/See all boking class/With PATCH Method""))",,,,2022-12-21 16:19:21,2022-12-21 16:19:22,0.818s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 16:19:22,2022-12-21 16:19:22,0.002s,PASSED
+"response = sendRequest(findTestObject(""Booking/Offline Book/See all boking class/With POST Method""))",,,,2022-12-21 16:19:22,2022-12-21 16:19:22,0.535s,PASSED
+"verifyResponseStatusCode(response, StatusCode401)",,,,2022-12-21 16:19:22,2022-12-21 16:19:22,0.002s,PASSED
+"response = sendRequest(findTestObject(""Booking/Offline Book/See all boking class/With PUT Method""))",,,,2022-12-21 16:19:22,2022-12-21 16:19:23,0.771s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 16:19:23,2022-12-21 16:19:23,0.002s,PASSED
+,,,,,,,
+Test Cases/Booking/Offline Class/TC_Update,,,,2022-12-21 16:19:23,2022-12-21 16:19:26,3.308s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/Login with valid""), CONTINUE_ON_FAILURE)",,,,2022-12-21 16:19:23,2022-12-21 16:19:24,0.461s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-12-21 16:19:24,2022-12-21 16:19:24,0.006s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2022-12-21 16:19:24,2022-12-21 16:19:24,0.001s,PASSED
+parsedJson = slurper.parseText(response.getResponseText()),,,,2022-12-21 16:19:24,2022-12-21 16:19:24,0.002s,PASSED
+Token = access_token,,,,2022-12-21 16:19:24,2022-12-21 16:19:24,0.001s,PASSED
+globalVar = Token,,,,2022-12-21 16:19:24,2022-12-21 16:19:24,0.001s,PASSED
+"response = sendRequest(findTestObject(""Booking/Online Book/Update class/Update class with valid input""), CONTINUE_ON_FAILURE)",,,,2022-12-21 16:19:24,2022-12-21 16:19:24,0.507s,PASSED
+"verifyResponseStatusCode(response, statuscode)",,,,2022-12-21 16:19:24,2022-12-21 16:19:24,0.002s,PASSED
+"response = sendRequest(findTestObject(""Booking/Online Book/Update class/Update with invalid input""))",,,,2022-12-21 16:19:24,2022-12-21 16:19:25,0.476s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 16:19:25,2022-12-21 16:19:25,0.002s,PASSED
+"response = sendRequest(findTestObject(""Booking/Online Book/Update class/Update with invalid Token""))",,,,2022-12-21 16:19:25,2022-12-21 16:19:25,0.381s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 16:19:25,2022-12-21 16:19:25,0.001s,PASSED
+"response = sendRequest(findTestObject(""Booking/Online Book/Update class/With POST Method""))",,,,2022-12-21 16:19:25,2022-12-21 16:19:26,0.741s,PASSED
+"verifyResponseStatusCode(response, StatusCode401)",,,,2022-12-21 16:19:26,2022-12-21 16:19:26,0.002s,PASSED
+"response = sendRequest(findTestObject(""Booking/Online Book/Update class/With PUT Method""))",,,,2022-12-21 16:19:26,2022-12-21 16:19:26,0.439s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 16:19:26,2022-12-21 16:19:26,0.002s,PASSED
+,,,,,,,
+Test Cases/Booking/Online Class/TC_Create,,,,2022-12-21 16:19:26,2022-12-21 16:19:28,2.254s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/Login with valid""), CONTINUE_ON_FAILURE)",,,,2022-12-21 16:19:26,2022-12-21 16:19:27,0.482s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-12-21 16:19:27,2022-12-21 16:19:27,0.003s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2022-12-21 16:19:27,2022-12-21 16:19:27,0.000s,PASSED
+parsedJson = slurper.parseText(response.getResponseText()),,,,2022-12-21 16:19:27,2022-12-21 16:19:27,0.001s,PASSED
+Token = access_token,,,,2022-12-21 16:19:27,2022-12-21 16:19:27,0.000s,PASSED
+globalVar = Token,,,,2022-12-21 16:19:27,2022-12-21 16:19:27,0.001s,PASSED
+"response = sendRequest(findTestObject(""Booking/Online Book/create book online/Create class with valid input""), CONTINUE_ON_FAILURE)",,,,2022-12-21 16:19:27,2022-12-21 16:19:27,0.496s,PASSED
+"verifyResponseStatusCode(response, StatusCode201)",,,,2022-12-21 16:19:27,2022-12-21 16:19:27,0.002s,PASSED
+"response = sendRequest(findTestObject(""Booking/Online Book/create book online/Create with invalid input""))",,,,2022-12-21 16:19:27,2022-12-21 16:19:28,0.507s,PASSED
+"verifyResponseStatusCode(response, StatusCode401)",,,,2022-12-21 16:19:28,2022-12-21 16:19:28,0.004s,PASSED
+"response = sendRequest(findTestObject(""Booking/Online Book/create book online/Create with invalid Token""))",,,,2022-12-21 16:19:28,2022-12-21 16:19:28,0.433s,PASSED
+"verifyResponseStatusCode(response, StatusCode401)",,,,2022-12-21 16:19:28,2022-12-21 16:19:28,0.002s,PASSED
+,,,,,,,
+Test Cases/Booking/Online Class/TC_GetAllClass,,,,2022-12-21 16:19:28,2022-12-21 16:19:31,2.315s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/Login with valid""), CONTINUE_ON_FAILURE)",,,,2022-12-21 16:19:29,2022-12-21 16:19:29,0.411s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-12-21 16:19:29,2022-12-21 16:19:29,0.002s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2022-12-21 16:19:29,2022-12-21 16:19:29,0.000s,PASSED
+parsedJson = slurper.parseText(response.getResponseText()),,,,2022-12-21 16:19:29,2022-12-21 16:19:29,0.000s,PASSED
+Token = access_token,,,,2022-12-21 16:19:29,2022-12-21 16:19:29,0.001s,PASSED
+globalVar = Token,,,,2022-12-21 16:19:29,2022-12-21 16:19:29,0.000s,PASSED
+"response = sendRequest(findTestObject(""Booking/Online Book/See all boking class/get all booking class""), CONTINUE_ON_FAILURE)",,,,2022-12-21 16:19:29,2022-12-21 16:19:30,0.455s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-12-21 16:19:30,2022-12-21 16:19:30,0.002s,PASSED
+"response = sendRequest(findTestObject(""Booking/Online Book/See all boking class/With PATCH Method""))",,,,2022-12-21 16:19:30,2022-12-21 16:19:30,0.406s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 16:19:30,2022-12-21 16:19:30,0.001s,PASSED
+"response = sendRequest(findTestObject(""Booking/Online Book/See all boking class/With POST Method""))",,,,2022-12-21 16:19:30,2022-12-21 16:19:30,0.373s,PASSED
+"verifyResponseStatusCode(response, StatusCode401)",,,,2022-12-21 16:19:30,2022-12-21 16:19:30,0.003s,PASSED
+"response = sendRequest(findTestObject(""Booking/Online Book/See all boking class/With PUT Method""))",,,,2022-12-21 16:19:30,2022-12-21 16:19:31,0.406s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 16:19:31,2022-12-21 16:19:31,0.004s,PASSED
+,,,,,,,
+Test Cases/Booking/Online Class/TC_Update,,,,2022-12-21 16:19:31,2022-12-21 16:19:33,2.546s,PASSED
+"response = sendRequest(findTestObject(""AUTH/Login/Login with valid""), CONTINUE_ON_FAILURE)",,,,2022-12-21 16:19:31,2022-12-21 16:19:31,0.419s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-12-21 16:19:31,2022-12-21 16:19:31,0.002s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2022-12-21 16:19:31,2022-12-21 16:19:31,0.000s,PASSED
+parsedJson = slurper.parseText(response.getResponseText()),,,,2022-12-21 16:19:31,2022-12-21 16:19:31,0.000s,PASSED
+Token = access_token,,,,2022-12-21 16:19:31,2022-12-21 16:19:31,0.000s,PASSED
+globalVar = Token,,,,2022-12-21 16:19:31,2022-12-21 16:19:31,0.000s,PASSED
+"response = sendRequest(findTestObject(""Booking/Offline Book/Update class/Update class with valid input""), CONTINUE_ON_FAILURE)",,,,2022-12-21 16:19:31,2022-12-21 16:19:32,0.401s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 16:19:32,2022-12-21 16:19:32,0.001s,PASSED
+"response = sendRequest(findTestObject(""Booking/Offline Book/Update class/Update with invalid input""))",,,,2022-12-21 16:19:32,2022-12-21 16:19:32,0.345s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 16:19:32,2022-12-21 16:19:32,0.002s,PASSED
+"response = sendRequest(findTestObject(""Booking/Offline Book/Update class/Update with invalid Token""))",,,,2022-12-21 16:19:32,2022-12-21 16:19:33,0.362s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 16:19:33,2022-12-21 16:19:33,0.002s,PASSED
+"response = sendRequest(findTestObject(""Booking/Offline Book/Update class/With POST Method""))",,,,2022-12-21 16:19:33,2022-12-21 16:19:33,0.367s,PASSED
+"verifyResponseStatusCode(response, StatusCode401)",,,,2022-12-21 16:19:33,2022-12-21 16:19:33,0.002s,PASSED
+"response = sendRequest(findTestObject(""Booking/Offline Book/Update class/With PUT Method""))",,,,2022-12-21 16:19:33,2022-12-21 16:19:33,0.373s,PASSED
+"verifyResponseStatusCode(response, statusCode405)",,,,2022-12-21 16:19:33,2022-12-21 16:19:33,0.002s,PASSED

@@ -15,21 +15,15 @@
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;workout&quot;,
-      &quot;value&quot;: &quot;Push Up&quot;,
+      &quot;value&quot;: &quot;Wall sit&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;application/json&quot;
     },
     {
       &quot;name&quot;: &quot;description&quot;,
-      &quot;value&quot;: &quot;Membantu dalam membentuk otot lengan&quot;,
+      &quot;value&quot;: &quot;Latihan yang dilakukan dengan cara menyandarkan punggung&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;application/json&quot;
-    },
-    {
-      &quot;name&quot;: &quot;image&quot;,
-      &quot;value&quot;: &quot;E:\\SEMESTER 7\\MBKM\\Capstone Project\\images\\pushup.png&quot;,
-      &quot;type&quot;: &quot;File&quot;,
-      &quot;contentType&quot;: &quot;multipart/form-data&quot;
     }
   ]
 }</httpBodyContent>
@@ -54,7 +48,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PATCH</restRequestMethod>
-   <restUrl>https://www.go-rest-api.live/api/v1/workouts/b71031f3-3d4a-48b2-b317-a9b9f76bd49a</restUrl>
+   <restUrl>https://www.go-rest-api.live/api/v1/workouts/5bfd561d-712b-4de3-a466-36aa7e55b8fb</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

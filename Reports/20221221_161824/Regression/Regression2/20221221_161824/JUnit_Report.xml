@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression2" time="51.74" tests="12" failures="0" errors="0">
+   <testsuite name="Regression2" tests="12" failures="0" errors="0" time="51.74" skipped="0" timestamp="2022-12-21 16:18:42" hostname="Asus - DESKTOP-SRK5D1D" id="Test Suites/Regression/Regression2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\SEMESTER 7\\MBKM\\Capstone Project\\CICD\\API\\Terbaru\\Baru2\\CapstoneWorkfitAPI\\Reports\\20221221_161824\\Regression\\Regression2\\20221221_161824"/>
+         <property name="logFiles" value="E:\\SEMESTER 7\\MBKM\\Capstone Project\\CICD\\API\\Terbaru\\Baru2\\CapstoneWorkfitAPI\\Reports\\20221221_161824\\Regression\\Regression2\\20221221_161824\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Asus - DESKTOP-SRK5D1D"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+      </properties>
+      <testcase name="Test Cases/Auth/TC_login01" time="7.561" classname="Test Cases/Auth/TC_login01" status="PASSED">
+         <system-out><![CDATA[2022-12-21 16:18:42 - [TEST_CASE][PASSED] - Test Cases/Auth/TC_login01: Test Cases/Auth/TC_login01
+
+2022-12-21 16:18:42 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/Login with valid"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 16:18:45 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\0.har
+
+2022-12-21 16:18:45 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:18:45 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-12-21 16:18:45 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:18:45 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-12-21 16:18:45 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(response.getResponseText()): null
+
+2022-12-21 16:18:45 - [TEST_STEP][PASSED] - Token = access_token: null
+
+2022-12-21 16:18:45 - [TEST_STEP][PASSED] - globalVar = Token: null
+
+2022-12-21 16:18:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/login with invalid input")): Send request successfully
+
+2022-12-21 16:18:46 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\1.har
+
+2022-12-21 16:18:46 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:18:46 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode400): Verify response status code successfully
+
+2022-12-21 16:18:46 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:18:46 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/login with null email")): Send request successfully
+
+2022-12-21 16:18:46 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\2.har
+
+2022-12-21 16:18:46 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:18:46 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode422): Verify response status code successfully
+
+2022-12-21 16:18:46 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:18:46 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/login with null input")): Send request successfully
+
+2022-12-21 16:18:47 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\3.har
+
+2022-12-21 16:18:47 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:18:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode422): Verify response status code successfully
+
+2022-12-21 16:18:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:18:47 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/login with null password")): Send request successfully
+
+2022-12-21 16:18:47 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\4.har
+
+2022-12-21 16:18:47 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:18:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode422): Verify response status code successfully
+
+2022-12-21 16:18:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:18:47 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/Login with invalid email")): Send request successfully
+
+2022-12-21 16:18:48 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\5.har
+
+2022-12-21 16:18:48 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:18:48 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode422): Verify response status code successfully
+
+2022-12-21 16:18:48 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:18:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/Login with invalid password")): Send request successfully
+
+2022-12-21 16:18:48 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\6.har
+
+2022-12-21 16:18:48 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:18:48 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode422): Verify response status code successfully
+
+2022-12-21 16:18:48 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:18:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/try with Get method")): Send request successfully
+
+2022-12-21 16:18:48 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\7.har
+
+2022-12-21 16:18:48 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:18:48 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 16:18:48 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:18:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/try with PUT method")): Send request successfully
+
+2022-12-21 16:18:49 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\8.har
+
+2022-12-21 16:18:49 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:18:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 16:18:49 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:18:49 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/tyr with PATCH method")): Send request successfully
+
+2022-12-21 16:18:49 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\9.har
+
+2022-12-21 16:18:49 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:18:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 16:18:49 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Auth/TC_Register" time="7.53" classname="Test Cases/Auth/TC_Register" status="PASSED">
+         <system-out><![CDATA[2022-12-21 16:18:49 - [TEST_CASE][PASSED] - Test Cases/Auth/TC_Register: Test Cases/Auth/TC_Register
+
+2022-12-21 16:18:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Register/Register with valid input"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 16:18:50 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\10.har
+
+2022-12-21 16:18:50 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:18:50 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-12-21 16:18:50 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(response.getResponseText()): null
+
+2022-12-21 16:18:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Register/Register with invalid input")): Send request successfully
+
+2022-12-21 16:18:51 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\11.har
+
+2022-12-21 16:18:51 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:18:51 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode422): Verify response status code successfully
+
+2022-12-21 16:18:51 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:18:51 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Register/Register with null all")): Send request successfully
+
+2022-12-21 16:18:51 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\12.har
+
+2022-12-21 16:18:51 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:18:51 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode422): Verify response status code successfully
+
+2022-12-21 16:18:51 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:18:51 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Register/Register with null email")): Send request successfully
+
+2022-12-21 16:18:51 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\13.har
+
+2022-12-21 16:18:51 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:18:51 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode422): Verify response status code successfully
+
+2022-12-21 16:18:51 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:18:51 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Register/Register with null fullname")): Send request successfully
+
+2022-12-21 16:18:52 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\14.har
+
+2022-12-21 16:18:52 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:18:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode400): Verify response status code successfully
+
+2022-12-21 16:18:52 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:18:52 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Register/Register with null lastname")): Send request successfully
+
+2022-12-21 16:18:52 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\15.har
+
+2022-12-21 16:18:52 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:18:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode422): Verify response status code successfully
+
+2022-12-21 16:18:52 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:18:52 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Register/Register with null password")): Send request successfully
+
+2022-12-21 16:18:53 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\16.har
+
+2022-12-21 16:18:53 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:18:53 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode400): Verify response status code successfully
+
+2022-12-21 16:18:53 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:18:53 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Register/Register with null phonenumber")): Send request successfully
+
+2022-12-21 16:18:53 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\17.har
+
+2022-12-21 16:18:53 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:18:53 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode422): Verify response status code successfully
+
+2022-12-21 16:18:53 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:18:53 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Register/try with GET method")): Send request successfully
+
+2022-12-21 16:18:55 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\18.har
+
+2022-12-21 16:18:55 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:18:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 16:18:55 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:18:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Register/try with PATCH method")): Send request successfully
+
+2022-12-21 16:18:56 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\19.har
+
+2022-12-21 16:18:56 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:18:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 16:18:56 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:18:56 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Register/try with PUT method")): Send request successfully
+
+2022-12-21 16:18:57 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\20.har
+
+2022-12-21 16:18:57 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:18:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 16:18:57 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Auth/TC_sendOTP" time="5.726" classname="Test Cases/Auth/TC_sendOTP" status="PASSED">
+         <system-out><![CDATA[2022-12-21 16:18:57 - [TEST_CASE][PASSED] - Test Cases/Auth/TC_sendOTP: Test Cases/Auth/TC_sendOTP
+
+2022-12-21 16:18:57 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Send-OTP/Send-OTP with valid email"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 16:18:58 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\21.har
+
+2022-12-21 16:18:58 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:18:58 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode200): Verify response status code successfully
+
+2022-12-21 16:18:58 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:18:58 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Send-OTP/Send-OTP with invalid email")): Send request successfully
+
+2022-12-21 16:18:58 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\22.har
+
+2022-12-21 16:18:58 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:18:58 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode404): Verify response status code successfully
+
+2022-12-21 16:18:58 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:18:58 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Send-OTP/Send-OTP with null email")): Send request successfully
+
+2022-12-21 16:19:00 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\23.har
+
+2022-12-21 16:19:00 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode404): Verify response status code successfully
+
+2022-12-21 16:19:00 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:00 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Send-OTP/try with GET method")): Send request successfully
+
+2022-12-21 16:19:00 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\24.har
+
+2022-12-21 16:19:00 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode404): Verify response status code successfully
+
+2022-12-21 16:19:00 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:00 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Send-OTP/try with PATCH method")): Send request successfully
+
+2022-12-21 16:19:01 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\25.har
+
+2022-12-21 16:19:01 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode404): Verify response status code successfully
+
+2022-12-21 16:19:01 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:01 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Send-OTP/try with PUT method")): Send request successfully
+
+2022-12-21 16:19:03 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\26.har
+
+2022-12-21 16:19:03 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode404): Verify response status code successfully
+
+2022-12-21 16:19:03 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Membership/List of membership/TC_ListofMember" time="4.718" classname="Test Cases/Membership/List of membership/TC_ListofMember" status="PASSED">
+         <system-out><![CDATA[2022-12-21 16:19:03 - [TEST_CASE][PASSED] - Test Cases/Membership/List of membership/TC_ListofMember: Test Cases/Membership/List of membership/TC_ListofMember
+
+2022-12-21 16:19:03 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/Login with valid"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 16:19:05 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\27.har
+
+2022-12-21 16:19:05 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:05 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-12-21 16:19:05 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:05 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-12-21 16:19:05 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(response.getResponseText()): null
+
+2022-12-21 16:19:05 - [TEST_STEP][PASSED] - Token = access_token: null
+
+2022-12-21 16:19:05 - [TEST_STEP][PASSED] - globalVar = Token: null
+
+2022-12-21 16:19:05 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Membership/List Of Membership/see list membership with Valid Token"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 16:19:05 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\28.har
+
+2022-12-21 16:19:05 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:05 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode200): Verify response status code successfully
+
+2022-12-21 16:19:05 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:05 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Membership/List Of Membership/With PATCH Method")): Send request successfully
+
+2022-12-21 16:19:06 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\29.har
+
+2022-12-21 16:19:06 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:06 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode401): Verify response status code successfully
+
+2022-12-21 16:19:06 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:06 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Membership/List Of Membership/With POST Method")): Send request successfully
+
+2022-12-21 16:19:07 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\30.har
+
+2022-12-21 16:19:07 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:07 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode401): Verify response status code successfully
+
+2022-12-21 16:19:07 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:07 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Membership/List Of Membership/With PUT Method")): Send request successfully
+
+2022-12-21 16:19:07 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\31.har
+
+2022-12-21 16:19:07 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:07 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 16:19:07 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Membership/Update a membership email/TC_Update a membership email" time="2.09" classname="Test Cases/Membership/Update a membership email/TC_Update a membership email" status="PASSED">
+         <system-out><![CDATA[2022-12-21 16:19:07 - [TEST_CASE][PASSED] - Test Cases/Membership/Update a membership email/TC_Update a membership email: Test Cases/Membership/Update a membership email/TC_Update a membership email
+
+2022-12-21 16:19:08 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/Login with valid"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 16:19:08 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\32.har
+
+2022-12-21 16:19:08 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-12-21 16:19:08 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:08 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-12-21 16:19:08 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(response.getResponseText()): null
+
+2022-12-21 16:19:08 - [TEST_STEP][PASSED] - Token = access_token: null
+
+2022-12-21 16:19:08 - [TEST_STEP][PASSED] - globalVar = Token: null
+
+2022-12-21 16:19:08 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Membership/Update membership/Update with valid input"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 16:19:09 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\33.har
+
+2022-12-21 16:19:09 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:09 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode201): Verify response status code successfully
+
+2022-12-21 16:19:09 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Membership/Update Membership/TC_UpdateMember" time="7.287" classname="Test Cases/Membership/Update Membership/TC_UpdateMember" status="PASSED">
+         <system-out><![CDATA[2022-12-21 16:19:09 - [TEST_CASE][PASSED] - Test Cases/Membership/Update Membership/TC_UpdateMember: Test Cases/Membership/Update Membership/TC_UpdateMember
+
+2022-12-21 16:19:10 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/Login with valid"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 16:19:11 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\34.har
+
+2022-12-21 16:19:11 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-12-21 16:19:11 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:11 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-12-21 16:19:11 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(response.getResponseText()): null
+
+2022-12-21 16:19:11 - [TEST_STEP][PASSED] - Token = access_token: null
+
+2022-12-21 16:19:11 - [TEST_STEP][PASSED] - globalVar = Token: null
+
+2022-12-21 16:19:11 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Membership/Update membership/Update with valid input"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 16:19:13 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\35.har
+
+2022-12-21 16:19:13 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode201): Verify response status code successfully
+
+2022-12-21 16:19:13 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:13 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Membership/Update membership/Update with null input")): Send request successfully
+
+2022-12-21 16:19:15 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\36.har
+
+2022-12-21 16:19:15 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode401): Verify response status code successfully
+
+2022-12-21 16:19:15 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:15 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Membership/Update membership/With POST Method")): Send request successfully
+
+2022-12-21 16:19:16 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\37.har
+
+2022-12-21 16:19:16 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode401): Verify response status code successfully
+
+2022-12-21 16:19:16 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:16 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Membership/Update membership/With PUT Method")): Send request successfully
+
+2022-12-21 16:19:17 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\38.har
+
+2022-12-21 16:19:17 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 16:19:17 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Booking/Offline Class/TC_Create" time="3.186" classname="Test Cases/Booking/Offline Class/TC_Create" status="PASSED">
+         <system-out><![CDATA[2022-12-21 16:19:17 - [TEST_CASE][PASSED] - Test Cases/Booking/Offline Class/TC_Create: Test Cases/Booking/Offline Class/TC_Create
+
+2022-12-21 16:19:17 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/Login with valid"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 16:19:17 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\39.har
+
+2022-12-21 16:19:17 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-12-21 16:19:17 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:17 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-12-21 16:19:17 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(response.getResponseText()): null
+
+2022-12-21 16:19:17 - [TEST_STEP][PASSED] - Token = access_token: null
+
+2022-12-21 16:19:17 - [TEST_STEP][PASSED] - globalVar = Token: null
+
+2022-12-21 16:19:17 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Offline Book/create book online/Create class with valid input"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 16:19:18 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\40.har
+
+2022-12-21 16:19:18 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:18 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode201): Verify response status code successfully
+
+2022-12-21 16:19:18 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:18 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Offline Book/create book online/Create with invalid input")): Send request successfully
+
+2022-12-21 16:19:18 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\41.har
+
+2022-12-21 16:19:18 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:18 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode401): Verify response status code successfully
+
+2022-12-21 16:19:18 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:18 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Offline Book/create book online/Create with invalid Token")): Send request successfully
+
+2022-12-21 16:19:19 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\42.har
+
+2022-12-21 16:19:19 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode401): Verify response status code successfully
+
+2022-12-21 16:19:19 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:19 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Offline Book/create book online/With PATCH Method")): Send request successfully
+
+2022-12-21 16:19:19 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\43.har
+
+2022-12-21 16:19:19 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 16:19:19 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:19 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Offline Book/create book online/With PUT Method")): Send request successfully
+
+2022-12-21 16:19:20 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\44.har
+
+2022-12-21 16:19:20 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:20 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 16:19:20 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Booking/Offline Class/TC_GetAllClass" time="2.91" classname="Test Cases/Booking/Offline Class/TC_GetAllClass" status="PASSED">
+         <system-out><![CDATA[2022-12-21 16:19:20 - [TEST_CASE][PASSED] - Test Cases/Booking/Offline Class/TC_GetAllClass: Test Cases/Booking/Offline Class/TC_GetAllClass
+
+2022-12-21 16:19:20 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Offline Book/See all boking class/get all booking class"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 16:19:21 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\45.har
+
+2022-12-21 16:19:21 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-12-21 16:19:21 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:21 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-12-21 16:19:21 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(response.getResponseText()): null
+
+2022-12-21 16:19:21 - [TEST_STEP][PASSED] - Token = access_token: null
+
+2022-12-21 16:19:21 - [TEST_STEP][PASSED] - globalVar = Token: null
+
+2022-12-21 16:19:21 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Offline Book/See all boking class/With PATCH Method")): Send request successfully
+
+2022-12-21 16:19:22 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\46.har
+
+2022-12-21 16:19:22 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:22 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 16:19:22 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:22 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Offline Book/See all boking class/With POST Method")): Send request successfully
+
+2022-12-21 16:19:22 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\47.har
+
+2022-12-21 16:19:22 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:22 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode401): Verify response status code successfully
+
+2022-12-21 16:19:22 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:22 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Offline Book/See all boking class/With PUT Method")): Send request successfully
+
+2022-12-21 16:19:23 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\48.har
+
+2022-12-21 16:19:23 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:23 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 16:19:23 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Booking/Offline Class/TC_Update" time="3.308" classname="Test Cases/Booking/Offline Class/TC_Update" status="PASSED">
+         <system-out><![CDATA[2022-12-21 16:19:23 - [TEST_CASE][PASSED] - Test Cases/Booking/Offline Class/TC_Update: Test Cases/Booking/Offline Class/TC_Update
+
+2022-12-21 16:19:23 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/Login with valid"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 16:19:24 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\49.har
+
+2022-12-21 16:19:24 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:24 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-12-21 16:19:24 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:24 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-12-21 16:19:24 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(response.getResponseText()): null
+
+2022-12-21 16:19:24 - [TEST_STEP][PASSED] - Token = access_token: null
+
+2022-12-21 16:19:24 - [TEST_STEP][PASSED] - globalVar = Token: null
+
+2022-12-21 16:19:24 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Online Book/Update class/Update class with valid input"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 16:19:24 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\50.har
+
+2022-12-21 16:19:24 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:24 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statuscode): Verify response status code successfully
+
+2022-12-21 16:19:24 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:24 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Online Book/Update class/Update with invalid input")): Send request successfully
+
+2022-12-21 16:19:25 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\51.har
+
+2022-12-21 16:19:25 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 16:19:25 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:25 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Online Book/Update class/Update with invalid Token")): Send request successfully
+
+2022-12-21 16:19:25 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\52.har
+
+2022-12-21 16:19:25 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 16:19:25 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:25 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Online Book/Update class/With POST Method")): Send request successfully
+
+2022-12-21 16:19:26 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\53.har
+
+2022-12-21 16:19:26 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:26 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode401): Verify response status code successfully
+
+2022-12-21 16:19:26 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:26 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Online Book/Update class/With PUT Method")): Send request successfully
+
+2022-12-21 16:19:26 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\54.har
+
+2022-12-21 16:19:26 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:26 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 16:19:26 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Booking/Online Class/TC_Create" time="2.254" classname="Test Cases/Booking/Online Class/TC_Create" status="PASSED">
+         <system-out><![CDATA[2022-12-21 16:19:26 - [TEST_CASE][PASSED] - Test Cases/Booking/Online Class/TC_Create: Test Cases/Booking/Online Class/TC_Create
+
+2022-12-21 16:19:26 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/Login with valid"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 16:19:27 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\55.har
+
+2022-12-21 16:19:27 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:27 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-12-21 16:19:27 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:27 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-12-21 16:19:27 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(response.getResponseText()): null
+
+2022-12-21 16:19:27 - [TEST_STEP][PASSED] - Token = access_token: null
+
+2022-12-21 16:19:27 - [TEST_STEP][PASSED] - globalVar = Token: null
+
+2022-12-21 16:19:27 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Online Book/create book online/Create class with valid input"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 16:19:27 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\56.har
+
+2022-12-21 16:19:27 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:27 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode201): Verify response status code successfully
+
+2022-12-21 16:19:27 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:27 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Online Book/create book online/Create with invalid input")): Send request successfully
+
+2022-12-21 16:19:28 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\57.har
+
+2022-12-21 16:19:28 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:28 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode401): Verify response status code successfully
+
+2022-12-21 16:19:28 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:28 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Online Book/create book online/Create with invalid Token")): Send request successfully
+
+2022-12-21 16:19:28 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\58.har
+
+2022-12-21 16:19:28 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:28 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode401): Verify response status code successfully
+
+2022-12-21 16:19:28 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Booking/Online Class/TC_GetAllClass" time="2.315" classname="Test Cases/Booking/Online Class/TC_GetAllClass" status="PASSED">
+         <system-out><![CDATA[2022-12-21 16:19:28 - [TEST_CASE][PASSED] - Test Cases/Booking/Online Class/TC_GetAllClass: Test Cases/Booking/Online Class/TC_GetAllClass
+
+2022-12-21 16:19:29 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/Login with valid"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 16:19:29 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\59.har
+
+2022-12-21 16:19:29 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:29 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-12-21 16:19:29 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:29 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-12-21 16:19:29 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(response.getResponseText()): null
+
+2022-12-21 16:19:29 - [TEST_STEP][PASSED] - Token = access_token: null
+
+2022-12-21 16:19:29 - [TEST_STEP][PASSED] - globalVar = Token: null
+
+2022-12-21 16:19:29 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Online Book/See all boking class/get all booking class"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 16:19:30 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\60.har
+
+2022-12-21 16:19:30 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:30 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-12-21 16:19:30 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:30 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Online Book/See all boking class/With PATCH Method")): Send request successfully
+
+2022-12-21 16:19:30 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\61.har
+
+2022-12-21 16:19:30 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:30 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 16:19:30 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:30 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Online Book/See all boking class/With POST Method")): Send request successfully
+
+2022-12-21 16:19:30 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\62.har
+
+2022-12-21 16:19:30 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:30 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode401): Verify response status code successfully
+
+2022-12-21 16:19:30 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:30 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Online Book/See all boking class/With PUT Method")): Send request successfully
+
+2022-12-21 16:19:31 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\63.har
+
+2022-12-21 16:19:31 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:31 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 16:19:31 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Booking/Online Class/TC_Update" time="2.546" classname="Test Cases/Booking/Online Class/TC_Update" status="PASSED">
+         <system-out><![CDATA[2022-12-21 16:19:31 - [TEST_CASE][PASSED] - Test Cases/Booking/Online Class/TC_Update: Test Cases/Booking/Online Class/TC_Update
+
+2022-12-21 16:19:31 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("AUTH/Login/Login with valid"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 16:19:31 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\64.har
+
+2022-12-21 16:19:31 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:31 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-12-21 16:19:31 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:31 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2022-12-21 16:19:31 - [TEST_STEP][PASSED] - parsedJson = slurper.parseText(response.getResponseText()): null
+
+2022-12-21 16:19:31 - [TEST_STEP][PASSED] - Token = access_token: null
+
+2022-12-21 16:19:31 - [TEST_STEP][PASSED] - globalVar = Token: null
+
+2022-12-21 16:19:31 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Offline Book/Update class/Update class with valid input"), CONTINUE_ON_FAILURE): Send request successfully
+
+2022-12-21 16:19:32 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\65.har
+
+2022-12-21 16:19:32 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:32 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 16:19:32 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:32 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Offline Book/Update class/Update with invalid input")): Send request successfully
+
+2022-12-21 16:19:32 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\66.har
+
+2022-12-21 16:19:32 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:32 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 16:19:32 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:32 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Offline Book/Update class/Update with invalid Token")): Send request successfully
+
+2022-12-21 16:19:33 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\67.har
+
+2022-12-21 16:19:33 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:33 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 16:19:33 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:33 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Offline Book/Update class/With POST Method")): Send request successfully
+
+2022-12-21 16:19:33 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\68.har
+
+2022-12-21 16:19:33 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:33 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, StatusCode401): Verify response status code successfully
+
+2022-12-21 16:19:33 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-12-21 16:19:33 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Booking/Offline Book/Update class/With PUT Method")): Send request successfully
+
+2022-12-21 16:19:33 - [MESSAGE][INFO] - HAR: E:\SEMESTER 7\MBKM\Capstone Project\CICD\API\Terbaru\Baru2\CapstoneWorkfitAPI\Reports\20221221_161824\Regression\Regression2\20221221_161824\requests\main\69.har
+
+2022-12-21 16:19:33 - [MESSAGE][PASSED] - Send request successfully
+
+2022-12-21 16:19:33 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, statusCode405): Verify response status code successfully
+
+2022-12-21 16:19:33 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-21 16:18:42 - [TEST_SUITE][PASSED] - Regression2: Test Cases/Booking/Online Class/TC_Update]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

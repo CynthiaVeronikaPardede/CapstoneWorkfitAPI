@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import groovy.json.JsonSlurper as JsonSlurper
 
-response = WS.sendRequest(findTestObject('Booking/Offline Book/Update class/Update class with valid input'), FailureHandling.CONTINUE_ON_FAILURE)
+response = WS.sendRequest(findTestObject('AUTH/Login/Login with valid'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WS.verifyResponseStatusCode(response, 200)
 
@@ -28,20 +28,19 @@ Map parsedJson = slurper.parseText(response.getResponseText())
 
 String Token = parsedJson.data.access_token
 
-GlobalVariable.GlobalVar = Token
+GlobalVariable.globalVar = Token
+
+response = WS.sendRequest(findTestObject('Booking/Offline Book/Update class/Update class with valid input'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WS.verifyResponseStatusCode(response, GlobalVariable.statusCode405)
 
 //invalid input
 response = WS.sendRequest(findTestObject('Booking/Offline Book/Update class/Update with invalid input'))
 
-WS.verifyResponseStatusCode(response, GlobalVariable.StatusCode401)
+WS.verifyResponseStatusCode(response, GlobalVariable.statusCode405)
 
 //invalid token
 response = WS.sendRequest(findTestObject('Booking/Offline Book/Update class/Update with invalid Token'))
-
-WS.verifyResponseStatusCode(response, GlobalVariable.StatusCode401)
-
-//Patch Method
-response = WS.sendRequest(findTestObject('Booking/Offline Book/Update class/With GET Method'))
 
 WS.verifyResponseStatusCode(response, GlobalVariable.statusCode405)
 

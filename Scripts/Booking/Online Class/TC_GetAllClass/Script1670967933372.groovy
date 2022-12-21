@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import groovy.json.JsonSlurper as JsonSlurper
 
-response = WS.sendRequest(findTestObject('Booking/Online Book/See all boking class/get all booking class'), FailureHandling.CONTINUE_ON_FAILURE)
+response = WS.sendRequest(findTestObject('AUTH/Login/Login with valid'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WS.verifyResponseStatusCode(response, 200)
 
@@ -28,7 +28,11 @@ Map parsedJson = slurper.parseText(response.getResponseText())
 
 String Token = parsedJson.data.access_token
 
-GlobalVariable.GlobalVar = Token
+GlobalVariable.globalVar = Token
+
+response = WS.sendRequest(findTestObject('Booking/Online Book/See all boking class/get all booking class'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WS.verifyResponseStatusCode(response, 200)
 
 //Patch Method
 response = WS.sendRequest(findTestObject('Booking/Online Book/See all boking class/With PATCH Method'))
